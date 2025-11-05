@@ -1,0 +1,1001 @@
+id_transaksi,tanggal,nama_pelanggan,produk,kategori_produk,jumlah,harga_satuan,total_harga,diskon_persen,biaya_pengiriman,total_akhir,metode_pembayaran,kota,rating_pelanggan,status_pengiriman,channel_penjualan
+1,2025-10-14,Lusi,"Blender Philips",Elektronik,3,3296710,9890120,10,13336,8914440,"Kartu Kredit",Medan,4.5,Selesai,"Mobile App"
+2,2025-10-18,Dewanto,"Sweater Rajut",Fashion,4,221414,885656,0,20547,906203,Debit,Bandung,4.1,Pending,Website
+3,2025-10-24,Yusuf,"Minyak Goreng 2L",Groceries,3,235906,707718,0,21077,728795,E-Wallet,Medan,4.9,Selesai,"Mobile App"
+4,2025-10-21,Bayu,"Topi Baseball",Fashion,2,299852,599704,5,18933,588652,E-Wallet,Tangerang,4.7,Selesai,"Mobile App"
+5,2025-10-29,Nina,"Speaker JBL",Elektronik,2,13775400,27550800,15,32244,23450500,"Kartu Kredit",Bandung,3.9,Pending,"Mobile App"
+6,2025-10-21,Hendra,"Gula Pasir 1kg",Groceries,1,59643,59643,5,39533,96193.9,COD,Medan,4.3,Selesai,Website
+7,2025-10-22,Dewi,"iPhone 15",Elektronik,3,13184500,39553600,0,30396,39584000,"Kartu Kredit",Tangerang,4.7,Selesai,Marketplace
+8,2025-10-01,Rara,"Tas Kulit",Fashion,3,222772,668316,5,32194,667094,Debit,Jakarta,4.8,Selesai,"Mobile App"
+9,2025-10-25,Lusi,"Sendal Adidas",Fashion,5,26046,130230,5,46008,169726,Debit,Bandung,4.4,Selesai,"Mobile App"
+10,2025-10-18,Dewi,"Kaos Polos",Fashion,3,139662,418986,0,35666,454652,E-Wallet,Bekasi,3.7,Dikirim,Website
+11,2025-10-08,Miko,"Jam Tangan Casio",Fashion,2,59121,118242,25,14479,103160,Debit,Medan,4.6,Selesai,"Mobile App"
+12,2025-10-04,Rahmat,"Bedak Maybelline",Kecantikan,2,176979,353958,0,42453,396411,"Kartu Kredit",Depok,4.3,Selesai,Marketplace
+13,2025-10-10,Rahmat,"Parfum Dior",Kecantikan,2,53134,106268,0,33761,140029,Debit,Surabaya,4.9,Selesai,"Mobile App"
+14,2025-10-05,Tono,"Tepung Terigu 1kg",Groceries,3,83615,250845,5,16832,255135,"Kartu Kredit",Depok,4.8,Selesai,Website
+15,2025-10-17,Tono,"Headset Sony",Elektronik,2,3479280,6958570,0,31079,6989650,COD,Medan,3.5,Dikirim,Marketplace
+16,2025-10-17,Dewi,"Lotion Vaseline",Kecantikan,1,59329,59329,20,30079,77542.2,"Kartu Kredit",Bekasi,4.9,Dikirim,Marketplace
+17,2025-10-07,Lusi,"Blender Philips",Elektronik,2,9294770,18589500,10,13783,16744400,Debit,Surabaya,4.2,Selesai,Website
+18,2025-10-11,Siti,"Air Mineral 6L",Groceries,4,196218,784872,5,12046,757674,COD,Tangerang,4,Selesai,"Mobile App"
+19,2025-10-22,Dewanto,"Topi Baseball",Fashion,2,70366,140732,0,19345,160077,E-Wallet,Tangerang,4.9,Selesai,Website
+20,2025-10-23,Asep,"Telur 1kg",Groceries,2,18748,37496,10,32920,66666.4,COD,Tangerang,4.4,Selesai,"Mobile App"
+21,2025-10-16,Dewanto,"Masker Naturgo",Kecantikan,4,292916,1171660,10,23191,1077690,Debit,Bali,4.7,Selesai,Website
+22,2025-10-14,Mega,"Jam Tangan Casio",Fashion,2,271666,543332,15,43313,505145,COD,Jakarta,3.9,Selesai,Website
+23,2025-10-31,Rifki,"Susu UHT 1L",Groceries,4,122316,489264,0,45055,534319,"Kartu Kredit",Tangerang,4.9,Selesai,"Mobile App"
+24,2025-10-25,Putra,"Beras 5kg",Groceries,2,119752,239504,0,35904,275408,Debit,Bekasi,4.7,Selesai,"Mobile App"
+25,2025-10-31,Hendra,"Sendal Adidas",Fashion,4,164851,659404,15,32469,592962,"Kartu Kredit",Medan,4,Selesai,Marketplace
+26,2025-10-03,Rifki,"Smartwatch Xiaomi",Elektronik,5,7973800,39869000,20,34080,31929300,"Kartu Kredit",Surabaya,3.9,Dikirim,"Mobile App"
+27,2025-10-05,Gina,"Sabun Cuci",Groceries,5,241301,1206500,5,49584,1195760,Debit,Tangerang,4.7,Dibatalkan,Website
+28,2025-10-19,Fauzan,"Sabun Muka Garnier",Kecantikan,4,82545,330180,5,29520,343191,E-Wallet,Tangerang,4.5,Selesai,Marketplace
+29,2025-10-19,Eka,"Laptop Asus",Elektronik,1,1689550,1689550,5,45472,1650550,E-Wallet,Tangerang,3.8,Pending,"Mobile App"
+30,2025-10-23,Dewanto,"Masker Naturgo",Kecantikan,3,249873,749619,5,45080,757218,COD,Tangerang,4.7,Selesai,Marketplace
+31,2025-10-20,Adit,"Lipstik Wardah",Kecantikan,4,295374,1181500,0,32903,1214400,Debit,Jakarta,3.8,Selesai,Website
+32,2025-10-14,Desi,"Sabun Muka Garnier",Kecantikan,3,84817,254451,5,32545,274273,E-Wallet,Depok,4.3,Dikirim,"Mobile App"
+33,2025-10-18,Mega,"Tepung Terigu 1kg",Groceries,2,11421,22842,0,39565,62407,COD,Medan,4.3,Selesai,Website
+34,2025-10-01,Hendra,"Jam Tangan Casio",Fashion,1,103485,103485,25,20019,97632.8,"Kartu Kredit",Bandung,4.8,Dibatalkan,"Mobile App"
+35,2025-10-21,Nadia,"Jaket Hoodie",Fashion,5,21720,108600,5,49334,152504,E-Wallet,Bekasi,3.7,Dikirim,"Mobile App"
+36,2025-10-25,Asep,"Blender Philips",Elektronik,2,12749900,25499900,20,29684,20429600,E-Wallet,Depok,4.8,Selesai,Marketplace
+37,2025-10-02,Tono,"Sabun Cuci",Groceries,3,278713,836139,0,29172,865311,Debit,Surabaya,4.8,Dikirim,Marketplace
+38,2025-10-03,Asep,"Tas Kulit",Fashion,2,174765,349530,0,45900,395430,Debit,Tangerang,4.3,Selesai,Website
+39,2025-10-25,Mega,"Kamera Canon EOS",Elektronik,4,9254430,37017700,5,30624,35197500,Debit,Medan,4.9,Selesai,Website
+40,2025-10-20,Budi,"Sepatu Nike Air",Fashion,1,28237,28237,5,23019,49844.1,E-Wallet,Bali,4.2,Selesai,"Mobile App"
+41,2025-10-26,Dewi,"Celana Jeans",Fashion,5,138507,692535,5,12192,670100,COD,Medan,4,Selesai,"Mobile App"
+42,2025-10-23,Rina,"Telur 1kg",Groceries,5,114528,572640,0,20803,593443,Debit,Medan,4.1,Selesai,Website
+43,2025-10-17,Miko,"Pasta Gigi",Groceries,3,55582,166746,0,28962,195708,Debit,Tangerang,3.9,Selesai,Website
+44,2025-10-17,Rara,"Tas Kulit",Fashion,2,257768,515536,5,49696,539455,COD,Bekasi,5,Selesai,Marketplace
+45,2025-10-05,Putra,"Blender Philips",Elektronik,4,1749870,6999480,0,49233,7048720,Debit,Medan,4.6,Dibatalkan,"Mobile App"
+46,2025-10-11,Tari,"Parfum Dior",Kecantikan,5,256255,1281280,10,15044,1168190,"Kartu Kredit",Bekasi,4.2,Dikirim,Website
+47,2025-10-19,Dina,"Gula Pasir 1kg",Groceries,4,249790,999160,5,28237,977439,E-Wallet,Bekasi,4.3,Selesai,"Mobile App"
+48,2025-10-06,Vina,"Tepung Terigu 1kg",Groceries,1,164982,164982,5,26087,182820,Debit,Tangerang,4.3,Selesai,"Mobile App"
+49,2025-10-21,Dina,"iPhone 15",Elektronik,4,11689200,46756700,0,23694,46780400,E-Wallet,Bali,4,Dikirim,"Mobile App"
+50,2025-10-07,Dewanto,"Speaker JBL",Elektronik,5,13061500,65307600,5,43781,62086000,COD,Bali,4.8,Selesai,"Mobile App"
+51,2025-10-02,Adit,"Gula Pasir 1kg",Groceries,3,287969,863907,0,49627,913534,Debit,Bandung,4.2,Selesai,Marketplace
+52,2025-10-10,Rara,"Serum Wajah",Kecantikan,5,184488,922440,15,20011,804085,"Kartu Kredit",Tangerang,3.6,Dibatalkan,"Mobile App"
+53,2025-10-21,Ahmad,"Laptop Asus",Elektronik,5,3289820,16449100,20,42797,13202100,"Kartu Kredit",Bekasi,3.7,Dibatalkan,Website
+54,2025-10-23,Fajar,"Lotion Vaseline",Kecantikan,3,225827,677481,15,33675,609534,"Kartu Kredit",Bandung,4.2,Selesai,"Mobile App"
+55,2025-10-07,Citra,"iPhone 15",Elektronik,2,1575040,3150070,5,46552,3039120,Debit,Bekasi,4,Selesai,"Mobile App"
+56,2025-10-24,Tari,"Sepatu Nike Air",Fashion,3,70125,210375,0,41927,252302,"Kartu Kredit",Jakarta,4,Selesai,Marketplace
+57,2025-10-27,Tono,"Parfum Dior",Kecantikan,4,221587,886348,5,14292,856323,"Kartu Kredit",Bandung,4.1,Dikirim,"Mobile App"
+58,2025-10-02,Miko,"Kemeja Putih",Fashion,5,66310,331550,5,23167,338140,E-Wallet,Bali,4.8,Selesai,Website
+59,2025-10-20,Rara,"iPhone 15",Elektronik,4,7276740,29107000,10,38904,26235200,Debit,Bekasi,3.9,Selesai,"Mobile App"
+60,2025-10-04,Vina,"Telur 1kg",Groceries,5,151503,757515,5,18838,738477,E-Wallet,Bandung,3.8,Selesai,Website
+61,2025-10-31,Hendra,"Sabun Muka Garnier",Kecantikan,4,172194,688776,5,17006,671343,COD,Bali,4.5,Selesai,"Mobile App"
+62,2025-10-25,Asep,"Sabun Muka Garnier",Kecantikan,3,258265,774795,10,23364,720680,E-Wallet,Depok,4,Dikirim,Website
+63,2025-10-06,Fauzan,"Tas Kulit",Fashion,5,123920,619600,5,28130,616750,COD,Jakarta,4.8,Dibatalkan,"Mobile App"
+64,2025-10-06,Tari,"Sweater Rajut",Fashion,2,210043,420086,15,38637,395710,Debit,Bekasi,4.7,Selesai,"Mobile App"
+65,2025-10-13,Tono,"Hair Dryer Philips",Kecantikan,1,68496,68496,15,26331,84552.6,"Kartu Kredit",Bandung,4.7,Selesai,"Mobile App"
+66,2025-10-29,Wulan,"Gula Pasir 1kg",Groceries,3,108512,325536,10,28324,321306,Debit,Tangerang,4,Selesai,"Mobile App"
+67,2025-10-07,Edo,"Eyeliner Revlon",Kecantikan,4,298740,1194960,5,11481,1146690,E-Wallet,Tangerang,3.7,Selesai,"Mobile App"
+68,2025-10-05,Budi,"Smartwatch Xiaomi",Elektronik,4,13545400,54181800,0,13434,54195200,COD,Jakarta,4.5,Selesai,Website
+69,2025-10-05,Lusi,"Smartwatch Xiaomi",Elektronik,2,3811290,7622580,0,22693,7645280,E-Wallet,Jakarta,4,Selesai,"Mobile App"
+70,2025-10-15,Rina,"Headset Sony",Elektronik,5,10982800,54914000,20,10998,43942200,COD,Bekasi,3.7,Selesai,"Mobile App"
+71,2025-10-08,Dewanto,"Pasta Gigi",Groceries,3,72720,218160,5,47568,254820,Debit,Jakarta,4.6,Dikirim,Website
+72,2025-10-27,Tono,"Sepatu Nike Air",Fashion,2,92273,184546,0,25378,209924,COD,Jakarta,3.5,Dibatalkan,Website
+73,2025-10-06,Putri,"Pasta Gigi",Groceries,2,249833,499666,10,25190,474889,"Kartu Kredit",Jakarta,4.1,Selesai,Marketplace
+74,2025-10-23,Ahmad,"Tas Kulit",Fashion,1,107307,107307,5,44639,146581,Debit,Jakarta,4.6,Dibatalkan,"Mobile App"
+75,2025-10-31,Nina,"Beras 5kg",Groceries,1,168939,168939,10,28283,180328,E-Wallet,Tangerang,4.9,Pending,"Mobile App"
+76,2025-10-15,Vina,"Eyeliner Revlon",Kecantikan,4,218010,872040,10,19835,804671,E-Wallet,Bali,4.8,Selesai,"Mobile App"
+77,2025-10-08,Bella,"Sweater Rajut",Fashion,2,45520,91040,0,16732,107772,"Kartu Kredit",Tangerang,4.1,Dikirim,"Mobile App"
+78,2025-10-15,Eka,"Printer Canon",Elektronik,5,7092110,35460600,5,12863,33700400,Debit,Depok,3.9,Dikirim,Website
+79,2025-10-19,Tono,"Shampo Pantene",Kecantikan,5,107083,535415,0,19199,554614,Debit,Bali,4,Selesai,"Mobile App"
+80,2025-10-20,Gina,"Lipstik Wardah",Kecantikan,5,63600,318000,0,44765,362765,"Kartu Kredit",Medan,4.4,Selesai,"Mobile App"
+81,2025-10-30,Putri,"Parfum Dior",Kecantikan,3,254236,762708,0,46729,809437,"Kartu Kredit",Jakarta,3.7,Dikirim,Marketplace
+82,2025-10-17,Tono,"Pasta Gigi",Groceries,4,70768,283072,0,17637,300709,"Kartu Kredit",Bali,4.6,Dikirim,Website
+83,2025-10-20,Bella,"Sendal Adidas",Fashion,2,55171,110342,0,47868,158210,Debit,Tangerang,3.9,Selesai,Marketplace
+84,2025-10-26,Miko,"Eyeliner Revlon",Kecantikan,2,154424,308848,10,37452,315415,E-Wallet,Bali,4.1,Selesai,Website
+85,2025-10-24,Fani,"Speaker JBL",Elektronik,3,10832700,32498100,15,46489,27669900,"Kartu Kredit",Medan,3.7,Selesai,"Mobile App"
+86,2025-10-31,Tia,"Lipstik Wardah",Kecantikan,1,125419,125419,0,39613,165032,E-Wallet,Bekasi,4.6,Selesai,"Mobile App"
+87,2025-10-03,Edo,"Serum Wajah",Kecantikan,5,133203,666015,0,33951,699966,E-Wallet,Medan,4.7,Selesai,Marketplace
+88,2025-10-21,Yusuf,"Pasta Gigi",Groceries,1,196142,196142,25,31527,178634,COD,Surabaya,4.8,Selesai,"Mobile App"
+89,2025-10-04,Hendra,"Blender Philips",Elektronik,2,8817410,17634800,0,42551,17677400,E-Wallet,Surabaya,5,Selesai,Marketplace
+90,2025-10-23,Ahmad,"Beras 5kg",Groceries,5,87246,436230,10,34632,427239,"Kartu Kredit",Bali,4.1,Dibatalkan,Website
+91,2025-10-01,Putri,"Shampo Pantene",Kecantikan,4,174893,699572,0,32749,732321,Debit,Bali,4.1,Pending,"Mobile App"
+92,2025-10-02,Nando,"Kemeja Putih",Fashion,4,44180,176720,5,32120,200004,E-Wallet,Bali,4.2,Selesai,"Mobile App"
+93,2025-10-28,Lusi,"Kaos Polos",Fashion,4,198612,794448,0,18766,813214,COD,Depok,3.6,Selesai,Marketplace
+94,2025-10-15,Putra,"Tepung Terigu 1kg",Groceries,2,289226,578452,0,16826,595278,E-Wallet,Tangerang,4.7,Dikirim,"Mobile App"
+95,2025-10-13,Dewanto,"Air Mineral 6L",Groceries,3,226111,678333,0,47496,725829,"Kartu Kredit",Medan,4.6,Dikirim,"Mobile App"
+96,2025-10-01,Dewanto,"Lotion Vaseline",Kecantikan,3,254442,763326,0,47792,811118,Debit,Tangerang,4.8,Selesai,Website
+97,2025-10-23,Budi,"Headset Sony",Elektronik,4,14560900,58243800,10,19879,52439300,Debit,Jakarta,4.5,Selesai,Marketplace
+98,2025-10-12,Arif,"Lipstik Wardah",Kecantikan,1,127298,127298,0,41889,169187,COD,Medan,4.5,Dikirim,Website
+99,2025-10-21,Yoga,"Lotion Vaseline",Kecantikan,5,110593,552965,5,47084,572401,"Kartu Kredit",Jakarta,4.3,Selesai,"Mobile App"
+100,2025-10-30,Eka,"Speaker JBL",Elektronik,3,10338400,31015100,25,38803,23300100,E-Wallet,Surabaya,3.8,Dikirim,"Mobile App"
+101,2025-10-03,Dina,"Blender Philips",Elektronik,5,4430640,22153200,25,37813,16652700,Debit,Bekasi,4.7,Selesai,"Mobile App"
+102,2025-10-26,Dina,"Lotion Vaseline",Kecantikan,5,88659,443295,5,33865,454995,"Kartu Kredit",Bali,3.7,Selesai,"Mobile App"
+103,2025-10-30,Dina,"Kemeja Putih",Fashion,4,236027,944108,0,21926,966034,COD,Bali,3.5,Pending,"Mobile App"
+104,2025-10-29,Rizky,"Telur 1kg",Groceries,1,183557,183557,5,24984,199363,Debit,Medan,4.2,Selesai,Marketplace
+105,2025-10-22,Ahmad,"Kipas Angin Miyako",Elektronik,1,2150210,2150210,10,37261,1972450,"Kartu Kredit",Tangerang,4.9,Selesai,"Mobile App"
+106,2025-10-29,Gina,"Lotion Vaseline",Kecantikan,4,122292,489168,5,39722,504432,Debit,Depok,4.4,Dikirim,Website
+107,2025-10-20,Rina,"Smartwatch Xiaomi",Elektronik,5,11991600,59957800,0,49755,60007500,COD,Surabaya,3.9,Dikirim,Marketplace
+108,2025-10-03,Citra,"Telur 1kg",Groceries,1,274155,274155,0,10130,284285,E-Wallet,Depok,3.7,Selesai,"Mobile App"
+109,2025-10-02,Nando,"Serum Wajah",Kecantikan,3,28936,86808,15,13318,87104.8,E-Wallet,Bekasi,4.9,Selesai,"Mobile App"
+110,2025-10-30,Fauzan,"Gula Pasir 1kg",Groceries,5,176476,882380,5,12646,850907,"Kartu Kredit",Bali,3.9,Selesai,Website
+111,2025-10-16,Tari,"Sendal Adidas",Fashion,4,25834,103336,0,19883,123219,Debit,Bandung,4.7,Selesai,"Mobile App"
+112,2025-10-07,Eka,"Smartwatch Xiaomi",Elektronik,1,6607210,6607210,0,36226,6643440,Debit,Jakarta,3.5,Selesai,Website
+113,2025-10-02,Tono,"Masker Naturgo",Kecantikan,1,229254,229254,5,45627,263418,"Kartu Kredit",Bekasi,3.9,Dikirim,Marketplace
+114,2025-10-02,Nina,"Pasta Gigi",Groceries,2,214479,428958,10,45186,431248,"Kartu Kredit",Depok,4.4,Selesai,Website
+115,2025-10-26,Citra,"Topi Baseball",Fashion,4,138565,554260,5,10797,537344,"Kartu Kredit",Jakarta,4,Selesai,Website
+116,2025-10-05,Ridwan,"Air Mineral 6L",Groceries,2,237067,474134,5,33507,483934,COD,Bali,4.5,Selesai,Website
+117,2025-10-13,Nando,"iPhone 15",Elektronik,1,13825500,13825500,0,27609,13853100,"Kartu Kredit",Depok,3.7,Selesai,"Mobile App"
+118,2025-10-11,Tari,"Shampo Pantene",Kecantikan,4,54953,219812,0,26692,246504,COD,Bandung,4.8,Selesai,"Mobile App"
+119,2025-10-23,Budi,"Kopi Bubuk 1kg",Groceries,3,127845,383535,5,16587,380945,E-Wallet,Bali,3.8,Dikirim,Website
+120,2025-10-11,Rizky,"Jam Tangan Casio",Fashion,4,185939,743756,0,40431,784187,Debit,Bekasi,4.6,Selesai,"Mobile App"
+121,2025-10-18,Sari,"Sabun Muka Garnier",Kecantikan,3,251019,753057,0,20273,773330,COD,Bandung,3.8,Dikirim,"Mobile App"
+122,2025-10-06,Budi,"Telur 1kg",Groceries,4,188482,753928,10,44097,722632,E-Wallet,Bekasi,3.7,Dikirim,"Mobile App"
+123,2025-10-12,Rifki,"Headset Sony",Elektronik,3,3150140,9450410,5,42742,9020630,E-Wallet,Bali,4.9,Selesai,Marketplace
+124,2025-10-22,Farah,"Lotion Vaseline",Kecantikan,4,22276,89104,5,47204,131853,E-Wallet,Surabaya,4.8,Pending,"Mobile App"
+125,2025-10-30,Mega,"Kopi Bubuk 1kg",Groceries,1,180309,180309,10,49683,211961,COD,Medan,3.7,Selesai,Website
+126,2025-10-30,Rara,"Smartwatch Xiaomi",Elektronik,5,8825750,44128700,20,17832,35320800,Debit,Bandung,4.4,Selesai,Marketplace
+127,2025-10-21,Fani,"TV Samsung 43 Inch",Elektronik,3,2206900,6620700,0,11512,6632210,Debit,Medan,4.2,Selesai,Marketplace
+128,2025-10-11,Vina,"Jaket Hoodie",Fashion,3,277076,831228,0,43728,874956,Debit,Bali,4.2,Selesai,"Mobile App"
+129,2025-10-02,Miko,"Tas Kulit",Fashion,1,299025,299025,5,32665,316739,COD,Tangerang,3.7,Selesai,"Mobile App"
+130,2025-10-10,Bayu,"Pasta Gigi",Groceries,3,164679,494037,25,30412,400940,COD,Medan,4.7,Selesai,"Mobile App"
+131,2025-10-18,Eka,"Sweater Rajut",Fashion,4,179452,717808,0,11138,728946,"Kartu Kredit",Bandung,4.5,Selesai,Website
+132,2025-10-15,Rara,"Susu UHT 1L",Groceries,1,229071,229071,25,42636,214439,COD,Bandung,4.8,Selesai,Marketplace
+133,2025-10-06,Nando,"Shampo Pantene",Kecantikan,4,150434,601736,0,48646,650382,E-Wallet,Medan,4.8,Selesai,"Mobile App"
+134,2025-10-17,Yusuf,"iPhone 15",Elektronik,4,2465190,9860760,20,12588,7901190,E-Wallet,Bekasi,4.9,Selesai,"Mobile App"
+135,2025-10-28,Agus,"Topi Baseball",Fashion,1,103360,103360,5,27655,125847,E-Wallet,Bekasi,3.9,Dikirim,"Mobile App"
+136,2025-10-19,Nando,"Lotion Vaseline",Kecantikan,1,89150,89150,5,28575,113268,Debit,Depok,4.8,Selesai,"Mobile App"
+137,2025-10-30,Rian,"Kopi Bubuk 1kg",Groceries,3,265083,795249,0,31767,827016,COD,Bali,4.6,Selesai,"Mobile App"
+138,2025-10-14,Lina,"Air Mineral 6L",Groceries,3,20293,60879,5,17296,75131,E-Wallet,Bali,4.6,Dikirim,"Mobile App"
+139,2025-10-18,Maya,"Beras 5kg",Groceries,1,27795,27795,20,19784,42020,E-Wallet,Bandung,3.6,Dikirim,"Mobile App"
+140,2025-10-22,Farah,"Sabun Cuci",Groceries,4,61609,246436,0,31616,278052,Debit,Tangerang,4.5,Dikirim,Website
+141,2025-10-15,Anita,"Sabun Cuci",Groceries,3,193229,579687,5,20677,571380,Debit,Medan,4.6,Selesai,"Mobile App"
+142,2025-10-10,Tia,"Eyeliner Revlon",Kecantikan,5,232388,1161940,0,13396,1175340,Debit,Depok,4.8,Selesai,"Mobile App"
+143,2025-10-18,Lusi,"Gula Pasir 1kg",Groceries,1,13754,13754,5,32527,45593.3,Debit,Bali,4.4,Selesai,Website
+144,2025-10-24,Arif,"Sweater Rajut",Fashion,1,38720,38720,5,17622,54406,COD,Bali,4.5,Selesai,"Mobile App"
+145,2025-10-11,Mega,"Lipstik Wardah",Kecantikan,5,59516,297580,0,47196,344776,"Kartu Kredit",Bandung,4.2,Selesai,"Mobile App"
+146,2025-10-17,Eka,"Hair Dryer Philips",Kecantikan,5,209481,1047400,25,25838,811392,E-Wallet,Surabaya,3.5,Selesai,"Mobile App"
+147,2025-10-24,Maya,"Topi Baseball",Fashion,1,267010,267010,5,20266,273926,"Kartu Kredit",Bandung,4.9,Selesai,"Mobile App"
+148,2025-10-04,Dewanto,"Laptop Asus",Elektronik,1,10156300,10156300,0,43367,10199700,COD,Bekasi,3.8,Dikirim,Website
+149,2025-10-13,Rizky,"Speaker JBL",Elektronik,3,9136160,27408500,20,24389,21951200,COD,Tangerang,4.2,Selesai,"Mobile App"
+150,2025-10-26,Adit,"Kamera Canon EOS",Elektronik,2,1346110,2692220,5,15586,2573190,Debit,Bandung,3.9,Dikirim,Website
+151,2025-10-02,Ridwan,"Hair Dryer Philips",Kecantikan,5,211663,1058320,0,12727,1071040,Debit,Bali,4.8,Pending,Marketplace
+152,2025-10-24,Yusuf,"Sabun Muka Garnier",Kecantikan,4,60019,240076,0,16700,256776,E-Wallet,Bekasi,4.3,Selesai,"Mobile App"
+153,2025-10-11,Eka,"Jam Tangan Casio",Fashion,1,165358,165358,0,10547,175905,"Kartu Kredit",Depok,3.5,Dikirim,Marketplace
+154,2025-10-03,Andi,"Topi Baseball",Fashion,2,185353,370706,20,33015,329580,COD,Bandung,3.7,Dikirim,Marketplace
+155,2025-10-05,Budi,"iPhone 15",Elektronik,2,9476260,18952500,5,45615,18050500,E-Wallet,Bali,3.6,Selesai,Website
+156,2025-10-27,Tono,"Minyak Goreng 2L",Groceries,2,34327,68654,0,10216,78870,COD,Tangerang,3.5,Selesai,"Mobile App"
+157,2025-10-06,Siti,"Eyeliner Revlon",Kecantikan,2,60364,120728,0,13055,133783,COD,Medan,4.3,Dikirim,Website
+158,2025-10-05,Maya,"Parfum Dior",Kecantikan,2,42795,85590,0,13618,99208,COD,Bali,4.2,Dikirim,"Mobile App"
+159,2025-10-15,Fauzan,"Lipstik Wardah",Kecantikan,1,220454,220454,20,14579,190942,E-Wallet,Medan,4.3,Selesai,"Mobile App"
+160,2025-10-31,Arif,"Kopi Bubuk 1kg",Groceries,3,183824,551472,5,30605,554503,"Kartu Kredit",Jakarta,4.7,Dibatalkan,"Mobile App"
+161,2025-10-08,Ahmad,"Sabun Muka Garnier",Kecantikan,3,298064,894192,20,25054,740408,Debit,Jakarta,4.5,Selesai,"Mobile App"
+162,2025-10-03,Andi,"Kamera Canon EOS",Elektronik,2,13192400,26384800,20,45174,21153000,Debit,Tangerang,3.8,Selesai,Marketplace
+163,2025-10-14,Fani,"Masker Naturgo",Kecantikan,4,52983,211932,0,46101,258033,COD,Depok,4.9,Selesai,"Mobile App"
+164,2025-10-13,Maya,"Susu UHT 1L",Groceries,2,183821,367642,0,13663,381305,E-Wallet,Surabaya,3.7,Selesai,Website
+165,2025-10-03,Dewanto,"Printer Canon",Elektronik,3,12722400,38167300,5,17015,36275900,COD,Bandung,4.7,Dikirim,Website
+166,2025-10-30,Wulan,"Kipas Angin Miyako",Elektronik,1,14381300,14381300,5,47896,13710200,COD,Depok,4.1,Selesai,"Mobile App"
+167,2025-10-23,Fauzan,"Bedak Maybelline",Kecantikan,5,238801,1194000,5,49223,1183530,E-Wallet,Surabaya,4.8,Dibatalkan,Website
+168,2025-10-07,Mega,"Topi Baseball",Fashion,5,236073,1180360,0,43085,1223450,"Kartu Kredit",Tangerang,4.5,Selesai,Marketplace
+169,2025-10-09,Yoga,"Eyeliner Revlon",Kecantikan,4,135012,540048,5,17504,530550,"Kartu Kredit",Medan,4.5,Selesai,Website
+170,2025-10-24,Vina,"Printer Canon",Elektronik,1,3137820,3137820,5,17545,2998480,COD,Tangerang,4.6,Selesai,Marketplace
+171,2025-10-19,Agus,"Jam Tangan Casio",Fashion,3,219954,659862,0,14570,674432,E-Wallet,Surabaya,4.8,Selesai,Marketplace
+172,2025-10-17,Arif,"Eyeliner Revlon",Kecantikan,1,123786,123786,10,46979,158386,COD,Surabaya,4.1,Selesai,"Mobile App"
+173,2025-10-04,Rian,"Shampo Pantene",Kecantikan,1,177605,177605,10,39261,199106,"Kartu Kredit",Jakarta,4.1,Selesai,Website
+174,2025-10-06,Rina,"Eyeliner Revlon",Kecantikan,3,247198,741594,10,31096,698531,COD,Bekasi,3.6,Dikirim,Marketplace
+175,2025-10-25,Bella,"Kemeja Putih",Fashion,4,272717,1090870,5,44089,1080410,Debit,Bali,3.6,Dibatalkan,"Mobile App"
+176,2025-10-15,Rahmat,"Sepatu Nike Air",Fashion,4,167454,669816,5,39521,675846,"Kartu Kredit",Tangerang,4.9,Dikirim,Marketplace
+177,2025-10-15,Tia,"Hair Dryer Philips",Kecantikan,3,80722,242166,5,27418,257476,"Kartu Kredit",Jakarta,4,Dikirim,Website
+178,2025-10-22,Miko,"Gula Pasir 1kg",Groceries,3,51769,155307,0,25101,180408,"Kartu Kredit",Bandung,3.9,Dikirim,"Mobile App"
+179,2025-10-29,Dina,"Serum Wajah",Kecantikan,1,198555,198555,0,22142,220697,E-Wallet,Depok,4,Selesai,"Mobile App"
+180,2025-10-24,Sari,"Kaos Polos",Fashion,1,38402,38402,15,31803,64444.7,Debit,Bekasi,4.8,Selesai,"Mobile App"
+181,2025-10-15,Tari,"Gula Pasir 1kg",Groceries,4,152056,608224,0,44066,652290,Debit,Bandung,4.9,Selesai,Marketplace
+182,2025-10-05,Dewi,"Telur 1kg",Groceries,1,297206,297206,0,32634,329840,"Kartu Kredit",Depok,4.8,Selesai,"Mobile App"
+183,2025-10-16,Dina,"Printer Canon",Elektronik,5,7853830,39269100,0,40973,39310100,E-Wallet,Surabaya,4.2,Selesai,"Mobile App"
+184,2025-10-01,Fauzan,"Tas Kulit",Fashion,2,85416,170832,5,21928,184218,Debit,Medan,3.6,Selesai,"Mobile App"
+185,2025-10-11,Rahmat,"Sweater Rajut",Fashion,5,116993,584965,0,22131,607096,COD,Bali,4,Selesai,Marketplace
+186,2025-10-02,Rara,"Sepatu Nike Air",Fashion,5,120494,602470,0,40191,642661,"Kartu Kredit",Bandung,3.6,Selesai,"Mobile App"
+187,2025-10-27,Rahmat,"Jam Tangan Casio",Fashion,3,12374,37122,15,37505,69058.7,Debit,Tangerang,4.4,Selesai,Website
+188,2025-10-04,Putri,"Celana Jeans",Fashion,4,45178,180712,5,44241,215917,E-Wallet,Bekasi,4.8,Selesai,"Mobile App"
+189,2025-10-17,Agus,"Gula Pasir 1kg",Groceries,4,108156,432624,0,44877,477501,"Kartu Kredit",Tangerang,4.4,Selesai,"Mobile App"
+190,2025-10-29,Fajar,"Sendal Adidas",Fashion,1,200400,200400,10,43818,224178,Debit,Bekasi,4.8,Selesai,Website
+191,2025-10-19,Rifki,"Kopi Bubuk 1kg",Groceries,2,157497,314994,10,14873,298368,COD,Bekasi,4.1,Selesai,Website
+192,2025-10-30,Mega,"Shampo Pantene",Kecantikan,5,156062,780310,25,38689,623922,E-Wallet,Tangerang,3.5,Dikirim,"Mobile App"
+193,2025-10-28,Yusuf,"Sabun Muka Garnier",Kecantikan,1,159340,159340,10,20207,163613,E-Wallet,Bali,4.6,Selesai,Website
+194,2025-10-15,Miko,"Shampo Pantene",Kecantikan,3,210928,632784,0,46012,678796,"Kartu Kredit",Bekasi,3.8,Selesai,Marketplace
+195,2025-10-09,Lusi,"Kipas Angin Miyako",Elektronik,4,14079600,56318400,0,15512,56333900,Debit,Surabaya,4.3,Dikirim,Website
+196,2025-10-08,Tia,"Jam Tangan Casio",Fashion,4,284765,1139060,0,39571,1178630,COD,Bandung,4.5,Dikirim,Marketplace
+197,2025-10-15,Eka,"Sabun Muka Garnier",Kecantikan,3,47568,142704,0,44325,187029,COD,Bandung,4.2,Dikirim,Website
+198,2025-10-20,Rara,"Sweater Rajut",Fashion,2,25443,50886,0,11197,62083,Debit,Bali,4.6,Selesai,"Mobile App"
+199,2025-10-04,Edo,"Speaker JBL",Elektronik,4,923966,3695860,25,34024,2805920,"Kartu Kredit",Tangerang,4,Selesai,"Mobile App"
+200,2025-10-05,Citra,"Tepung Terigu 1kg",Groceries,1,73069,73069,15,28549,90657.6,E-Wallet,Medan,4,Dikirim,"Mobile App"
+201,2025-10-16,Dewanto,"Jam Tangan Casio",Fashion,5,104083,520415,15,18816,461169,COD,Bali,3.6,Dikirim,Website
+202,2025-10-03,Nando,"Kopi Bubuk 1kg",Groceries,2,231044,462088,25,22632,369198,COD,Jakarta,3.7,Selesai,"Mobile App"
+203,2025-10-06,Mega,"Lotion Vaseline",Kecantikan,1,270123,270123,5,40863,297480,Debit,Tangerang,4.7,Selesai,Marketplace
+204,2025-10-13,Tia,"Hair Dryer Philips",Kecantikan,1,98562,98562,5,16886,110520,COD,Surabaya,3.8,Dibatalkan,Website
+205,2025-10-15,Rara,"Jam Tangan Casio",Fashion,5,102289,511445,0,28654,540099,COD,Depok,4.3,Selesai,"Mobile App"
+206,2025-10-05,Anita,"Topi Baseball",Fashion,5,117033,585165,15,17523,514913,"Kartu Kredit",Medan,4.6,Selesai,Website
+207,2025-10-08,Rian,"Eyeliner Revlon",Kecantikan,3,109763,329289,0,18624,347913,E-Wallet,Jakarta,4.3,Selesai,Marketplace
+208,2025-10-09,Sari,"Pasta Gigi",Groceries,1,144519,144519,0,33541,178060,Debit,Bekasi,4.2,Selesai,"Mobile App"
+209,2025-10-07,Budi,"Printer Canon",Elektronik,5,7144630,35723200,0,16509,35739700,"Kartu Kredit",Bandung,3.9,Selesai,"Mobile App"
+210,2025-10-10,Desi,"Blender Philips",Elektronik,5,1449910,7249540,25,19106,5456260,COD,Bekasi,3.9,Dibatalkan,Marketplace
+211,2025-10-30,Fajar,"Blender Philips",Elektronik,5,3272350,16361700,0,19132,16380900,COD,Medan,4.6,Selesai,"Mobile App"
+212,2025-10-23,Lina,"Kemeja Putih",Fashion,3,92112,276336,20,10608,231677,E-Wallet,Depok,4.6,Selesai,"Mobile App"
+213,2025-10-06,Asep,"Kamera Canon EOS",Elektronik,3,1292990,3878980,0,43452,3922430,E-Wallet,Bekasi,4.8,Selesai,"Mobile App"
+214,2025-10-17,Adit,"Shampo Pantene",Kecantikan,2,84590,169180,10,25061,177323,E-Wallet,Bekasi,4.3,Selesai,Marketplace
+215,2025-10-24,Nadia,"Lotion Vaseline",Kecantikan,3,150037,450111,10,25119,430219,Debit,Bali,4.5,Dikirim,"Mobile App"
+216,2025-10-07,Gina,"Hair Dryer Philips",Kecantikan,3,105081,315243,5,10933,310414,E-Wallet,Bandung,3.9,Selesai,"Mobile App"
+217,2025-10-28,Ahmad,"Air Mineral 6L",Groceries,4,179728,718912,0,45885,764797,COD,Surabaya,3.6,Selesai,Marketplace
+218,2025-10-24,Rina,"Sendal Adidas",Fashion,3,98609,295827,0,18840,314667,E-Wallet,Jakarta,4.5,Selesai,Marketplace
+219,2025-10-13,Tia,"Smartwatch Xiaomi",Elektronik,3,10752700,32258100,5,19675,30664800,COD,Depok,5,Selesai,Website
+220,2025-10-25,Sari,"Kamera Canon EOS",Elektronik,2,3567840,7135670,5,42915,6821810,Debit,Tangerang,3.6,Dikirim,"Mobile App"
+221,2025-10-24,Putri,"Sweater Rajut",Fashion,1,223182,223182,5,18783,230806,E-Wallet,Medan,3.7,Selesai,Marketplace
+222,2025-10-11,Edo,"Tepung Terigu 1kg",Groceries,3,163252,489756,0,49890,539646,COD,Surabaya,4.4,Selesai,"Mobile App"
+223,2025-10-08,Edo,"Tepung Terigu 1kg",Groceries,5,171830,859150,15,11158,741436,COD,Bandung,3.5,Selesai,"Mobile App"
+224,2025-10-23,Vina,"Kamera Canon EOS",Elektronik,4,12931900,51727400,0,37314,51764700,E-Wallet,Surabaya,4,Selesai,"Mobile App"
+225,2025-10-26,Budi,"Kaos Polos",Fashion,1,280937,280937,5,43393,310283,E-Wallet,Surabaya,3.7,Selesai,"Mobile App"
+226,2025-10-17,Miko,"iPhone 15",Elektronik,3,13659500,40978500,10,26486,36907200,E-Wallet,Tangerang,3.9,Pending,Website
+227,2025-10-12,Arif,"Lotion Vaseline",Kecantikan,3,269278,807834,0,18034,825868,COD,Tangerang,4.4,Selesai,Website
+228,2025-10-14,Tia,"Parfum Dior",Kecantikan,1,197610,197610,0,15837,213447,COD,Bali,4.6,Selesai,Marketplace
+229,2025-10-12,Ahmad,"TV Samsung 43 Inch",Elektronik,4,2243070,8972260,10,32638,8107680,E-Wallet,Bandung,4.3,Dikirim,Website
+230,2025-10-26,Andi,"Gula Pasir 1kg",Groceries,4,126172,504688,0,30196,534884,Debit,Medan,4.8,Selesai,"Mobile App"
+231,2025-10-12,Ridwan,"Tas Kulit",Fashion,3,164695,494085,0,15007,509092,E-Wallet,Jakarta,4,Selesai,Website
+232,2025-10-27,Desi,"Headset Sony",Elektronik,5,7682730,38413600,15,30314,32681900,Debit,Tangerang,4.5,Dikirim,Marketplace
+233,2025-10-07,Arif,"Eyeliner Revlon",Kecantikan,2,49796,99592,0,27031,126623,COD,Depok,4.1,Dibatalkan,Marketplace
+234,2025-10-11,Nadia,"Kipas Angin Miyako",Elektronik,3,11599300,34797900,20,24827,27863200,"Kartu Kredit",Bali,3.7,Selesai,"Mobile App"
+235,2025-10-11,Rara,"Sweater Rajut",Fashion,1,74563,74563,0,41405,115968,E-Wallet,Bekasi,3.8,Selesai,Website
+236,2025-10-01,Anita,"Susu UHT 1L",Groceries,3,115000,345000,10,35502,346002,COD,Bekasi,4.6,Selesai,"Mobile App"
+237,2025-10-27,Wulan,"iPhone 15",Elektronik,5,796127,3980640,0,22118,4002750,"Kartu Kredit",Bandung,4.8,Selesai,"Mobile App"
+238,2025-10-09,Tono,"Printer Canon",Elektronik,4,1844440,7377770,0,34589,7412360,E-Wallet,Bekasi,4.5,Selesai,"Mobile App"
+239,2025-10-16,Desi,"Jam Tangan Casio",Fashion,3,122856,368568,5,36704,386844,"Kartu Kredit",Bandung,3.8,Dikirim,Website
+240,2025-10-06,Siti,"Headset Sony",Elektronik,2,2658690,5317370,0,41876,5359250,E-Wallet,Depok,4.6,Selesai,Marketplace
+241,2025-10-22,Fajar,"Jaket Hoodie",Fashion,1,279279,279279,15,31659,269046,E-Wallet,Tangerang,4.1,Pending,Marketplace
+242,2025-10-23,Edo,"Minyak Goreng 2L",Groceries,3,274501,823503,10,35359,776512,E-Wallet,Bekasi,4.9,Dibatalkan,"Mobile App"
+243,2025-10-11,Tari,"Topi Baseball",Fashion,5,153409,767045,5,18457,747150,"Kartu Kredit",Bali,4,Selesai,Website
+244,2025-10-23,Dewi,"Blender Philips",Elektronik,5,11774900,58874600,5,18152,55949000,"Kartu Kredit",Tangerang,4.4,Selesai,"Mobile App"
+245,2025-10-21,Putra,"Susu UHT 1L",Groceries,2,124097,248194,0,27851,276045,"Kartu Kredit",Surabaya,4.9,Selesai,"Mobile App"
+246,2025-10-13,Wulan,"Kemeja Putih",Fashion,2,163347,326694,25,48351,293372,E-Wallet,Tangerang,4.1,Dibatalkan,"Mobile App"
+247,2025-10-04,Tono,"Sepatu Nike Air",Fashion,1,12275,12275,0,17712,29987,"Kartu Kredit",Surabaya,4.6,Selesai,Website
+248,2025-10-08,Rian,"Tepung Terigu 1kg",Groceries,4,248701,994804,10,11014,906338,E-Wallet,Bekasi,4.1,Dikirim,Website
+249,2025-10-16,Adit,"Susu UHT 1L",Groceries,5,169269,846345,15,26576,745969,"Kartu Kredit",Surabaya,4.8,Dikirim,Website
+250,2025-10-12,Citra,"Printer Canon",Elektronik,5,7889480,39447400,5,44736,37519800,E-Wallet,Bekasi,4.3,Dikirim,"Mobile App"
+251,2025-10-21,Hendra,"Sweater Rajut",Fashion,1,81765,81765,0,42368,124133,"Kartu Kredit",Bandung,3.9,Selesai,"Mobile App"
+252,2025-10-01,Lusi,"TV Samsung 43 Inch",Elektronik,5,848316,4241580,0,34283,4275860,COD,Bali,3.6,Dikirim,Marketplace
+253,2025-10-11,Desi,"Pasta Gigi",Groceries,3,38085,114255,15,44571,141688,E-Wallet,Jakarta,4.8,Dikirim,Website
+254,2025-10-01,Nina,"TV Samsung 43 Inch",Elektronik,5,13782500,68912500,5,44942,65511800,E-Wallet,Bali,4.4,Dibatalkan,Website
+255,2025-10-15,Nando,"Hair Dryer Philips",Kecantikan,3,226421,679263,15,31770,609144,COD,Bekasi,3.7,Selesai,Marketplace
+256,2025-10-25,Putra,"Tas Kulit",Fashion,4,217139,868556,5,28610,853738,Debit,Bandung,3.9,Dikirim,Website
+257,2025-10-20,Siti,"Bedak Maybelline",Kecantikan,5,235532,1177660,15,16153,1017160,"Kartu Kredit",Jakarta,4.3,Dikirim,Website
+258,2025-10-22,Yoga,"Air Mineral 6L",Groceries,4,11144,44576,10,26087,66205.4,COD,Jakarta,3.8,Selesai,Website
+259,2025-10-28,Rahmat,"Minyak Goreng 2L",Groceries,1,251125,251125,10,46371,272384,COD,Bekasi,3.9,Dibatalkan,"Mobile App"
+260,2025-10-11,Bayu,"Susu UHT 1L",Groceries,4,151067,604268,20,41390,524804,COD,Bali,3.8,Selesai,Website
+261,2025-10-12,Agus,"Kemeja Putih",Fashion,4,282175,1128700,10,45602,1061430,Debit,Jakarta,3.9,Selesai,Website
+262,2025-10-27,Fani,"Celana Jeans",Fashion,2,189587,379174,10,25478,366735,"Kartu Kredit",Bali,3.6,Selesai,Website
+263,2025-10-21,Ridwan,"Susu UHT 1L",Groceries,5,124671,623355,10,25369,586388,COD,Surabaya,4.1,Selesai,Website
+264,2025-10-05,Vina,"Air Mineral 6L",Groceries,3,267373,802119,25,43223,644812,COD,Surabaya,3.9,Dikirim,Website
+265,2025-10-06,Anita,"Tepung Terigu 1kg",Groceries,1,45623,45623,25,43387,77604.2,Debit,Medan,4.6,Dikirim,Website
+266,2025-10-17,Nina,"Jam Tangan Casio",Fashion,5,43382,216910,10,29244,224463,"Kartu Kredit",Bekasi,4.7,Pending,"Mobile App"
+267,2025-10-29,Dewanto,"Blender Philips",Elektronik,2,14616900,29233800,10,10856,26321300,Debit,Depok,4,Selesai,"Mobile App"
+268,2025-10-31,Nina,"Sweater Rajut",Fashion,1,48703,48703,0,49154,97857,"Kartu Kredit",Jakarta,3.6,Dikirim,"Mobile App"
+269,2025-10-04,Ahmad,"Sepatu Nike Air",Fashion,2,161516,323032,0,21365,344397,E-Wallet,Jakarta,3.5,Selesai,"Mobile App"
+270,2025-10-27,Anita,"Kaos Polos",Fashion,5,92541,462705,5,32124,471694,"Kartu Kredit",Depok,4.1,Selesai,"Mobile App"
+271,2025-10-16,Vina,"Celana Jeans",Fashion,1,34113,34113,5,36279,68686.4,"Kartu Kredit",Bandung,4.5,Selesai,"Mobile App"
+272,2025-10-26,Rizky,"Jaket Hoodie",Fashion,4,11435,45740,0,44407,90147,E-Wallet,Bekasi,4.4,Dikirim,"Mobile App"
+273,2025-10-21,Dewanto,"Printer Canon",Elektronik,2,8582150,17164300,5,33413,16339500,"Kartu Kredit",Bandung,4.2,Selesai,"Mobile App"
+274,2025-10-30,Rina,"Sepatu Nike Air",Fashion,4,131236,524944,10,12124,484574,E-Wallet,Bali,4.2,Selesai,"Mobile App"
+275,2025-10-24,Edo,"Bedak Maybelline",Kecantikan,2,52575,105150,20,38420,122540,E-Wallet,Jakarta,4.8,Pending,"Mobile App"
+276,2025-10-27,Ridwan,"Printer Canon",Elektronik,1,11491800,11491800,10,32757,10375300,COD,Jakarta,4.7,Selesai,Marketplace
+277,2025-10-21,Citra,"Blender Philips",Elektronik,2,7777830,15555700,0,38680,15594300,"Kartu Kredit",Medan,4.4,Selesai,Website
+278,2025-10-17,Tari,"Smartwatch Xiaomi",Elektronik,1,10685800,10685800,10,31842,9649100,COD,Jakarta,4.7,Dikirim,"Mobile App"
+279,2025-10-29,Rara,"Lotion Vaseline",Kecantikan,2,15082,30164,5,16350,45005.8,COD,Bali,3.8,Pending,"Mobile App"
+280,2025-10-09,Rifki,"Tepung Terigu 1kg",Groceries,5,65439,327195,5,34598,345433,Debit,Bekasi,4.4,Selesai,Marketplace
+281,2025-10-27,Dina,"Jaket Hoodie",Fashion,5,250544,1252720,0,36198,1288920,E-Wallet,Bandung,3.8,Selesai,Website
+282,2025-10-04,Andi,"TV Samsung 43 Inch",Elektronik,4,2891010,11564000,25,29770,8702790,Debit,Medan,3.8,Selesai,"Mobile App"
+283,2025-10-18,Ahmad,"Speaker JBL",Elektronik,3,3958020,11874100,0,49717,11923800,Debit,Surabaya,4,Selesai,Marketplace
+284,2025-10-26,Nina,"Headset Sony",Elektronik,3,884630,2653890,5,41582,2562780,E-Wallet,Bandung,4.3,Selesai,"Mobile App"
+285,2025-10-25,Dewanto,"Eyeliner Revlon",Kecantikan,2,135080,270160,0,15232,285392,"Kartu Kredit",Surabaya,4.4,Dikirim,"Mobile App"
+286,2025-10-05,Nina,"Tepung Terigu 1kg",Groceries,3,145329,435987,0,44775,480762,E-Wallet,Bekasi,4.9,Dikirim,Website
+287,2025-10-12,Rara,"Shampo Pantene",Kecantikan,2,273289,546578,0,19374,565952,"Kartu Kredit",Bekasi,4.1,Selesai,Marketplace
+288,2025-10-16,Asep,"Bedak Maybelline",Kecantikan,2,146359,292718,5,34831,312913,"Kartu Kredit",Surabaya,3.8,Dikirim,"Mobile App"
+289,2025-10-07,Tono,"Lotion Vaseline",Kecantikan,5,29707,148535,0,40489,189024,Debit,Bandung,3.5,Selesai,Marketplace
+290,2025-10-25,Anita,"Shampo Pantene",Kecantikan,1,50036,50036,5,25614,73148.2,Debit,Jakarta,4.5,Selesai,"Mobile App"
+291,2025-10-05,Gina,"Topi Baseball",Fashion,1,177708,177708,25,45721,179002,Debit,Jakarta,4.5,Dikirim,"Mobile App"
+292,2025-10-18,Wulan,"Lotion Vaseline",Kecantikan,1,35142,35142,5,43960,77344.9,Debit,Jakarta,4.2,Dikirim,"Mobile App"
+293,2025-10-01,Putri,"Kopi Bubuk 1kg",Groceries,2,142954,285908,0,38077,323985,COD,Tangerang,3.7,Selesai,"Mobile App"
+294,2025-10-25,Sari,"Kipas Angin Miyako",Elektronik,2,2869580,5739150,0,29869,5769020,"Kartu Kredit",Jakarta,3.5,Selesai,Website
+295,2025-10-14,Siti,"Lipstik Wardah",Kecantikan,4,117355,469420,20,10066,385602,Debit,Medan,3.9,Dikirim,"Mobile App"
+296,2025-10-09,Tono,"Gula Pasir 1kg",Groceries,5,112009,560045,15,21472,497510,"Kartu Kredit",Surabaya,4.6,Pending,Website
+297,2025-10-04,Tia,"Bedak Maybelline",Kecantikan,4,262316,1049260,0,23179,1072440,Debit,Bekasi,3.6,Selesai,"Mobile App"
+298,2025-10-13,Dina,"Bedak Maybelline",Kecantikan,2,92152,184304,25,27742,165970,"Kartu Kredit",Medan,4.2,Selesai,Marketplace
+299,2025-10-01,Fauzan,"Celana Jeans",Fashion,2,154374,308748,0,42381,351129,E-Wallet,Bali,3.8,Dikirim,Marketplace
+300,2025-10-28,Fani,"Serum Wajah",Kecantikan,1,48992,48992,5,38526,85068.4,E-Wallet,Medan,4.5,Dikirim,Marketplace
+301,2025-10-18,Citra,"Jam Tangan Casio",Fashion,3,11912,35736,10,34095,66257.4,Debit,Jakarta,3.9,Selesai,"Mobile App"
+302,2025-10-15,Bayu,"Kipas Angin Miyako",Elektronik,3,8182080,24546200,15,26333,20890600,E-Wallet,Bekasi,3.7,Dikirim,"Mobile App"
+303,2025-10-29,Andi,"Kopi Bubuk 1kg",Groceries,5,172888,864440,0,28441,892881,Debit,Bali,4.8,Selesai,"Mobile App"
+304,2025-10-20,Siti,"Lipstik Wardah",Kecantikan,1,192120,192120,15,37016,200318,COD,Surabaya,4.1,Selesai,Marketplace
+305,2025-10-01,Rian,"Celana Jeans",Fashion,2,66400,132800,15,18828,131708,"Kartu Kredit",Depok,3.6,Selesai,Website
+306,2025-10-04,Nando,"Sepatu Nike Air",Fashion,5,187696,938480,0,19573,958053,COD,Tangerang,3.8,Selesai,"Mobile App"
+307,2025-10-23,Tono,"Tepung Terigu 1kg",Groceries,3,154107,462321,0,43029,505350,E-Wallet,Surabaya,3.9,Dikirim,"Mobile App"
+308,2025-10-12,Nadia,"Laptop Asus",Elektronik,4,4141140,16564500,0,14553,16579100,"Kartu Kredit",Depok,3.6,Selesai,"Mobile App"
+309,2025-10-13,Rifki,"iPhone 15",Elektronik,5,982020,4910100,5,39801,4704400,Debit,Jakarta,4.3,Dikirim,Website
+310,2025-10-29,Bayu,"Celana Jeans",Fashion,4,242008,968032,0,38372,1006400,Debit,Surabaya,4.5,Selesai,"Mobile App"
+311,2025-10-04,Ahmad,"Laptop Asus",Elektronik,2,4855250,9710500,0,20667,9731170,"Kartu Kredit",Surabaya,3.7,Selesai,"Mobile App"
+312,2025-10-20,Agus,"Blender Philips",Elektronik,4,6741800,26967200,20,13378,21587100,E-Wallet,Tangerang,3.8,Selesai,Website
+313,2025-10-19,Eka,"Headset Sony",Elektronik,5,11582300,57911500,0,30275,57941800,E-Wallet,Bandung,4.5,Selesai,Website
+314,2025-10-06,Gina,"Gula Pasir 1kg",Groceries,2,134104,268208,15,48458,276435,Debit,Bandung,5,Dikirim,"Mobile App"
+315,2025-10-12,Rina,"Kopi Bubuk 1kg",Groceries,3,271105,813315,0,21394,834709,Debit,Surabaya,4.9,Selesai,Website
+316,2025-10-07,Dewanto,"Beras 5kg",Groceries,1,109238,109238,0,40555,149793,COD,Depok,3.8,Selesai,"Mobile App"
+317,2025-10-20,Edo,"Jam Tangan Casio",Fashion,2,232187,464374,0,32885,497259,COD,Depok,3.7,Dibatalkan,"Mobile App"
+318,2025-10-14,Nadia,"Kopi Bubuk 1kg",Groceries,3,263098,789294,5,40082,789911,E-Wallet,Bali,4.8,Pending,Marketplace
+319,2025-10-03,Farah,"Printer Canon",Elektronik,1,3483750,3483750,0,37177,3520920,COD,Jakarta,3.9,Dibatalkan,Website
+320,2025-10-18,Fauzan,"Minyak Goreng 2L",Groceries,4,35200,140800,5,23610,157370,"Kartu Kredit",Medan,3.5,Dikirim,Website
+321,2025-10-10,Lusi,"Shampo Pantene",Kecantikan,5,116492,582460,10,12075,536289,"Kartu Kredit",Surabaya,4.7,Selesai,Website
+322,2025-10-12,Yusuf,"Jam Tangan Casio",Fashion,2,70627,141254,10,41034,168163,"Kartu Kredit",Bali,3.5,Selesai,Website
+323,2025-10-17,Tono,"Sabun Cuci",Groceries,5,31140,155700,10,49872,190002,"Kartu Kredit",Jakarta,3.8,Selesai,Website
+324,2025-10-11,Yusuf,"Tas Kulit",Fashion,3,152289,456867,0,38106,494973,"Kartu Kredit",Bandung,4.3,Selesai,Website
+325,2025-10-20,Wulan,"Sepatu Nike Air",Fashion,1,161929,161929,5,29050,182883,"Kartu Kredit",Jakarta,4.6,Selesai,Marketplace
+326,2025-10-03,Bayu,"Sabun Muka Garnier",Kecantikan,1,267968,267968,10,10496,251667,"Kartu Kredit",Bandung,3.9,Selesai,"Mobile App"
+327,2025-10-12,Rahmat,"Kopi Bubuk 1kg",Groceries,2,83248,166496,5,19465,177636,Debit,Bekasi,4.4,Selesai,"Mobile App"
+328,2025-10-22,Nina,"Air Mineral 6L",Groceries,1,80862,80862,0,11153,92015,COD,Medan,4.8,Selesai,"Mobile App"
+329,2025-10-06,Fauzan,"Sabun Cuci",Groceries,4,229300,917200,5,42343,913683,COD,Jakarta,4.8,Selesai,"Mobile App"
+330,2025-10-29,Lina,"Jam Tangan Casio",Fashion,4,131652,526608,5,44648,544926,E-Wallet,Bali,4.4,Selesai,Marketplace
+331,2025-10-06,Edo,"Printer Canon",Elektronik,1,6177320,6177320,0,31434,6208760,Debit,Bandung,3.5,Selesai,"Mobile App"
+332,2025-10-13,Ridwan,"Hair Dryer Philips",Kecantikan,1,270957,270957,0,32852,303809,"Kartu Kredit",Jakarta,4.1,Pending,Marketplace
+333,2025-10-13,Nando,"Beras 5kg",Groceries,4,203829,815316,5,33481,808031,Debit,Bali,5,Selesai,Website
+334,2025-10-26,Tari,"Sabun Cuci",Groceries,1,196454,196454,0,45156,241610,COD,Medan,3.9,Selesai,Website
+335,2025-10-16,Anita,"Blender Philips",Elektronik,5,14953900,74769300,0,32261,74801600,COD,Surabaya,4,Selesai,Marketplace
+336,2025-10-12,Yusuf,"Sabun Cuci",Groceries,1,254482,254482,0,12590,267072,E-Wallet,Medan,3.7,Selesai,Website
+337,2025-10-10,Hendra,"Bedak Maybelline",Kecantikan,2,15176,30352,0,25170,55522,E-Wallet,Tangerang,3.8,Selesai,"Mobile App"
+338,2025-10-23,Maya,"Telur 1kg",Groceries,1,119849,119849,0,40026,159875,COD,Bekasi,3.9,Selesai,Marketplace
+339,2025-10-12,Yoga,"Gula Pasir 1kg",Groceries,4,60241,240964,10,39533,256401,E-Wallet,Depok,4.8,Dikirim,"Mobile App"
+340,2025-10-05,Miko,"Blender Philips",Elektronik,5,11332400,56662200,5,20989,53850100,Debit,Bekasi,3.8,Selesai,Marketplace
+341,2025-10-08,Fani,"Masker Naturgo",Kecantikan,4,253307,1013230,0,24223,1037450,"Kartu Kredit",Bali,4.2,Dibatalkan,Website
+342,2025-10-23,Miko,"Shampo Pantene",Kecantikan,2,107152,214304,0,19360,233664,"Kartu Kredit",Medan,4.1,Selesai,Marketplace
+343,2025-10-04,Rizky,"Lipstik Wardah",Kecantikan,2,80087,160174,0,11552,171726,"Kartu Kredit",Tangerang,4.5,Dikirim,"Mobile App"
+344,2025-10-27,Asep,"Parfum Dior",Kecantikan,2,140379,280758,10,47717,300399,COD,Bekasi,3.6,Selesai,Website
+345,2025-10-17,Maya,"Blender Philips",Elektronik,1,4292040,4292040,0,20931,4312970,COD,Surabaya,3.6,Selesai,Marketplace
+346,2025-10-05,Fani,"Eyeliner Revlon",Kecantikan,1,187211,187211,15,40708,199837,Debit,Surabaya,4.8,Selesai,"Mobile App"
+347,2025-10-14,Yusuf,"Hair Dryer Philips",Kecantikan,2,134458,268916,5,15645,271115,COD,Bandung,3.7,Selesai,Marketplace
+348,2025-10-24,Sari,"Laptop Asus",Elektronik,1,8992780,8992780,0,30167,9022940,"Kartu Kredit",Depok,4.8,Selesai,Website
+349,2025-10-25,Ridwan,"Hair Dryer Philips",Kecantikan,1,138573,138573,0,30244,168817,"Kartu Kredit",Tangerang,4.8,Selesai,Website
+350,2025-10-08,Hendra,"Minyak Goreng 2L",Groceries,2,258387,516774,15,45480,484738,Debit,Tangerang,4.4,Dikirim,"Mobile App"
+351,2025-10-18,Yusuf,"Hair Dryer Philips",Kecantikan,2,159877,319754,5,19654,323420,COD,Tangerang,4.4,Selesai,Marketplace
+352,2025-10-07,Rizky,"Kopi Bubuk 1kg",Groceries,3,85739,257217,5,43053,287409,COD,Bekasi,4.5,Selesai,"Mobile App"
+353,2025-10-03,Rizky,"Lotion Vaseline",Kecantikan,3,13835,41505,0,18262,59767,E-Wallet,Jakarta,4.8,Dikirim,"Mobile App"
+354,2025-10-20,Dewi,"Air Mineral 6L",Groceries,5,136074,680370,20,41615,585911,"Kartu Kredit",Depok,3.9,Selesai,"Mobile App"
+355,2025-10-15,Rian,"Jaket Hoodie",Fashion,3,14151,42453,15,18426,54511.1,COD,Jakarta,3.9,Selesai,Marketplace
+356,2025-10-05,Ridwan,"Sabun Muka Garnier",Kecantikan,4,228172,912688,0,27408,940096,Debit,Jakarta,3.8,Selesai,Marketplace
+357,2025-10-13,Ahmad,"Kipas Angin Miyako",Elektronik,3,5706600,17119800,5,39596,16303400,Debit,Jakarta,3.6,Selesai,Marketplace
+358,2025-10-18,Yoga,"Bedak Maybelline",Kecantikan,3,15957,47871,10,30463,73546.9,"Kartu Kredit",Medan,4,Selesai,"Mobile App"
+359,2025-10-20,Bella,"Printer Canon",Elektronik,1,1571930,1571930,5,26126,1519460,COD,Jakarta,4.1,Selesai,"Mobile App"
+360,2025-10-22,Fajar,"Laptop Asus",Elektronik,5,9501740,47508700,10,16595,42774400,Debit,Jakarta,5,Selesai,"Mobile App"
+361,2025-10-11,Eka,"Printer Canon",Elektronik,2,2497320,4994650,10,31817,4527000,"Kartu Kredit",Bandung,3.7,Selesai,"Mobile App"
+362,2025-10-04,Lina,"Pasta Gigi",Groceries,3,96443,289329,20,29209,260672,E-Wallet,Tangerang,4.3,Selesai,"Mobile App"
+363,2025-10-15,Tono,"Beras 5kg",Groceries,3,292620,877860,0,23334,901194,COD,Bekasi,4.5,Dibatalkan,"Mobile App"
+364,2025-10-25,Siti,"Kopi Bubuk 1kg",Groceries,1,284279,284279,5,32632,302697,Debit,Tangerang,4.8,Selesai,Website
+365,2025-10-29,Andi,"Sepatu Nike Air",Fashion,2,200604,401208,5,45749,426897,COD,Tangerang,4.5,Selesai,"Mobile App"
+366,2025-10-16,Anita,"Sabun Cuci",Groceries,2,117276,234552,5,44344,267168,Debit,Bandung,4.7,Selesai,"Mobile App"
+367,2025-10-10,Desi,"Kemeja Putih",Fashion,1,76484,76484,5,11372,84031.8,Debit,Jakarta,5,Selesai,Website
+368,2025-10-18,Tia,"Topi Baseball",Fashion,4,262772,1051090,0,42908,1094000,E-Wallet,Bandung,3.5,Selesai,"Mobile App"
+369,2025-10-25,Fajar,"Parfum Dior",Kecantikan,5,180716,903580,0,10656,914236,COD,Surabaya,4.8,Selesai,"Mobile App"
+370,2025-10-21,Tono,"Topi Baseball",Fashion,3,140386,421158,0,40389,461547,"Kartu Kredit",Medan,4.1,Dikirim,Website
+371,2025-10-02,Bayu,"Hair Dryer Philips",Kecantikan,4,116746,466984,0,32804,499788,"Kartu Kredit",Medan,4.7,Dikirim,Website
+372,2025-10-23,Adit,"Kipas Angin Miyako",Elektronik,5,3484180,17420900,0,21214,17442100,COD,Tangerang,4.2,Selesai,Marketplace
+373,2025-10-17,Asep,"Gula Pasir 1kg",Groceries,1,282615,282615,5,23526,292010,E-Wallet,Depok,5,Selesai,"Mobile App"
+374,2025-10-23,Vina,"Bedak Maybelline",Kecantikan,3,235947,707841,0,42566,750407,E-Wallet,Jakarta,4.1,Selesai,Website
+375,2025-10-30,Agus,"Jam Tangan Casio",Fashion,4,190302,761208,0,18937,780145,"Kartu Kredit",Surabaya,4.6,Selesai,Website
+376,2025-10-30,Bella,"Masker Naturgo",Kecantikan,3,122071,366213,0,41144,407357,"Kartu Kredit",Jakarta,4.5,Selesai,Website
+377,2025-10-05,Fani,"Printer Canon",Elektronik,3,9224670,27674000,5,20416,26310700,Debit,Bandung,4.8,Selesai,Website
+378,2025-10-29,Ahmad,"Shampo Pantene",Kecantikan,1,238640,238640,0,33081,271721,E-Wallet,Medan,3.6,Selesai,"Mobile App"
+379,2025-10-25,Tia,"Kopi Bubuk 1kg",Groceries,4,19393,77572,5,29750,103443,COD,Medan,4.4,Selesai,"Mobile App"
+380,2025-10-01,Siti,"Kamera Canon EOS",Elektronik,4,8437850,33751400,0,36327,33787700,Debit,Bekasi,4.3,Selesai,Marketplace
+381,2025-10-07,Asep,"Bedak Maybelline",Kecantikan,5,154366,771830,0,30416,802246,"Kartu Kredit",Bali,4.1,Selesai,"Mobile App"
+382,2025-10-23,Nando,"Laptop Asus",Elektronik,2,4394350,8788700,10,35547,7945370,E-Wallet,Bandung,3.7,Selesai,"Mobile App"
+383,2025-10-11,Sari,"Speaker JBL",Elektronik,4,14460500,57842100,15,42923,49208700,"Kartu Kredit",Tangerang,4,Dibatalkan,Marketplace
+384,2025-10-23,Eka,"Eyeliner Revlon",Kecantikan,4,231883,927532,5,16042,897197,"Kartu Kredit",Medan,3.9,Selesai,Marketplace
+385,2025-10-16,Rahmat,"Bedak Maybelline",Kecantikan,1,51429,51429,0,35369,86798,COD,Tangerang,4.7,Pending,"Mobile App"
+386,2025-10-08,Rahmat,"Parfum Dior",Kecantikan,4,282707,1130830,0,36871,1167700,"Kartu Kredit",Jakarta,4.3,Dibatalkan,"Mobile App"
+387,2025-10-31,Edo,"Masker Naturgo",Kecantikan,1,245405,245405,10,38616,259480,Debit,Jakarta,3.9,Selesai,Marketplace
+388,2025-10-30,Rian,"Tepung Terigu 1kg",Groceries,5,37929,189645,10,11426,182106,Debit,Bali,3.8,Selesai,Website
+389,2025-10-21,Dewi,"Air Mineral 6L",Groceries,4,186733,746932,5,10486,720071,"Kartu Kredit",Depok,4.1,Selesai,Website
+390,2025-10-13,Ahmad,"Kopi Bubuk 1kg",Groceries,2,165767,331534,0,30261,361795,Debit,Jakarta,4.3,Selesai,"Mobile App"
+391,2025-10-31,Sari,"Blender Philips",Elektronik,1,7250000,7250000,5,49039,6936540,"Kartu Kredit",Depok,3.6,Selesai,"Mobile App"
+392,2025-10-07,Mega,"Sweater Rajut",Fashion,1,66977,66977,10,21098,81377.3,Debit,Bali,3.7,Selesai,Website
+393,2025-10-06,Desi,"Topi Baseball",Fashion,3,79110,237330,5,20594,246058,E-Wallet,Jakarta,3.6,Selesai,Website
+394,2025-10-01,Wulan,"Eyeliner Revlon",Kecantikan,5,96132,480660,10,35084,467678,"Kartu Kredit",Bekasi,4.2,Selesai,Marketplace
+395,2025-10-06,Asep,"Pasta Gigi",Groceries,1,105082,105082,0,21955,127037,Debit,Surabaya,4.6,Selesai,Marketplace
+396,2025-10-20,Putri,"Shampo Pantene",Kecantikan,4,255754,1023020,5,47326,1019190,E-Wallet,Medan,4.1,Selesai,"Mobile App"
+397,2025-10-06,Arif,"Sabun Muka Garnier",Kecantikan,1,260784,260784,0,32844,293628,COD,Bali,4.2,Selesai,"Mobile App"
+398,2025-10-02,Rahmat,"Tepung Terigu 1kg",Groceries,2,252051,504102,5,31552,510449,"Kartu Kredit",Jakarta,4.8,Selesai,Marketplace
+399,2025-10-10,Siti,"Masker Naturgo",Kecantikan,3,206236,618708,5,14829,602602,"Kartu Kredit",Bandung,3.9,Selesai,Marketplace
+400,2025-10-12,Rina,"Sepatu Nike Air",Fashion,2,116696,233392,10,30000,240053,Debit,Medan,4.4,Selesai,Website
+401,2025-10-21,Adit,"Minyak Goreng 2L",Groceries,4,275415,1101660,0,41058,1142720,COD,Tangerang,4,Selesai,Website
+402,2025-10-06,Farah,"Lotion Vaseline",Kecantikan,2,225017,450034,0,44791,494825,Debit,Bekasi,4.3,Selesai,"Mobile App"
+403,2025-10-12,Tono,"Jaket Hoodie",Fashion,5,146185,730925,15,45778,667064,E-Wallet,Bekasi,4.2,Dibatalkan,Marketplace
+404,2025-10-18,Wulan,"Eyeliner Revlon",Kecantikan,5,131219,656095,5,12296,635586,E-Wallet,Jakarta,3.6,Selesai,Website
+405,2025-10-24,Adit,"Headset Sony",Elektronik,4,11196900,44787500,10,25756,40334500,Debit,Medan,3.8,Selesai,"Mobile App"
+406,2025-10-17,Farah,"Minyak Goreng 2L",Groceries,3,169607,508821,10,49022,506961,E-Wallet,Bali,4.5,Dibatalkan,"Mobile App"
+407,2025-10-10,Eka,"Serum Wajah",Kecantikan,3,195313,585939,10,29342,556687,"Kartu Kredit",Bekasi,3.7,Pending,Marketplace
+408,2025-10-23,Desi,"Masker Naturgo",Kecantikan,3,204562,613686,0,10666,624352,COD,Bali,3.8,Selesai,Website
+409,2025-10-09,Ahmad,"Jaket Hoodie",Fashion,2,75403,150806,0,24200,175006,COD,Medan,4.2,Selesai,"Mobile App"
+410,2025-10-12,Dewanto,"Hair Dryer Philips",Kecantikan,5,28503,142515,0,13919,156434,COD,Tangerang,4.7,Selesai,"Mobile App"
+411,2025-10-29,Lusi,"Kipas Angin Miyako",Elektronik,1,11680100,11680100,10,10952,10523000,"Kartu Kredit",Medan,4.3,Selesai,"Mobile App"
+412,2025-10-05,Anita,"Laptop Asus",Elektronik,1,6801010,6801010,10,32012,6152920,COD,Depok,3.6,Selesai,Marketplace
+413,2025-10-15,Fani,"Kemeja Putih",Fashion,1,116313,116313,0,39841,156154,Debit,Bandung,4.9,Selesai,"Mobile App"
+414,2025-10-18,Rahmat,"Beras 5kg",Groceries,3,119828,359484,10,24986,348522,"Kartu Kredit",Surabaya,3.7,Selesai,Marketplace
+415,2025-10-07,Rifki,"Sepatu Nike Air",Fashion,1,83413,83413,5,28274,107516,E-Wallet,Tangerang,3.6,Selesai,"Mobile App"
+416,2025-10-11,Rara,"Kopi Bubuk 1kg",Groceries,4,50169,200676,15,47258,217833,COD,Surabaya,3.8,Selesai,"Mobile App"
+417,2025-10-06,Putra,"Laptop Asus",Elektronik,3,9212210,27636600,20,16690,22126000,E-Wallet,Medan,3.6,Selesai,Website
+418,2025-10-20,Rifki,"Bedak Maybelline",Kecantikan,1,40110,40110,5,33246,71350.5,COD,Bali,4.6,Selesai,"Mobile App"
+419,2025-10-24,Eka,"Gula Pasir 1kg",Groceries,3,283765,851295,5,26348,835078,Debit,Jakarta,3.6,Selesai,"Mobile App"
+420,2025-10-13,Sari,"Celana Jeans",Fashion,3,85303,255909,0,20229,276138,"Kartu Kredit",Bandung,4.7,Selesai,"Mobile App"
+421,2025-10-11,Ahmad,"TV Samsung 43 Inch",Elektronik,4,8529510,34118000,25,16028,25604500,E-Wallet,Jakarta,4.6,Selesai,"Mobile App"
+422,2025-10-07,Rara,"Laptop Asus",Elektronik,5,2678640,13393200,5,33722,12757300,Debit,Tangerang,3.5,Dikirim,Website
+423,2025-10-03,Lina,"Hair Dryer Philips",Kecantikan,2,228738,457476,10,41854,453582,COD,Surabaya,4.8,Dikirim,"Mobile App"
+424,2025-10-21,Rizky,"Celana Jeans",Fashion,3,65922,197766,15,19834,187935,E-Wallet,Depok,4.8,Selesai,"Mobile App"
+425,2025-10-17,Tono,"Eyeliner Revlon",Kecantikan,4,246189,984756,5,12352,947870,E-Wallet,Medan,4,Dibatalkan,"Mobile App"
+426,2025-10-29,Yusuf,"Lotion Vaseline",Kecantikan,3,276004,828012,10,36442,781653,Debit,Bekasi,3.8,Pending,Website
+427,2025-10-31,Citra,"Blender Philips",Elektronik,3,12098800,36296300,0,33124,36329400,COD,Tangerang,4.1,Selesai,Marketplace
+428,2025-10-03,Siti,"Serum Wajah",Kecantikan,1,187450,187450,0,34939,222389,Debit,Bandung,3.6,Dikirim,"Mobile App"
+429,2025-10-02,Bayu,"Smartwatch Xiaomi",Elektronik,1,8750320,8750320,10,41032,7916320,E-Wallet,Tangerang,3.6,Selesai,Website
+430,2025-10-01,Yusuf,"Kamera Canon EOS",Elektronik,3,12705300,38116000,20,19529,30512400,Debit,Bandung,4.1,Pending,Website
+431,2025-10-14,Ridwan,"Masker Naturgo",Kecantikan,2,261304,522608,10,30575,500922,"Kartu Kredit",Jakarta,4.7,Selesai,"Mobile App"
+432,2025-10-03,Budi,"Pasta Gigi",Groceries,5,13760,68800,0,38793,107593,E-Wallet,Bali,4.2,Selesai,"Mobile App"
+433,2025-10-10,Nadia,"Jaket Hoodie",Fashion,5,91461,457305,0,32100,489405,COD,Depok,4.6,Dikirim,"Mobile App"
+434,2025-10-25,Nina,"Sepatu Nike Air",Fashion,3,289015,867045,5,18636,842329,E-Wallet,Bandung,4.2,Selesai,Website
+435,2025-10-24,Miko,"Topi Baseball",Fashion,2,157664,315328,0,35659,350987,Debit,Bandung,4.7,Selesai,"Mobile App"
+436,2025-10-26,Maya,"Masker Naturgo",Kecantikan,1,74647,74647,0,47775,122422,"Kartu Kredit",Jakarta,3.6,Selesai,"Mobile App"
+437,2025-10-07,Tono,"Sabun Muka Garnier",Kecantikan,2,105030,210060,5,24613,224170,COD,Bandung,4.7,Dibatalkan,"Mobile App"
+438,2025-10-06,Maya,"Tas Kulit",Fashion,3,129745,389235,0,11094,400329,E-Wallet,Bandung,4.4,Selesai,Marketplace
+439,2025-10-02,Gina,"TV Samsung 43 Inch",Elektronik,4,10470500,41882000,10,24006,37717800,E-Wallet,Jakarta,4.6,Dikirim,"Mobile App"
+440,2025-10-18,Dewi,"Sabun Cuci",Groceries,5,251238,1256190,5,20481,1213860,COD,Bekasi,4.1,Dikirim,Website
+441,2025-10-23,Tari,"Kamera Canon EOS",Elektronik,4,7495100,29980400,5,32345,28513700,"Kartu Kredit",Medan,4,Dikirim,Website
+442,2025-10-18,Yusuf,"Sweater Rajut",Fashion,4,211133,844532,5,16891,819196,COD,Jakarta,4.1,Dikirim,Website
+443,2025-10-21,Anita,"Sabun Cuci",Groceries,5,259040,1295200,0,44599,1339800,E-Wallet,Depok,3.9,Selesai,"Mobile App"
+444,2025-10-07,Adit,"Gula Pasir 1kg",Groceries,3,261236,783708,5,11634,756157,Debit,Medan,3.6,Selesai,"Mobile App"
+445,2025-10-06,Rahmat,"Pasta Gigi",Groceries,2,213171,426342,0,38705,465047,COD,Bekasi,3.8,Selesai,"Mobile App"
+446,2025-10-25,Gina,"Sabun Cuci",Groceries,2,77381,154762,15,47235,178783,COD,Bekasi,4.6,Dikirim,"Mobile App"
+447,2025-10-31,Fani,"Shampo Pantene",Kecantikan,5,276920,1384600,5,23611,1338980,"Kartu Kredit",Medan,4.2,Dikirim,"Mobile App"
+448,2025-10-15,Tia,"iPhone 15",Elektronik,1,13585300,13585300,0,49620,13634900,"Kartu Kredit",Depok,3.8,Selesai,"Mobile App"
+449,2025-10-27,Arif,"Masker Naturgo",Kecantikan,1,122365,122365,0,24476,146841,Debit,Medan,3.8,Dibatalkan,"Mobile App"
+450,2025-10-29,Dina,"Eyeliner Revlon",Kecantikan,2,181348,362696,0,27382,390078,"Kartu Kredit",Bandung,4.9,Dikirim,Website
+451,2025-10-11,Wulan,"Lipstik Wardah",Kecantikan,3,36466,109398,0,26016,135414,"Kartu Kredit",Medan,3.7,Selesai,"Mobile App"
+452,2025-10-08,Dina,"Kipas Angin Miyako",Elektronik,2,7662680,15325400,20,45594,12305900,COD,Bekasi,3.6,Pending,Marketplace
+453,2025-10-20,Anita,"Bedak Maybelline",Kecantikan,5,278690,1393450,25,11217,1056300,COD,Depok,3.7,Selesai,"Mobile App"
+454,2025-10-20,Nando,"Masker Naturgo",Kecantikan,1,284039,284039,20,35815,263046,COD,Jakarta,4.3,Dibatalkan,"Mobile App"
+455,2025-10-01,Ahmad,"Sabun Cuci",Groceries,2,31506,63012,0,25327,88339,Debit,Tangerang,4.6,Selesai,"Mobile App"
+456,2025-10-20,Hendra,"Minyak Goreng 2L",Groceries,5,254659,1273300,10,18253,1164220,COD,Depok,3.7,Selesai,Website
+457,2025-10-02,Agus,"Beras 5kg",Groceries,4,14343,57372,5,10016,64519.4,Debit,Bandung,4.3,Dibatalkan,"Mobile App"
+458,2025-10-06,Rian,"Sepatu Nike Air",Fashion,1,151521,151521,5,44536,188481,Debit,Jakarta,3.7,Selesai,"Mobile App"
+459,2025-10-18,Mega,"Masker Naturgo",Kecantikan,1,170260,170260,15,43813,188534,COD,Bekasi,4.1,Selesai,"Mobile App"
+460,2025-10-18,Maya,"Kipas Angin Miyako",Elektronik,3,13732800,41198400,10,23615,37102100,E-Wallet,Jakarta,3.5,Dikirim,Website
+461,2025-10-14,Putra,"Minyak Goreng 2L",Groceries,2,97614,195228,20,15880,172062,COD,Depok,3.7,Dibatalkan,"Mobile App"
+462,2025-10-13,Budi,"Beras 5kg",Groceries,1,12315,12315,10,11247,22330.5,"Kartu Kredit",Tangerang,4,Selesai,Marketplace
+463,2025-10-27,Anita,"Smartwatch Xiaomi",Elektronik,1,1303250,1303250,5,37357,1275440,Debit,Surabaya,3.6,Dibatalkan,"Mobile App"
+464,2025-10-26,Hendra,"iPhone 15",Elektronik,3,6999800,20999400,5,44266,19993700,"Kartu Kredit",Bali,3.6,Selesai,Website
+465,2025-10-03,Dewanto,"Air Mineral 6L",Groceries,4,36375,145500,0,26275,171775,Debit,Jakarta,4.3,Dikirim,Website
+466,2025-10-05,Rifki,"Susu UHT 1L",Groceries,5,260765,1303820,0,39512,1343340,"Kartu Kredit",Bandung,4.6,Selesai,Website
+467,2025-10-28,Fani,"Topi Baseball",Fashion,5,221263,1106320,0,22956,1129270,Debit,Medan,4.5,Selesai,"Mobile App"
+468,2025-10-24,Hendra,"Telur 1kg",Groceries,1,251617,251617,10,48106,274561,E-Wallet,Tangerang,4.4,Selesai,"Mobile App"
+469,2025-10-10,Nando,"Parfum Dior",Kecantikan,4,296504,1186020,20,20091,968904,Debit,Tangerang,4.5,Pending,"Mobile App"
+470,2025-10-23,Yusuf,"Lotion Vaseline",Kecantikan,5,248997,1244980,15,46336,1104570,"Kartu Kredit",Bali,4.3,Selesai,Marketplace
+471,2025-10-30,Dewi,"Sweater Rajut",Fashion,4,65485,261940,0,37028,298968,COD,Bekasi,4.5,Selesai,"Mobile App"
+472,2025-10-09,Siti,"Kipas Angin Miyako",Elektronik,2,6042410,12084800,10,42563,10918900,COD,Jakarta,3.7,Dikirim,Website
+473,2025-10-05,Bella,"Topi Baseball",Fashion,3,267829,803487,20,11223,654013,E-Wallet,Bekasi,3.6,Selesai,Website
+474,2025-10-17,Bella,"Sweater Rajut",Fashion,3,265127,795381,20,16267,652572,COD,Tangerang,3.6,Dikirim,"Mobile App"
+475,2025-10-31,Anita,"Air Mineral 6L",Groceries,5,192799,963995,10,12176,879772,Debit,Bandung,3.5,Dikirim,Marketplace
+476,2025-10-30,Lina,"Tas Kulit",Fashion,2,206825,413650,10,35906,408191,Debit,Bandung,4.9,Selesai,Website
+477,2025-10-30,Nina,"Minyak Goreng 2L",Groceries,5,87707,438535,0,12339,450874,E-Wallet,Surabaya,3.7,Selesai,"Mobile App"
+478,2025-10-16,Miko,"Headset Sony",Elektronik,5,13331600,66658100,10,26452,60018700,COD,Bali,3.9,Selesai,"Mobile App"
+479,2025-10-28,Nadia,"Parfum Dior",Kecantikan,5,261151,1305760,20,32366,1076970,E-Wallet,Bali,4.2,Pending,Website
+480,2025-10-13,Rahmat,"Jam Tangan Casio",Fashion,5,93557,467785,10,38988,459994,E-Wallet,Depok,3.7,Selesai,Website
+481,2025-10-11,Desi,"Topi Baseball",Fashion,4,138834,555336,5,22933,550502,COD,Bekasi,4.2,Dikirim,"Mobile App"
+482,2025-10-28,Dina,"Parfum Dior",Kecantikan,3,202781,608343,0,43696,652039,E-Wallet,Depok,4.1,Selesai,"Mobile App"
+483,2025-10-29,Sari,"Headset Sony",Elektronik,2,1248880,2497770,5,45634,2418510,"Kartu Kredit",Bali,4.7,Selesai,"Mobile App"
+484,2025-10-30,Hendra,"iPhone 15",Elektronik,4,13147100,52588600,10,22888,47352600,COD,Depok,4.7,Pending,"Mobile App"
+485,2025-10-15,Anita,"Sweater Rajut",Fashion,5,154193,770965,10,35652,729520,Debit,Depok,4.3,Selesai,"Mobile App"
+486,2025-10-06,Rina,"Masker Naturgo",Kecantikan,2,47415,94830,0,11175,106005,E-Wallet,Bandung,4.1,Dikirim,Marketplace
+487,2025-10-03,Dina,"Topi Baseball",Fashion,3,86962,260886,20,14205,222914,COD,Bandung,3.5,Selesai,"Mobile App"
+488,2025-10-31,Edo,"Printer Canon",Elektronik,1,7552090,7552090,5,38488,7212970,E-Wallet,Medan,3.8,Selesai,Website
+489,2025-10-23,Agus,"Serum Wajah",Kecantikan,5,103079,515395,5,20965,510590,"Kartu Kredit",Bekasi,4.4,Selesai,"Mobile App"
+490,2025-10-25,Sari,"iPhone 15",Elektronik,2,8084990,16170000,10,33063,14586100,"Kartu Kredit",Depok,4.4,Dikirim,"Mobile App"
+491,2025-10-24,Lina,"Hair Dryer Philips",Kecantikan,1,156710,156710,0,39359,196069,COD,Depok,4.6,Selesai,Website
+492,2025-10-19,Gina,"Kaos Polos",Fashion,4,35210,140840,5,35162,168960,Debit,Jakarta,4.9,Selesai,"Mobile App"
+493,2025-10-09,Yusuf,"Topi Baseball",Fashion,5,189915,949575,0,38820,988395,COD,Bekasi,4.8,Pending,"Mobile App"
+494,2025-10-18,Dewi,"Kamera Canon EOS",Elektronik,5,2367300,11836500,0,26616,11863100,E-Wallet,Jakarta,4.3,Selesai,Website
+495,2025-10-24,Andi,"Minyak Goreng 2L",Groceries,1,297008,297008,0,18398,315406,E-Wallet,Medan,4.9,Selesai,"Mobile App"
+496,2025-10-22,Rizky,"Bedak Maybelline",Kecantikan,1,190764,190764,5,43776,225002,COD,Tangerang,3.9,Dikirim,Website
+497,2025-10-01,Andi,"iPhone 15",Elektronik,2,9361950,18723900,0,10337,18734200,"Kartu Kredit",Bandung,4.1,Dikirim,"Mobile App"
+498,2025-10-06,Fani,"Parfum Dior",Kecantikan,4,237499,949996,20,33039,793036,Debit,Tangerang,4.4,Dikirim,"Mobile App"
+499,2025-10-12,Tono,"Sweater Rajut",Fashion,1,23435,23435,0,47755,71190,Debit,Depok,3.6,Selesai,"Mobile App"
+500,2025-10-29,Rahmat,"Eyeliner Revlon",Kecantikan,5,105776,528880,0,13732,542612,COD,Surabaya,3.8,Selesai,Marketplace
+501,2025-10-03,Hendra,"Sweater Rajut",Fashion,1,274892,274892,0,46062,320954,COD,Bali,4,Dikirim,Website
+502,2025-10-21,Fajar,"Shampo Pantene",Kecantikan,1,163484,163484,0,23378,186862,E-Wallet,Bali,3.6,Selesai,Website
+503,2025-10-07,Tono,"Lipstik Wardah",Kecantikan,1,176700,176700,0,43313,220013,COD,Jakarta,4.3,Selesai,Marketplace
+504,2025-10-23,Asep,"Telur 1kg",Groceries,3,144377,433131,0,22200,455331,Debit,Surabaya,5,Selesai,Marketplace
+505,2025-10-30,Fani,"Eyeliner Revlon",Kecantikan,4,264441,1057760,0,42985,1100750,Debit,Bali,4.8,Dikirim,"Mobile App"
+506,2025-10-03,Mega,"Telur 1kg",Groceries,2,205319,410638,0,38595,449233,"Kartu Kredit",Surabaya,4.3,Selesai,Marketplace
+507,2025-10-13,Yusuf,"Telur 1kg",Groceries,2,256457,512914,0,46720,559634,"Kartu Kredit",Jakarta,4.9,Selesai,"Mobile App"
+508,2025-10-27,Putra,"Headset Sony",Elektronik,3,7424640,22273900,15,26970,18959800,Debit,Bali,4.1,Selesai,Marketplace
+509,2025-10-19,Arif,"Parfum Dior",Kecantikan,4,128629,514516,10,22422,485486,E-Wallet,Bekasi,4.4,Selesai,Marketplace
+510,2025-10-08,Yusuf,"Sweater Rajut",Fashion,5,176275,881375,15,22761,771930,E-Wallet,Medan,4.3,Dikirim,Website
+511,2025-10-13,Rifki,"Kamera Canon EOS",Elektronik,2,6621500,13243000,0,10766,13253800,E-Wallet,Depok,3.5,Selesai,"Mobile App"
+512,2025-10-01,Sari,"Topi Baseball",Fashion,3,281710,845130,0,34854,879984,Debit,Depok,4.1,Dikirim,"Mobile App"
+513,2025-10-31,Tono,"Printer Canon",Elektronik,3,7892750,23678300,25,17168,17775900,Debit,Bali,4.6,Dikirim,Marketplace
+514,2025-10-26,Gina,"Minyak Goreng 2L",Groceries,5,239067,1195340,25,25209,921710,Debit,Tangerang,3.5,Dikirim,Marketplace
+515,2025-10-26,Rian,"Beras 5kg",Groceries,1,128008,128008,20,46570,148976,"Kartu Kredit",Medan,4.1,Selesai,Website
+516,2025-10-17,Agus,"Masker Naturgo",Kecantikan,3,148554,445662,5,47072,470451,"Kartu Kredit",Bekasi,4.7,Selesai,"Mobile App"
+517,2025-10-14,Fauzan,"Telur 1kg",Groceries,4,268945,1075780,0,41937,1117720,E-Wallet,Surabaya,3.9,Selesai,"Mobile App"
+518,2025-10-20,Fauzan,"Speaker JBL",Elektronik,2,4205070,8410140,0,41875,8452020,E-Wallet,Jakarta,3.7,Selesai,Marketplace
+519,2025-10-06,Citra,"Laptop Asus",Elektronik,1,10376900,10376900,10,22014,9361200,E-Wallet,Depok,4.7,Dikirim,"Mobile App"
+520,2025-10-17,Bella,"Topi Baseball",Fashion,3,269778,809334,5,39347,808214,E-Wallet,Bali,4.3,Dikirim,Marketplace
+521,2025-10-18,Rizky,"Parfum Dior",Kecantikan,3,149335,448005,10,46715,449920,E-Wallet,Bali,3.9,Selesai,Website
+522,2025-10-06,Edo,"Headset Sony",Elektronik,1,5879020,5879020,0,47074,5926090,Debit,Surabaya,4,Dikirim,Website
+523,2025-10-09,Lina,"Bedak Maybelline",Kecantikan,3,240821,722463,20,42267,620237,"Kartu Kredit",Bandung,4.3,Selesai,Website
+524,2025-10-29,Agus,"iPhone 15",Elektronik,1,10999000,10999000,0,37907,11036900,E-Wallet,Bali,5,Selesai,Website
+525,2025-10-17,Dewi,"Pasta Gigi",Groceries,4,168286,673144,0,34701,707845,COD,Jakarta,3.9,Selesai,Website
+526,2025-10-11,Bayu,"Laptop Asus",Elektronik,4,13571100,54284200,10,30030,48885800,Debit,Jakarta,3.5,Dikirim,Website
+527,2025-10-22,Budi,"Pasta Gigi",Groceries,5,197912,989560,5,11322,951404,E-Wallet,Tangerang,4,Dikirim,Marketplace
+528,2025-10-27,Eka,"Air Mineral 6L",Groceries,3,250319,750957,0,28550,779507,COD,Bekasi,3.6,Selesai,"Mobile App"
+529,2025-10-15,Farah,"Kemeja Putih",Fashion,5,164899,824495,0,48931,873426,Debit,Tangerang,4.9,Selesai,Marketplace
+530,2025-10-22,Lina,"Serum Wajah",Kecantikan,5,174358,871790,0,43842,915632,Debit,Medan,4.9,Selesai,"Mobile App"
+531,2025-10-01,Citra,"Shampo Pantene",Kecantikan,2,197094,394188,0,43534,437722,"Kartu Kredit",Tangerang,4.4,Pending,"Mobile App"
+532,2025-10-10,Rizky,"Sabun Cuci",Groceries,3,37150,111450,5,44530,150408,"Kartu Kredit",Bali,4.3,Dikirim,Marketplace
+533,2025-10-16,Fajar,"Pasta Gigi",Groceries,4,72127,288508,5,38112,312195,Debit,Jakarta,3.6,Selesai,"Mobile App"
+534,2025-10-18,Desi,"Laptop Asus",Elektronik,4,6011950,24047800,0,26743,24074500,E-Wallet,Bekasi,4.9,Selesai,"Mobile App"
+535,2025-10-20,Nina,"Pasta Gigi",Groceries,1,28360,28360,5,43106,70048,E-Wallet,Bekasi,4.3,Selesai,Website
+536,2025-10-09,Nadia,"Sabun Muka Garnier",Kecantikan,1,122018,122018,5,23376,139293,E-Wallet,Bekasi,4.3,Selesai,"Mobile App"
+537,2025-10-18,Fani,"Smartwatch Xiaomi",Elektronik,5,8793630,43968100,5,39238,41809000,E-Wallet,Surabaya,4.4,Selesai,"Mobile App"
+538,2025-10-05,Rifki,"Kemeja Putih",Fashion,1,51419,51419,5,41315,90163,E-Wallet,Medan,4.3,Dibatalkan,"Mobile App"
+539,2025-10-20,Putra,"Kamera Canon EOS",Elektronik,4,4415080,17660300,10,23734,15918000,COD,Tangerang,4.5,Selesai,Website
+540,2025-10-25,Wulan,"Blender Philips",Elektronik,5,11325700,56628500,10,17824,50983500,Debit,Medan,4.3,Dikirim,"Mobile App"
+541,2025-10-03,Rizky,"Telur 1kg",Groceries,2,21242,42484,0,19259,61743,E-Wallet,Jakarta,4.9,Selesai,Marketplace
+542,2025-10-05,Agus,"Blender Philips",Elektronik,5,2667530,13337700,25,20309,10023600,Debit,Depok,3.9,Selesai,"Mobile App"
+543,2025-10-11,Vina,"Pasta Gigi",Groceries,1,111212,111212,5,37201,142852,Debit,Depok,4.5,Selesai,Website
+544,2025-10-08,Tia,"Beras 5kg",Groceries,2,61865,123730,0,13632,137362,E-Wallet,Bandung,4.2,Dikirim,"Mobile App"
+545,2025-10-15,Arif,"Sendal Adidas",Fashion,4,38979,155916,0,17997,173913,COD,Bali,3.6,Dibatalkan,Website
+546,2025-10-24,Maya,"Eyeliner Revlon",Kecantikan,4,119299,477196,5,14280,467616,"Kartu Kredit",Depok,4.3,Selesai,Marketplace
+547,2025-10-05,Fajar,"Bedak Maybelline",Kecantikan,3,263921,791763,0,36042,827805,COD,Bandung,4.7,Dikirim,"Mobile App"
+548,2025-10-09,Tia,"Susu UHT 1L",Groceries,1,209276,209276,0,38770,248046,E-Wallet,Medan,4.3,Selesai,"Mobile App"
+549,2025-10-01,Eka,"Hair Dryer Philips",Kecantikan,1,19312,19312,10,36245,53625.8,Debit,Jakarta,4.7,Selesai,"Mobile App"
+550,2025-10-25,Ahmad,"Laptop Asus",Elektronik,5,9044710,45223500,0,27907,45251500,E-Wallet,Tangerang,4.8,Selesai,Marketplace
+551,2025-10-21,Eka,"Shampo Pantene",Kecantikan,3,121477,364431,20,37215,328760,Debit,Bandung,4.7,Selesai,"Mobile App"
+552,2025-10-11,Lusi,"Smartwatch Xiaomi",Elektronik,2,12392000,24784000,5,15765,23560600,"Kartu Kredit",Bali,4.5,Dikirim,Website
+553,2025-10-05,Arif,"Kaos Polos",Fashion,2,262895,525790,5,35061,534562,E-Wallet,Bandung,4.4,Selesai,Website
+554,2025-10-14,Rahmat,"Topi Baseball",Fashion,1,21560,21560,10,30408,49812,E-Wallet,Bekasi,4.9,Dikirim,Marketplace
+555,2025-10-14,Edo,"Sweater Rajut",Fashion,5,71203,356015,20,47376,332188,COD,Jakarta,4.3,Selesai,"Mobile App"
+556,2025-10-16,Vina,"Blender Philips",Elektronik,2,2714820,5429650,10,10489,4897170,E-Wallet,Tangerang,4.5,Selesai,Website
+557,2025-10-06,Yusuf,"Serum Wajah",Kecantikan,4,178484,713936,5,49011,727250,"Kartu Kredit",Depok,4.3,Selesai,Marketplace
+558,2025-10-19,Budi,"Telur 1kg",Groceries,3,104767,314301,5,48094,346680,E-Wallet,Depok,3.6,Selesai,"Mobile App"
+559,2025-10-03,Dewi,"Celana Jeans",Fashion,1,286188,286188,10,43394,300963,Debit,Medan,5,Selesai,Marketplace
+560,2025-10-13,Lina,"Kemeja Putih",Fashion,5,52267,261335,15,19572,241707,COD,Surabaya,4.2,Selesai,"Mobile App"
+561,2025-10-20,Rifki,"Beras 5kg",Groceries,2,86699,173398,0,42553,215951,"Kartu Kredit",Bandung,4.9,Selesai,Website
+562,2025-10-03,Rahmat,"Celana Jeans",Fashion,1,202957,202957,0,40350,243307,E-Wallet,Surabaya,4.3,Selesai,Marketplace
+563,2025-10-11,Eka,"Kipas Angin Miyako",Elektronik,2,674657,1349310,0,42220,1391530,"Kartu Kredit",Medan,4.2,Dibatalkan,"Mobile App"
+564,2025-10-06,Rahmat,"Sabun Cuci",Groceries,4,58215,232860,15,18827,216758,"Kartu Kredit",Surabaya,4.3,Dikirim,Website
+565,2025-10-15,Maya,"Kaos Polos",Fashion,1,10275,10275,5,45274,55035.2,"Kartu Kredit",Depok,4.7,Selesai,Marketplace
+566,2025-10-01,Tia,"Speaker JBL",Elektronik,2,3197290,6394580,0,29988,6424570,"Kartu Kredit",Bandung,3.9,Selesai,"Mobile App"
+567,2025-10-05,Vina,"iPhone 15",Elektronik,4,14810900,59243400,5,47745,56329000,COD,Tangerang,3.7,Dikirim,Website
+568,2025-10-04,Miko,"Blender Philips",Elektronik,5,9204460,46022300,15,20804,39139700,"Kartu Kredit",Medan,3.6,Selesai,Website
+569,2025-10-04,Rifki,"Serum Wajah",Kecantikan,3,164289,492867,0,11686,504553,COD,Bandung,4.9,Selesai,"Mobile App"
+570,2025-10-22,Ridwan,"Laptop Asus",Elektronik,5,9894970,49474900,5,30784,47031900,COD,Bekasi,3.6,Pending,Website
+571,2025-10-12,Desi,"Susu UHT 1L",Groceries,2,48248,96496,5,15606,107277,Debit,Jakarta,4.6,Selesai,"Mobile App"
+572,2025-10-22,Fani,"Telur 1kg",Groceries,4,39044,156176,5,33103,181470,E-Wallet,Depok,3.7,Selesai,"Mobile App"
+573,2025-10-27,Rara,"Telur 1kg",Groceries,2,169799,339598,5,11816,334434,"Kartu Kredit",Depok,4.9,Selesai,Website
+574,2025-10-12,Putra,"Susu UHT 1L",Groceries,2,54627,109254,0,21135,130389,COD,Bali,4.3,Selesai,Marketplace
+575,2025-10-02,Putra,"Kemeja Putih",Fashion,3,148108,444324,5,19556,441664,E-Wallet,Bandung,4.4,Selesai,"Mobile App"
+576,2025-10-29,Desi,"Headset Sony",Elektronik,2,13013900,26027800,0,46907,26074700,Debit,Medan,4.8,Selesai,Marketplace
+577,2025-10-13,Vina,"Speaker JBL",Elektronik,2,7218390,14436800,5,23192,13738100,Debit,Tangerang,4.3,Selesai,Marketplace
+578,2025-10-19,Yusuf,"Tas Kulit",Fashion,5,61367,306835,10,39896,316048,E-Wallet,Surabaya,4,Selesai,"Mobile App"
+579,2025-10-10,Rina,"Tas Kulit",Fashion,3,250089,750267,0,32278,782545,Debit,Bali,4.7,Selesai,Website
+580,2025-10-05,Mega,"Pasta Gigi",Groceries,2,12414,24828,15,19045,40148.8,"Kartu Kredit",Depok,3.9,Dikirim,Marketplace
+581,2025-10-11,Miko,"Kopi Bubuk 1kg",Groceries,5,291866,1459330,10,39165,1352560,Debit,Tangerang,4.3,Selesai,Website
+582,2025-10-08,Rifki,"iPhone 15",Elektronik,3,8274340,24823000,10,41401,22382100,Debit,Bali,4.1,Selesai,"Mobile App"
+583,2025-10-07,Ridwan,"Smartwatch Xiaomi",Elektronik,3,3031500,9094510,5,11664,8651440,COD,Medan,4.5,Selesai,"Mobile App"
+584,2025-10-12,Agus,"Kopi Bubuk 1kg",Groceries,2,95490,190980,0,41649,232629,COD,Bandung,4.3,Selesai,"Mobile App"
+585,2025-10-03,Dewanto,"Kipas Angin Miyako",Elektronik,5,2141160,10705800,0,24997,10730800,Debit,Tangerang,3.8,Selesai,"Mobile App"
+586,2025-10-11,Gina,"Sweater Rajut",Fashion,3,266971,800913,10,35919,756741,E-Wallet,Tangerang,4.2,Selesai,"Mobile App"
+587,2025-10-30,Bella,"Air Mineral 6L",Groceries,1,285047,285047,25,43613,257398,"Kartu Kredit",Bali,3.6,Selesai,Marketplace
+588,2025-10-08,Gina,"Telur 1kg",Groceries,5,288933,1444660,5,32752,1405180,COD,Depok,4.5,Selesai,Marketplace
+589,2025-10-22,Yusuf,"Parfum Dior",Kecantikan,5,235385,1176920,5,33385,1151460,"Kartu Kredit",Tangerang,3.8,Selesai,Website
+590,2025-10-29,Rahmat,"Telur 1kg",Groceries,3,102273,306819,0,10555,317374,COD,Surabaya,3.6,Selesai,"Mobile App"
+591,2025-10-29,Gina,"Tepung Terigu 1kg",Groceries,1,155436,155436,15,46281,178402,"Kartu Kredit",Bandung,4.1,Selesai,"Mobile App"
+592,2025-10-14,Tia,"Topi Baseball",Fashion,1,116525,116525,10,18373,123246,E-Wallet,Jakarta,4.5,Dikirim,Website
+593,2025-10-16,Rifki,"Kipas Angin Miyako",Elektronik,2,7007060,14014100,0,30073,14044200,E-Wallet,Medan,3.6,Dikirim,"Mobile App"
+594,2025-10-02,Budi,"Kipas Angin Miyako",Elektronik,2,6319900,12639800,20,25943,10137800,Debit,Depok,3.9,Selesai,"Mobile App"
+595,2025-10-25,Fani,"Kipas Angin Miyako",Elektronik,1,3592620,3592620,10,33558,3266920,"Kartu Kredit",Bekasi,4.3,Selesai,Website
+596,2025-10-02,Putri,"iPhone 15",Elektronik,3,8775490,26326500,0,35156,26361600,"Kartu Kredit",Depok,3.8,Selesai,Website
+597,2025-10-19,Nadia,"Parfum Dior",Kecantikan,4,292665,1170660,25,39202,917197,COD,Bali,3.8,Dikirim,"Mobile App"
+598,2025-10-01,Mega,"Sendal Adidas",Fashion,4,113977,455908,10,21983,432300,"Kartu Kredit",Bali,4.3,Selesai,"Mobile App"
+599,2025-10-04,Rahmat,"Telur 1kg",Groceries,3,95253,285759,5,12593,284064,COD,Depok,4.9,Dikirim,Marketplace
+600,2025-10-25,Adit,"Topi Baseball",Fashion,4,291429,1165720,0,32417,1198130,COD,Tangerang,4,Dikirim,"Mobile App"
+601,2025-10-19,Farah,"Smartwatch Xiaomi",Elektronik,1,8149370,8149370,0,28528,8177900,COD,Tangerang,3.9,Dikirim,"Mobile App"
+602,2025-10-14,Rina,"Headset Sony",Elektronik,1,14777900,14777900,0,23354,14801300,E-Wallet,Bekasi,4.9,Dikirim,Website
+603,2025-10-15,Maya,"Printer Canon",Elektronik,4,5017300,20069200,0,25885,20095100,Debit,Jakarta,4.3,Selesai,Website
+604,2025-10-16,Eka,"Sepatu Nike Air",Fashion,3,23996,71988,15,17312,78501.8,COD,Jakarta,3.8,Selesai,"Mobile App"
+605,2025-10-29,Fani,"iPhone 15",Elektronik,5,11172400,55861900,0,26206,55888100,COD,Depok,3.5,Selesai,Marketplace
+606,2025-10-15,Agus,"Shampo Pantene",Kecantikan,2,246719,493438,0,45411,538849,"Kartu Kredit",Bandung,4.9,Selesai,Marketplace
+607,2025-10-29,Eka,"iPhone 15",Elektronik,4,11062900,44251600,5,40966,42079900,E-Wallet,Bali,4.4,Selesai,Website
+608,2025-10-18,Sari,"Tas Kulit",Fashion,5,202741,1013700,10,44367,956702,"Kartu Kredit",Bandung,4.3,Selesai,Website
+609,2025-10-29,Putri,"Masker Naturgo",Kecantikan,2,143677,287354,10,34462,293081,COD,Bali,4.5,Selesai,"Mobile App"
+610,2025-10-29,Dina,"Headset Sony",Elektronik,1,8729110,8729110,10,16842,7873040,COD,Jakarta,4.8,Selesai,"Mobile App"
+611,2025-10-22,Tono,"Parfum Dior",Kecantikan,4,262974,1051900,0,24534,1076430,COD,Tangerang,4.9,Selesai,Website
+612,2025-10-19,Rizky,"Kaos Polos",Fashion,4,127134,508536,0,35598,544134,COD,Bali,4.4,Selesai,"Mobile App"
+613,2025-10-05,Tia,"Blender Philips",Elektronik,4,10618600,42474500,5,26520,40377300,Debit,Bandung,4,Selesai,"Mobile App"
+614,2025-10-08,Sari,"Jaket Hoodie",Fashion,1,30831,30831,0,45068,75899,"Kartu Kredit",Surabaya,3.6,Selesai,Website
+615,2025-10-26,Bayu,"Sepatu Nike Air",Fashion,4,99643,398572,0,10985,409557,"Kartu Kredit",Bekasi,3.5,Dibatalkan,Marketplace
+616,2025-10-14,Fajar,"Kamera Canon EOS",Elektronik,1,5159540,5159540,0,24658,5184200,COD,Tangerang,3.5,Selesai,"Mobile App"
+617,2025-10-31,Miko,"Tas Kulit",Fashion,2,114962,229924,0,27701,257625,COD,Depok,4.2,Selesai,Marketplace
+618,2025-10-26,Gina,"TV Samsung 43 Inch",Elektronik,2,3979270,7958550,15,16762,6781530,Debit,Depok,4.3,Selesai,"Mobile App"
+619,2025-10-29,Putri,"Beras 5kg",Groceries,5,57775,288875,5,44533,318964,"Kartu Kredit",Surabaya,4.5,Selesai,Website
+620,2025-10-12,Gina,"Sabun Muka Garnier",Kecantikan,3,201566,604698,20,39528,523286,"Kartu Kredit",Bandung,4.8,Selesai,Website
+621,2025-10-22,Ahmad,"Kopi Bubuk 1kg",Groceries,2,211178,422356,0,41038,463394,E-Wallet,Bali,3.8,Selesai,Marketplace
+622,2025-10-08,Siti,"Shampo Pantene",Kecantikan,1,287790,287790,15,31767,276388,Debit,Medan,4.4,Dikirim,Website
+623,2025-10-08,Miko,"Jaket Hoodie",Fashion,4,160761,643044,5,11225,622117,Debit,Jakarta,3.6,Selesai,Website
+624,2025-10-01,Nando,"Sendal Adidas",Fashion,4,102970,411880,15,41884,391982,COD,Bali,3.8,Dikirim,"Mobile App"
+625,2025-10-19,Rifki,"Lotion Vaseline",Kecantikan,5,69617,348085,0,14562,362647,Debit,Surabaya,3.8,Selesai,"Mobile App"
+626,2025-10-22,Rian,"Kipas Angin Miyako",Elektronik,2,9759710,19519400,15,38356,16629900,E-Wallet,Bekasi,3.5,Selesai,"Mobile App"
+627,2025-10-01,Putri,"Kopi Bubuk 1kg",Groceries,5,215897,1079480,5,49020,1074530,E-Wallet,Bandung,4,Selesai,Website
+628,2025-10-03,Mega,"Kaos Polos",Fashion,2,160276,320552,0,32154,352706,COD,Tangerang,5,Selesai,Marketplace
+629,2025-10-15,Asep,"Headset Sony",Elektronik,3,12097800,36293400,0,22522,36315900,E-Wallet,Tangerang,4.1,Selesai,"Mobile App"
+630,2025-10-15,Rifki,"Parfum Dior",Kecantikan,4,174790,699160,5,25873,690075,Debit,Tangerang,3.8,Dibatalkan,Website
+631,2025-10-22,Putri,"Bedak Maybelline",Kecantikan,1,299725,299725,0,30832,330557,COD,Tangerang,4.3,Selesai,"Mobile App"
+632,2025-10-21,Citra,"Parfum Dior",Kecantikan,5,73021,365105,10,12344,340938,COD,Depok,4,Selesai,"Mobile App"
+633,2025-10-15,Miko,"Laptop Asus",Elektronik,5,13512600,67562800,0,21197,67584000,"Kartu Kredit",Bandung,3.5,Selesai,"Mobile App"
+634,2025-10-24,Dina,"Parfum Dior",Kecantikan,3,76618,229854,0,13931,243785,E-Wallet,Bali,3.8,Dibatalkan,Website
+635,2025-10-02,Lina,"TV Samsung 43 Inch",Elektronik,5,7280200,36401000,25,49861,27350600,COD,Bali,4.6,Selesai,Website
+636,2025-10-03,Edo,"Printer Canon",Elektronik,5,13747800,68739200,5,11292,65313500,COD,Bali,4.8,Dikirim,Website
+637,2025-10-19,Anita,"Hair Dryer Philips",Kecantikan,2,16906,33812,0,27848,61660,E-Wallet,Bandung,4.4,Selesai,Website
+638,2025-10-02,Dina,"Telur 1kg",Groceries,3,146762,440286,10,33458,429715,E-Wallet,Bekasi,4.5,Selesai,Website
+639,2025-10-01,Dina,"Kemeja Putih",Fashion,2,82832,165664,0,31385,197049,COD,Medan,5,Dikirim,Marketplace
+640,2025-10-06,Maya,"Topi Baseball",Fashion,4,116385,465540,10,16329,435315,E-Wallet,Jakarta,4.7,Selesai,Website
+641,2025-10-12,Rina,"Headset Sony",Elektronik,1,14305100,14305100,15,13647,12173000,E-Wallet,Surabaya,4.5,Selesai,Website
+642,2025-10-26,Tono,"Parfum Dior",Kecantikan,3,200140,600420,0,18729,619149,COD,Tangerang,3.6,Dikirim,Website
+643,2025-10-22,Rizky,"Serum Wajah",Kecantikan,5,133430,667150,0,14023,681173,"Kartu Kredit",Surabaya,3.7,Selesai,Website
+644,2025-10-29,Hendra,"Pasta Gigi",Groceries,5,87810,439050,0,20139,459189,E-Wallet,Bekasi,4.5,Dibatalkan,"Mobile App"
+645,2025-10-06,Nando,"Eyeliner Revlon",Kecantikan,3,91766,275298,10,31534,279302,COD,Medan,4.5,Dikirim,"Mobile App"
+646,2025-10-12,Andi,"Sabun Muka Garnier",Kecantikan,3,278827,836481,10,26828,779661,COD,Medan,4,Dikirim,"Mobile App"
+647,2025-10-14,Fani,"Parfum Dior",Kecantikan,5,44337,221685,0,48078,269763,Debit,Bekasi,3.9,Dibatalkan,"Mobile App"
+648,2025-10-25,Wulan,"Bedak Maybelline",Kecantikan,5,256880,1284400,0,23444,1307840,E-Wallet,Bekasi,3.9,Selesai,Website
+649,2025-10-26,Edo,"Gula Pasir 1kg",Groceries,2,91600,183200,0,18905,202105,COD,Medan,4.1,Dikirim,"Mobile App"
+650,2025-10-11,Adit,"iPhone 15",Elektronik,3,10690200,32070700,5,13121,30480300,COD,Surabaya,3.8,Dikirim,Website
+651,2025-10-05,Gina,"Masker Naturgo",Kecantikan,4,53803,215212,10,40225,233916,E-Wallet,Surabaya,4.9,Selesai,"Mobile App"
+652,2025-10-05,Gina,"Tepung Terigu 1kg",Groceries,5,276761,1383800,5,18038,1332650,COD,Tangerang,3.6,Selesai,Website
+653,2025-10-27,Citra,"Kipas Angin Miyako",Elektronik,5,13835600,69178200,0,22814,69201000,"Kartu Kredit",Bandung,3.5,Selesai,Marketplace
+654,2025-10-23,Rifki,"Pasta Gigi",Groceries,4,142095,568380,15,16521,499644,E-Wallet,Surabaya,4,Selesai,"Mobile App"
+655,2025-10-15,Andi,"Kemeja Putih",Fashion,2,291135,582270,15,36193,531122,Debit,Tangerang,4.4,Selesai,Marketplace
+656,2025-10-10,Wulan,"iPhone 15",Elektronik,1,2327680,2327680,5,28396,2239690,E-Wallet,Tangerang,4.6,Dibatalkan,Website
+657,2025-10-13,Agus,"Kipas Angin Miyako",Elektronik,2,12547500,25094900,0,21300,25116200,Debit,Bandung,4.9,Selesai,Website
+658,2025-10-15,Maya,"iPhone 15",Elektronik,5,5180360,25901800,5,24629,24631300,E-Wallet,Medan,4.6,Selesai,Marketplace
+659,2025-10-05,Miko,"Air Mineral 6L",Groceries,5,277009,1385040,5,27712,1343500,Debit,Bandung,4.3,Dikirim,"Mobile App"
+660,2025-10-21,Tari,"Masker Naturgo",Kecantikan,4,184662,738648,5,16848,718564,"Kartu Kredit",Jakarta,3.8,Selesai,"Mobile App"
+661,2025-10-09,Rizky,"Celana Jeans",Fashion,4,251058,1004230,0,27440,1031670,Debit,Bali,4.4,Dikirim,Marketplace
+662,2025-10-05,Farah,"Kemeja Putih",Fashion,1,54300,54300,5,29187,80772,E-Wallet,Tangerang,4.2,Dikirim,"Mobile App"
+663,2025-10-25,Siti,"Air Mineral 6L",Groceries,2,138710,277420,10,43426,293104,E-Wallet,Bekasi,3.9,Dikirim,"Mobile App"
+664,2025-10-25,Fauzan,"Tas Kulit",Fashion,4,114827,459308,0,34845,494153,"Kartu Kredit",Surabaya,3.7,Dikirim,Marketplace
+665,2025-10-08,Budi,"Lipstik Wardah",Kecantikan,3,162896,488688,0,21536,510224,E-Wallet,Bandung,4.3,Selesai,Website
+666,2025-10-26,Agus,"Kamera Canon EOS",Elektronik,2,14595000,29190000,5,23383,27753900,"Kartu Kredit",Bandung,4.6,Selesai,"Mobile App"
+667,2025-10-21,Rara,"TV Samsung 43 Inch",Elektronik,5,13166200,65830800,0,14903,65845700,E-Wallet,Bekasi,4,Dibatalkan,Website
+668,2025-10-29,Nina,"Bedak Maybelline",Kecantikan,1,199002,199002,15,34899,204051,COD,Surabaya,4,Selesai,"Mobile App"
+669,2025-10-25,Edo,"Headset Sony",Elektronik,1,7104080,7104080,10,10995,6404670,Debit,Medan,4.3,Selesai,Marketplace
+670,2025-10-29,Budi,"Tepung Terigu 1kg",Groceries,3,79812,239436,15,45394,248915,Debit,Bekasi,3.9,Selesai,"Mobile App"
+671,2025-10-23,Sari,"Tepung Terigu 1kg",Groceries,5,40182,200910,0,22507,223417,COD,Jakarta,3.6,Dibatalkan,"Mobile App"
+672,2025-10-30,Asep,"Sabun Cuci",Groceries,4,179859,719436,5,11060,694524,"Kartu Kredit",Tangerang,4.7,Selesai,"Mobile App"
+673,2025-10-26,Bayu,"Blender Philips",Elektronik,3,9153360,27460100,10,21238,24735300,Debit,Depok,4.8,Selesai,Marketplace
+674,2025-10-06,Putri,"Air Mineral 6L",Groceries,5,43640,218200,5,40179,247469,"Kartu Kredit",Surabaya,4.9,Selesai,"Mobile App"
+675,2025-10-09,Fajar,"Smartwatch Xiaomi",Elektronik,5,13322200,66611100,0,16391,66627500,Debit,Jakarta,3.7,Selesai,"Mobile App"
+676,2025-10-12,Farah,"Laptop Asus",Elektronik,4,2919150,11676600,15,27485,9952580,COD,Surabaya,3.7,Selesai,"Mobile App"
+677,2025-10-01,Nando,"Jam Tangan Casio",Fashion,4,85196,340784,20,38583,311210,COD,Bekasi,4,Selesai,Website
+678,2025-10-21,Vina,"Celana Jeans",Fashion,4,176370,705480,15,37073,636731,Debit,Bekasi,4,Dikirim,"Mobile App"
+679,2025-10-03,Nina,"Laptop Asus",Elektronik,4,1936930,7747740,0,38885,7786620,Debit,Bali,4,Dikirim,Marketplace
+680,2025-10-18,Rahmat,"Printer Canon",Elektronik,2,10247500,20495000,0,15594,20510600,E-Wallet,Medan,3.9,Selesai,"Mobile App"
+681,2025-10-01,Vina,"Susu UHT 1L",Groceries,2,24326,48652,0,31161,79813,E-Wallet,Surabaya,4.1,Selesai,Website
+682,2025-10-23,Edo,"iPhone 15",Elektronik,5,6872160,34360800,10,35497,30960200,COD,Depok,4,Dikirim,"Mobile App"
+683,2025-10-24,Rahmat,"Hair Dryer Philips",Kecantikan,4,229506,918024,15,47785,828105,"Kartu Kredit",Jakarta,3.9,Dibatalkan,Website
+684,2025-10-22,Putra,"iPhone 15",Elektronik,4,8459090,33836400,0,40937,33877300,Debit,Jakarta,4.6,Selesai,Website
+685,2025-10-31,Maya,"Sepatu Nike Air",Fashion,5,112562,562810,5,39024,573694,E-Wallet,Medan,4.9,Selesai,"Mobile App"
+686,2025-10-24,Rian,"Sabun Cuci",Groceries,4,63893,255572,0,41031,296603,Debit,Medan,4,Dikirim,Marketplace
+687,2025-10-10,Rian,"Air Mineral 6L",Groceries,3,242221,726663,20,43388,624718,Debit,Tangerang,4.3,Selesai,Website
+688,2025-10-06,Hendra,"Lotion Vaseline",Kecantikan,2,74174,148348,5,20397,161328,"Kartu Kredit",Bandung,4.5,Selesai,Marketplace
+689,2025-10-11,Budi,"Jam Tangan Casio",Fashion,3,88918,266754,0,30218,296972,E-Wallet,Bali,3.6,Dikirim,Marketplace
+690,2025-10-12,Lina,"Bedak Maybelline",Kecantikan,4,111568,446272,0,46093,492365,Debit,Bekasi,4.3,Pending,"Mobile App"
+691,2025-10-28,Hendra,"Jaket Hoodie",Fashion,2,135997,271994,0,15639,287633,Debit,Bandung,4.5,Selesai,Marketplace
+692,2025-10-07,Tia,"Sweater Rajut",Fashion,1,68045,68045,5,14933,79575.8,E-Wallet,Bekasi,4.5,Dikirim,Website
+693,2025-10-19,Rian,"Sendal Adidas",Fashion,3,167084,501252,0,36418,537670,COD,Bali,4.1,Selesai,Website
+694,2025-10-09,Ahmad,"Blender Philips",Elektronik,4,604936,2419740,0,42526,2462270,E-Wallet,Tangerang,3.8,Selesai,Website
+695,2025-10-06,Tari,"TV Samsung 43 Inch",Elektronik,4,6270790,25083200,0,31648,25114800,Debit,Bekasi,3.9,Dikirim,"Mobile App"
+696,2025-10-27,Ridwan,"Minyak Goreng 2L",Groceries,2,58298,116596,5,38312,149078,Debit,Bali,3.7,Selesai,Website
+697,2025-10-25,Nadia,"Sweater Rajut",Fashion,1,140289,140289,0,34874,175163,E-Wallet,Surabaya,4.8,Selesai,"Mobile App"
+698,2025-10-07,Yusuf,"Kopi Bubuk 1kg",Groceries,3,136739,410217,0,35838,446055,E-Wallet,Tangerang,4.7,Pending,"Mobile App"
+699,2025-10-23,Tia,"Lotion Vaseline",Kecantikan,4,119730,478920,15,30168,437250,Debit,Bandung,4.9,Selesai,"Mobile App"
+700,2025-10-20,Asep,"Jam Tangan Casio",Fashion,3,281961,845883,0,43383,889266,E-Wallet,Bali,3.9,Selesai,Marketplace
+701,2025-10-11,Tono,"Pasta Gigi",Groceries,3,260214,780642,5,36064,777674,"Kartu Kredit",Bekasi,3.8,Selesai,"Mobile App"
+702,2025-10-16,Budi,"TV Samsung 43 Inch",Elektronik,3,11637500,34912600,10,22791,31444100,E-Wallet,Depok,4,Dikirim,"Mobile App"
+703,2025-10-12,Hendra,"Blender Philips",Elektronik,5,8221240,41106200,0,11451,41117700,Debit,Bali,3.6,Selesai,"Mobile App"
+704,2025-10-15,Putri,"Minyak Goreng 2L",Groceries,5,26358,131790,0,44831,176621,Debit,Bali,4,Dikirim,"Mobile App"
+705,2025-10-31,Ridwan,"Shampo Pantene",Kecantikan,4,95547,382188,0,21875,404063,E-Wallet,Surabaya,5,Selesai,"Mobile App"
+706,2025-10-12,Adit,"Speaker JBL",Elektronik,3,2235620,6706850,0,23399,6730250,COD,Jakarta,4.5,Selesai,"Mobile App"
+707,2025-10-28,Putri,"Kipas Angin Miyako",Elektronik,5,11365800,56828900,0,16537,56845500,Debit,Jakarta,3.7,Selesai,Marketplace
+708,2025-10-13,Dina,"Lotion Vaseline",Kecantikan,5,251140,1255700,5,17195,1210110,E-Wallet,Bekasi,3.9,Pending,Website
+709,2025-10-27,Yusuf,"Telur 1kg",Groceries,4,172233,688932,5,37882,692367,COD,Surabaya,4.9,Dikirim,Website
+710,2025-10-19,Citra,"Tas Kulit",Fashion,1,136920,136920,10,19147,142375,Debit,Bandung,4.4,Selesai,Website
+711,2025-10-22,Dewanto,"TV Samsung 43 Inch",Elektronik,5,9325350,46626700,0,45178,46671900,E-Wallet,Depok,4.9,Selesai,"Mobile App"
+712,2025-10-04,Nina,"iPhone 15",Elektronik,1,5584820,5584820,5,10698,5316280,COD,Bali,4.3,Dikirim,"Mobile App"
+713,2025-10-11,Andi,"Kemeja Putih",Fashion,4,215313,861252,5,21872,840061,COD,Surabaya,4.9,Selesai,Website
+714,2025-10-19,Bayu,"iPhone 15",Elektronik,3,5243080,15729300,0,26933,15756200,E-Wallet,Medan,3.6,Dibatalkan,"Mobile App"
+715,2025-10-03,Nadia,"Serum Wajah",Kecantikan,1,42950,42950,0,47790,90740,COD,Bandung,4.9,Selesai,"Mobile App"
+716,2025-10-14,Ridwan,"Air Mineral 6L",Groceries,4,148391,593564,10,10519,544727,COD,Surabaya,4.8,Dikirim,Website
+717,2025-10-15,Citra,"Blender Philips",Elektronik,5,12614100,63070700,5,33380,59950600,"Kartu Kredit",Surabaya,4.4,Selesai,"Mobile App"
+718,2025-10-14,Fani,"Eyeliner Revlon",Kecantikan,3,253545,760635,15,49716,696256,Debit,Tangerang,3.9,Dikirim,"Mobile App"
+719,2025-10-14,Lusi,"Kemeja Putih",Fashion,1,161012,161012,15,26616,163476,E-Wallet,Depok,3.9,Selesai,Marketplace
+720,2025-10-08,Andi,"Kemeja Putih",Fashion,1,59570,59570,0,27540,87110,E-Wallet,Surabaya,4.4,Selesai,Marketplace
+721,2025-10-13,Dewanto,"Kipas Angin Miyako",Elektronik,4,6906720,27626900,0,37387,27664300,"Kartu Kredit",Jakarta,3.9,Dikirim,Website
+722,2025-10-22,Tari,"Air Mineral 6L",Groceries,2,215188,430376,0,21319,451695,Debit,Bandung,4.5,Selesai,"Mobile App"
+723,2025-10-09,Wulan,"Sendal Adidas",Fashion,5,146896,734480,10,30318,691350,E-Wallet,Jakarta,3.9,Selesai,Marketplace
+724,2025-10-13,Farah,"Parfum Dior",Kecantikan,3,157472,472416,5,30703,479498,COD,Medan,3.8,Selesai,Website
+725,2025-10-27,Ridwan,"Blender Philips",Elektronik,4,812246,3248980,5,40507,3127040,COD,Jakarta,3.5,Selesai,Marketplace
+726,2025-10-19,Bayu,"Printer Canon",Elektronik,2,6998740,13997500,0,10068,14007600,E-Wallet,Bekasi,5,Selesai,Website
+727,2025-10-28,Fajar,"Kamera Canon EOS",Elektronik,4,6280510,25122100,5,36574,23902500,E-Wallet,Surabaya,3.6,Selesai,"Mobile App"
+728,2025-10-05,Siti,"iPhone 15",Elektronik,5,8899370,44496900,20,15780,35613300,COD,Depok,3.8,Selesai,"Mobile App"
+729,2025-10-06,Nando,"Gula Pasir 1kg",Groceries,1,202849,202849,5,25004,217711,COD,Medan,4.5,Selesai,Marketplace
+730,2025-10-20,Dewi,"Sweater Rajut",Fashion,4,275290,1101160,20,11007,891935,"Kartu Kredit",Surabaya,3.5,Dibatalkan,"Mobile App"
+731,2025-10-20,Dewanto,"Jam Tangan Casio",Fashion,3,181440,544320,0,11290,555610,Debit,Bekasi,4,Selesai,"Mobile App"
+732,2025-10-04,Budi,"Susu UHT 1L",Groceries,4,229313,917252,20,25260,759062,E-Wallet,Tangerang,4.8,Selesai,"Mobile App"
+733,2025-10-27,Mega,"Pasta Gigi",Groceries,1,50823,50823,10,26184,71924.7,COD,Bali,4.1,Pending,Website
+734,2025-10-16,Dewi,"Smartwatch Xiaomi",Elektronik,4,13553500,54214100,0,24715,54238800,"Kartu Kredit",Depok,4.8,Dikirim,"Mobile App"
+735,2025-10-06,Andi,"Kopi Bubuk 1kg",Groceries,5,45772,228860,0,15106,243966,"Kartu Kredit",Bali,4.9,Selesai,"Mobile App"
+736,2025-10-07,Nadia,"Blender Philips",Elektronik,3,14433600,43300800,10,31946,39002700,COD,Bali,4.9,Selesai,"Mobile App"
+737,2025-10-07,Dina,"Topi Baseball",Fashion,5,93475,467375,0,48620,515995,Debit,Bekasi,3.8,Selesai,"Mobile App"
+738,2025-10-08,Edo,"Lotion Vaseline",Kecantikan,4,198925,795700,0,49644,845344,E-Wallet,Depok,4.5,Dikirim,"Mobile App"
+739,2025-10-19,Ridwan,"Masker Naturgo",Kecantikan,3,73704,221112,0,20741,241853,"Kartu Kredit",Surabaya,3.5,Selesai,"Mobile App"
+740,2025-10-29,Maya,"Pasta Gigi",Groceries,1,64815,64815,0,37255,102070,"Kartu Kredit",Depok,4.2,Selesai,Marketplace
+741,2025-10-24,Maya,"Sabun Muka Garnier",Kecantikan,5,179306,896530,15,43914,805964,COD,Jakarta,5,Selesai,Website
+742,2025-10-05,Ahmad,"Kipas Angin Miyako",Elektronik,3,11026800,33080400,0,21130,33101600,"Kartu Kredit",Depok,4.8,Selesai,"Mobile App"
+743,2025-10-06,Putra,"Sweater Rajut",Fashion,5,117173,585865,0,22728,608593,COD,Tangerang,4.7,Selesai,"Mobile App"
+744,2025-10-03,Yusuf,"Kaos Polos",Fashion,2,190115,380230,0,20487,400717,E-Wallet,Jakarta,4.3,Selesai,"Mobile App"
+745,2025-10-04,Tari,"Minyak Goreng 2L",Groceries,5,260904,1304520,0,41713,1346230,E-Wallet,Bandung,4.9,Selesai,Website
+746,2025-10-19,Lusi,"Printer Canon",Elektronik,5,9074950,45374700,0,29777,45404500,COD,Bekasi,3.9,Selesai,"Mobile App"
+747,2025-10-02,Fajar,"Kipas Angin Miyako",Elektronik,4,12461900,49847500,25,34285,37419900,"Kartu Kredit",Bekasi,3.8,Dikirim,Website
+748,2025-10-20,Bella,"Jam Tangan Casio",Fashion,3,26377,79131,5,48183,123357,E-Wallet,Tangerang,5,Dikirim,Website
+749,2025-10-15,Miko,"Sabun Cuci",Groceries,3,77935,233805,5,45577,267692,COD,Jakarta,4.9,Pending,"Mobile App"
+750,2025-10-14,Wulan,"Minyak Goreng 2L",Groceries,2,45834,91668,10,19021,101522,Debit,Jakarta,4.6,Selesai,"Mobile App"
+751,2025-10-03,Nina,"Sepatu Nike Air",Fashion,1,230949,230949,5,15064,234466,E-Wallet,Bali,4.9,Selesai,Website
+752,2025-10-23,Desi,"Shampo Pantene",Kecantikan,4,117267,469068,25,38044,389845,Debit,Jakarta,3.6,Selesai,Marketplace
+753,2025-10-11,Tari,"Eyeliner Revlon",Kecantikan,3,247624,742872,15,11825,643266,Debit,Depok,3.7,Selesai,Marketplace
+754,2025-10-06,Nadia,"Kipas Angin Miyako",Elektronik,5,7924430,39622200,0,16740,39638900,"Kartu Kredit",Jakarta,4.4,Selesai,Marketplace
+755,2025-10-13,Budi,"Eyeliner Revlon",Kecantikan,3,122098,366294,10,42114,371779,COD,Medan,4.6,Selesai,Website
+756,2025-10-10,Rara,"Kopi Bubuk 1kg",Groceries,4,197173,788692,0,31025,819717,E-Wallet,Jakarta,3.9,Selesai,Website
+757,2025-10-31,Hendra,"Jam Tangan Casio",Fashion,5,139562,697810,0,34216,732026,COD,Bali,4.6,Dikirim,"Mobile App"
+758,2025-10-02,Siti,"Jaket Hoodie",Fashion,5,186057,930285,5,28267,912038,COD,Depok,4.4,Selesai,"Mobile App"
+759,2025-10-29,Yoga,"Shampo Pantene",Kecantikan,3,52653,157959,5,28072,178133,"Kartu Kredit",Bandung,4.4,Selesai,"Mobile App"
+760,2025-10-01,Mega,"Masker Naturgo",Kecantikan,1,62925,62925,15,17091,70577.2,Debit,Surabaya,4.9,Selesai,Website
+761,2025-10-24,Nina,"Blender Philips",Elektronik,2,4688850,9377700,0,26408,9404100,"Kartu Kredit",Bekasi,4.5,Selesai,"Mobile App"
+762,2025-10-07,Asep,"Blender Philips",Elektronik,3,11336300,34009000,20,12015,27219200,"Kartu Kredit",Bali,4.4,Selesai,Marketplace
+763,2025-10-09,Rifki,"Serum Wajah",Kecantikan,1,55614,55614,0,24778,80392,COD,Bandung,3.7,Dikirim,"Mobile App"
+764,2025-10-12,Putri,"Speaker JBL",Elektronik,2,13456400,26912900,5,47535,25614800,E-Wallet,Bali,4.2,Selesai,"Mobile App"
+765,2025-10-28,Bayu,"Sendal Adidas",Fashion,3,148205,444615,10,37193,437346,E-Wallet,Tangerang,3.9,Selesai,Website
+766,2025-10-17,Agus,"Kemeja Putih",Fashion,2,78234,156468,0,48566,205034,"Kartu Kredit",Bekasi,4.1,Selesai,"Mobile App"
+767,2025-10-14,Dewanto,"Laptop Asus",Elektronik,5,8244420,41222100,15,32001,35070800,E-Wallet,Jakarta,4.7,Selesai,"Mobile App"
+768,2025-10-23,Eka,"Minyak Goreng 2L",Groceries,5,38031,190155,0,45119,235274,COD,Bekasi,4.6,Dikirim,Website
+769,2025-10-23,Rifki,"Tas Kulit",Fashion,4,218032,872128,15,17529,758838,"Kartu Kredit",Tangerang,4.1,Selesai,"Mobile App"
+770,2025-10-07,Eka,"Laptop Asus",Elektronik,5,11351700,56758700,20,16662,45423600,COD,Jakarta,4.2,Selesai,Website
+771,2025-10-23,Andi,"Tepung Terigu 1kg",Groceries,4,281274,1125100,0,25173,1150270,E-Wallet,Depok,4.5,Selesai,"Mobile App"
+772,2025-10-05,Wulan,"Masker Naturgo",Kecantikan,1,238325,238325,0,36714,275039,"Kartu Kredit",Tangerang,4.7,Selesai,"Mobile App"
+773,2025-10-30,Tono,"Celana Jeans",Fashion,2,111114,222228,0,35489,257717,"Kartu Kredit",Medan,4.6,Selesai,"Mobile App"
+774,2025-10-26,Yoga,"Kipas Angin Miyako",Elektronik,5,4728470,23642400,0,20704,23663100,Debit,Tangerang,4.1,Selesai,Website
+775,2025-10-30,Dewanto,"Sabun Cuci",Groceries,4,280065,1120260,0,27274,1147530,Debit,Depok,3.6,Dikirim,Website
+776,2025-10-17,Citra,"Minyak Goreng 2L",Groceries,4,236551,946204,5,11061,909955,COD,Depok,4.5,Selesai,Marketplace
+777,2025-10-19,Asep,"Masker Naturgo",Kecantikan,5,99893,499465,0,12491,511956,"Kartu Kredit",Bali,4.4,Selesai,"Mobile App"
+778,2025-10-25,Dewi,"Headset Sony",Elektronik,5,1156730,5783660,5,35230,5529710,Debit,Bekasi,5,Selesai,Marketplace
+779,2025-10-08,Dewanto,"Telur 1kg",Groceries,5,93377,466885,0,15330,482215,E-Wallet,Tangerang,3.8,Dikirim,Website
+780,2025-10-25,Fani,"Sendal Adidas",Fashion,2,50241,100482,0,12223,112705,E-Wallet,Bekasi,3.6,Selesai,"Mobile App"
+781,2025-10-28,Hendra,"Eyeliner Revlon",Kecantikan,1,166755,166755,25,41320,166386,Debit,Bali,4.7,Selesai,"Mobile App"
+782,2025-10-13,Putri,"Parfum Dior",Kecantikan,3,159857,479571,15,13340,420975,Debit,Bali,4.2,Selesai,"Mobile App"
+783,2025-10-09,Adit,"Beras 5kg",Groceries,1,109318,109318,5,37974,141826,COD,Depok,3.9,Selesai,Marketplace
+784,2025-10-09,Sari,"Sweater Rajut",Fashion,3,216562,649686,0,45959,695645,COD,Bekasi,4.9,Dibatalkan,"Mobile App"
+785,2025-10-15,Arif,"iPhone 15",Elektronik,2,5545660,11091300,20,42577,8915640,Debit,Jakarta,4.4,Dikirim,"Mobile App"
+786,2025-10-21,Rian,"Sabun Muka Garnier",Kecantikan,4,165597,662388,5,34051,663320,E-Wallet,Bekasi,4.2,Selesai,"Mobile App"
+787,2025-10-26,Rara,"Gula Pasir 1kg",Groceries,3,128243,384729,0,14078,398807,E-Wallet,Medan,4.3,Selesai,Marketplace
+788,2025-10-15,Yusuf,"Masker Naturgo",Kecantikan,1,287348,287348,0,36592,323940,COD,Depok,4.2,Selesai,"Mobile App"
+789,2025-10-24,Adit,"Tas Kulit",Fashion,1,290103,290103,15,28131,274719,E-Wallet,Bekasi,3.6,Selesai,Marketplace
+790,2025-10-17,Asep,"Lipstik Wardah",Kecantikan,2,47687,95374,0,14591,109965,E-Wallet,Jakarta,4.9,Selesai,"Mobile App"
+791,2025-10-04,Rahmat,"Masker Naturgo",Kecantikan,2,251592,503184,0,15273,518457,"Kartu Kredit",Bekasi,3.7,Selesai,Marketplace
+792,2025-10-18,Lusi,"Headset Sony",Elektronik,1,6236850,6236850,10,24305,5637470,COD,Medan,4.6,Selesai,Website
+793,2025-10-12,Yoga,"Topi Baseball",Fashion,2,66353,132706,0,13547,146253,E-Wallet,Jakarta,3.6,Selesai,Website
+794,2025-10-26,Dewanto,"Masker Naturgo",Kecantikan,4,169577,678308,15,40672,617234,COD,Bekasi,4,Selesai,"Mobile App"
+795,2025-10-11,Rifki,"Sendal Adidas",Fashion,4,22634,90536,15,43169,120125,E-Wallet,Depok,4.9,Selesai,"Mobile App"
+796,2025-10-15,Eka,"Tepung Terigu 1kg",Groceries,2,115023,230046,20,39570,223607,COD,Surabaya,4.8,Selesai,Website
+797,2025-10-24,Lina,"Beras 5kg",Groceries,4,284898,1139590,10,23949,1049580,E-Wallet,Depok,4.4,Selesai,Website
+798,2025-10-31,Vina,"Gula Pasir 1kg",Groceries,4,112329,449316,15,31336,413255,COD,Tangerang,4.6,Selesai,Website
+799,2025-10-31,Rahmat,"Sabun Cuci",Groceries,2,196032,392064,10,18777,371635,"Kartu Kredit",Bekasi,4.5,Selesai,Marketplace
+800,2025-10-05,Wulan,"Shampo Pantene",Kecantikan,2,153878,307756,5,26383,318751,COD,Surabaya,4.3,Selesai,"Mobile App"
+801,2025-10-02,Rina,"Kopi Bubuk 1kg",Groceries,5,239908,1199540,0,19198,1218740,E-Wallet,Bekasi,3.9,Selesai,"Mobile App"
+802,2025-10-11,Tono,"Kaos Polos",Fashion,5,35399,176995,5,27324,195469,E-Wallet,Tangerang,3.9,Dibatalkan,Website
+803,2025-10-04,Bella,"Jam Tangan Casio",Fashion,4,211553,846212,0,49084,895296,Debit,Bandung,4.3,Selesai,"Mobile App"
+804,2025-10-08,Fajar,"Sweater Rajut",Fashion,2,30737,61474,0,41268,102742,Debit,Jakarta,3.8,Selesai,Marketplace
+805,2025-10-08,Mega,"Parfum Dior",Kecantikan,4,232164,928656,0,26150,954806,E-Wallet,Jakarta,4.9,Selesai,"Mobile App"
+806,2025-10-11,Dina,"Sepatu Nike Air",Fashion,1,90052,90052,20,27259,99300.6,E-Wallet,Surabaya,3.7,Selesai,Website
+807,2025-10-02,Dewi,"Masker Naturgo",Kecantikan,3,211659,634977,0,28983,663960,COD,Tangerang,4.3,Selesai,"Mobile App"
+808,2025-10-20,Putra,"Kamera Canon EOS",Elektronik,2,5515460,11030900,0,27485,11058400,COD,Tangerang,4.5,Selesai,Website
+809,2025-10-17,Nando,"Hair Dryer Philips",Kecantikan,3,83793,251379,5,15450,254260,COD,Depok,3.8,Selesai,"Mobile App"
+810,2025-10-11,Yusuf,"Sabun Cuci",Groceries,3,119808,359424,5,44477,385930,"Kartu Kredit",Surabaya,4.2,Selesai,"Mobile App"
+811,2025-10-18,Rahmat,"Susu UHT 1L",Groceries,4,299317,1197270,10,26724,1104270,COD,Bandung,3.7,Selesai,Website
+812,2025-10-03,Edo,"Kaos Polos",Fashion,2,295276,590552,0,23751,614303,E-Wallet,Depok,4.5,Selesai,"Mobile App"
+813,2025-10-31,Tono,"Sendal Adidas",Fashion,1,234786,234786,0,30825,265611,"Kartu Kredit",Medan,3.8,Pending,Website
+814,2025-10-27,Arif,"Tepung Terigu 1kg",Groceries,4,233344,933376,0,11307,944683,E-Wallet,Tangerang,4.1,Pending,Website
+815,2025-10-21,Vina,"Topi Baseball",Fashion,1,159578,159578,0,48321,207899,E-Wallet,Jakarta,4,Selesai,"Mobile App"
+816,2025-10-07,Ahmad,"Printer Canon",Elektronik,4,3656620,14626500,0,42395,14668900,Debit,Medan,3.6,Selesai,"Mobile App"
+817,2025-10-10,Sari,"Serum Wajah",Kecantikan,1,223978,223978,10,39386,240966,E-Wallet,Medan,4.4,Selesai,Website
+818,2025-10-08,Tari,"Jaket Hoodie",Fashion,4,191474,765896,10,33269,722575,E-Wallet,Depok,4.3,Dikirim,"Mobile App"
+819,2025-10-13,Lina,"Pasta Gigi",Groceries,1,177540,177540,10,12613,172399,"Kartu Kredit",Bali,4.2,Selesai,"Mobile App"
+820,2025-10-18,Mega,"Lipstik Wardah",Kecantikan,2,21381,42762,5,15365,55988.9,"Kartu Kredit",Surabaya,3.9,Selesai,Marketplace
+821,2025-10-17,Eka,"Kaos Polos",Fashion,5,120011,600055,5,37817,607869,E-Wallet,Bekasi,4.5,Selesai,"Mobile App"
+822,2025-10-22,Bella,"Speaker JBL",Elektronik,2,4479550,8959100,0,40670,8999770,"Kartu Kredit",Tangerang,4.2,Dikirim,"Mobile App"
+823,2025-10-20,Dina,"Blender Philips",Elektronik,3,6694730,20084200,5,16694,19096700,"Kartu Kredit",Tangerang,4,Selesai,"Mobile App"
+824,2025-10-17,Tono,"TV Samsung 43 Inch",Elektronik,3,4831620,14494900,5,23418,13793500,COD,Tangerang,3.5,Selesai,Marketplace
+825,2025-10-31,Budi,"Eyeliner Revlon",Kecantikan,5,263262,1316310,0,33594,1349900,Debit,Jakarta,4.6,Selesai,Website
+826,2025-10-11,Nadia,"Smartwatch Xiaomi",Elektronik,2,762375,1524750,5,12860,1461370,COD,Medan,4.7,Selesai,Website
+827,2025-10-06,Lina,"Headset Sony",Elektronik,2,8971120,17942200,10,32585,16180600,COD,Bali,4.7,Selesai,"Mobile App"
+828,2025-10-27,Desi,"Celana Jeans",Fashion,1,75362,75362,5,33141,104735,Debit,Jakarta,3.7,Dikirim,Website
+829,2025-10-03,Rian,"Masker Naturgo",Kecantikan,4,24796,99184,20,28437,107784,E-Wallet,Jakarta,3.8,Selesai,Website
+830,2025-10-17,Edo,"Minyak Goreng 2L",Groceries,5,151675,758375,5,48848,769304,"Kartu Kredit",Bekasi,4.9,Selesai,Website
+831,2025-10-21,Rifki,"Sepatu Nike Air",Fashion,4,298613,1194450,5,30527,1165260,E-Wallet,Bali,4.4,Dikirim,"Mobile App"
+832,2025-10-06,Andi,"Tepung Terigu 1kg",Groceries,3,15774,47322,5,47603,92558.9,COD,Bandung,3.9,Selesai,Marketplace
+833,2025-10-22,Putri,"Minyak Goreng 2L",Groceries,1,295876,295876,5,44639,325721,Debit,Bekasi,3.8,Selesai,"Mobile App"
+834,2025-10-04,Anita,"Headset Sony",Elektronik,5,13552400,67762200,0,24911,67787100,Debit,Bekasi,4.9,Pending,"Mobile App"
+835,2025-10-19,Ridwan,"Printer Canon",Elektronik,1,12244700,12244700,10,27475,11047700,E-Wallet,Jakarta,4.6,Selesai,Website
+836,2025-10-13,Tono,"Sendal Adidas",Fashion,1,73098,73098,15,24894,87027.3,"Kartu Kredit",Bekasi,4,Selesai,Marketplace
+837,2025-10-27,Nadia,"Blender Philips",Elektronik,3,1634350,4903040,5,45972,4703860,E-Wallet,Depok,3.6,Selesai,Marketplace
+838,2025-10-18,Anita,"Printer Canon",Elektronik,2,14778600,29557200,15,47786,25171400,"Kartu Kredit",Bandung,4.3,Dikirim,"Mobile App"
+839,2025-10-05,Sari,"Laptop Asus",Elektronik,5,1677210,8386060,0,19569,8405620,E-Wallet,Bekasi,3.5,Pending,Website
+840,2025-10-13,Fani,"Sabun Muka Garnier",Kecantikan,2,162595,325190,10,47065,339736,COD,Tangerang,3.8,Selesai,Website
+841,2025-10-28,Tono,"Laptop Asus",Elektronik,4,1594930,6379730,15,25829,5448600,Debit,Depok,3.5,Dikirim,"Mobile App"
+842,2025-10-30,Adit,"Parfum Dior",Kecantikan,2,181523,363046,0,43914,406960,"Kartu Kredit",Medan,4.5,Selesai,"Mobile App"
+843,2025-10-30,Miko,"TV Samsung 43 Inch",Elektronik,1,11308100,11308100,25,29040,8510080,COD,Medan,4.7,Selesai,Website
+844,2025-10-08,Bella,"Minyak Goreng 2L",Groceries,3,68837,206511,0,41334,247845,E-Wallet,Tangerang,4.1,Selesai,Marketplace
+845,2025-10-13,Putri,"Topi Baseball",Fashion,3,211423,634269,0,47584,681853,Debit,Jakarta,4.2,Selesai,Website
+846,2025-10-01,Tari,"Serum Wajah",Kecantikan,4,19335,77340,0,12455,89795,COD,Surabaya,4.9,Selesai,Marketplace
+847,2025-10-02,Vina,"Bedak Maybelline",Kecantikan,1,252934,252934,25,43153,232854,COD,Bali,3.7,Selesai,"Mobile App"
+848,2025-10-07,Maya,"Hair Dryer Philips",Kecantikan,1,132872,132872,0,28413,161285,"Kartu Kredit",Medan,4.4,Selesai,Marketplace
+849,2025-10-13,Arif,"Smartwatch Xiaomi",Elektronik,1,8035600,8035600,0,48666,8084260,Debit,Jakarta,4.7,Selesai,Marketplace
+850,2025-10-10,Dina,"Speaker JBL",Elektronik,4,8461160,33844700,5,16200,32168600,Debit,Bandung,4.1,Pending,Website
+851,2025-10-22,Andi,"Sweater Rajut",Fashion,1,270893,270893,10,29083,272887,"Kartu Kredit",Jakarta,3.9,Selesai,Website
+852,2025-10-06,Sari,"Masker Naturgo",Kecantikan,4,44699,178796,0,49777,228573,E-Wallet,Depok,4.3,Dikirim,"Mobile App"
+853,2025-10-02,Siti,"Smartwatch Xiaomi",Elektronik,5,12710500,63552700,0,21138,63573800,E-Wallet,Bandung,4.7,Selesai,"Mobile App"
+854,2025-10-24,Ahmad,"Printer Canon",Elektronik,5,6629300,33146500,0,49909,33196400,E-Wallet,Surabaya,4.8,Selesai,Website
+855,2025-10-31,Miko,"Susu UHT 1L",Groceries,2,52861,105722,25,17528,96819.5,E-Wallet,Medan,4.7,Selesai,Website
+856,2025-10-30,Gina,"Sabun Muka Garnier",Kecantikan,5,37097,185485,10,34578,201514,E-Wallet,Bali,5,Dikirim,Website
+857,2025-10-21,Agus,"Smartwatch Xiaomi",Elektronik,5,13983300,69916400,5,15969,66436600,"Kartu Kredit",Tangerang,3.6,Selesai,"Mobile App"
+858,2025-10-02,Budi,"Jaket Hoodie",Fashion,2,167880,335760,0,17301,353061,Debit,Tangerang,4.3,Selesai,"Mobile App"
+859,2025-10-31,Ridwan,"TV Samsung 43 Inch",Elektronik,4,10972600,43890400,0,10914,43901300,"Kartu Kredit",Surabaya,4,Selesai,"Mobile App"
+860,2025-10-19,Tono,"Lotion Vaseline",Kecantikan,3,270345,811035,10,36646,766578,COD,Bekasi,4.4,Selesai,Marketplace
+861,2025-10-22,Edo,"Tepung Terigu 1kg",Groceries,5,160076,800380,0,33329,833709,"Kartu Kredit",Depok,3.7,Dibatalkan,Website
+862,2025-10-27,Maya,"Sabun Muka Garnier",Kecantikan,5,251900,1259500,0,43959,1303460,E-Wallet,Bandung,3.9,Selesai,"Mobile App"
+863,2025-10-06,Fani,"Celana Jeans",Fashion,3,248507,745521,25,43841,602982,E-Wallet,Jakarta,4.7,Selesai,Website
+864,2025-10-08,Rahmat,"TV Samsung 43 Inch",Elektronik,4,3052100,12208400,10,25841,11013400,"Kartu Kredit",Medan,4.7,Selesai,Marketplace
+865,2025-10-05,Citra,"Laptop Asus",Elektronik,1,1247830,1247830,5,30465,1215900,E-Wallet,Bali,3.6,Selesai,Website
+866,2025-10-17,Tono,"Kaos Polos",Fashion,5,67619,338095,15,10564,297945,Debit,Bekasi,4,Selesai,Marketplace
+867,2025-10-31,Andi,"Lipstik Wardah",Kecantikan,2,85548,171096,10,19118,173104,Debit,Bekasi,3.6,Dikirim,"Mobile App"
+868,2025-10-21,Dina,"Tepung Terigu 1kg",Groceries,3,298311,894933,0,48023,942956,"Kartu Kredit",Surabaya,4.9,Selesai,"Mobile App"
+869,2025-10-23,Tari,"Sendal Adidas",Fashion,2,39895,79790,0,33151,112941,E-Wallet,Surabaya,4.2,Selesai,Website
+870,2025-10-27,Bella,"Lotion Vaseline",Kecantikan,5,140250,701250,0,20432,721682,COD,Bali,4.7,Selesai,"Mobile App"
+871,2025-10-25,Farah,"Tas Kulit",Fashion,2,259133,518266,0,31408,549674,COD,Jakarta,4.8,Dikirim,"Mobile App"
+872,2025-10-21,Eka,"Telur 1kg",Groceries,3,124743,374229,10,41400,378206,"Kartu Kredit",Bekasi,4.4,Selesai,"Mobile App"
+873,2025-10-05,Tia,"Parfum Dior",Kecantikan,5,268939,1344700,15,40489,1183480,Debit,Tangerang,3.5,Pending,Website
+874,2025-10-05,Gina,"Kaos Polos",Fashion,5,294501,1472500,0,35464,1507970,E-Wallet,Bali,3.7,Selesai,"Mobile App"
+875,2025-10-25,Wulan,"Minyak Goreng 2L",Groceries,3,26043,78129,0,30409,108538,E-Wallet,Tangerang,4.1,Selesai,"Mobile App"
+876,2025-10-29,Sari,"Blender Philips",Elektronik,4,2369950,9479790,0,17741,9497530,E-Wallet,Bali,4.8,Dibatalkan,Website
+877,2025-10-28,Maya,"Telur 1kg",Groceries,2,194381,388762,0,16960,405722,Debit,Bekasi,3.8,Selesai,"Mobile App"
+878,2025-10-20,Mega,"Minyak Goreng 2L",Groceries,5,207897,1039480,25,44323,823937,COD,Bali,3.6,Dikirim,Marketplace
+879,2025-10-09,Rina,"Tas Kulit",Fashion,2,78427,156854,5,29811,178822,"Kartu Kredit",Depok,3.8,Selesai,"Mobile App"
+880,2025-10-05,Mega,"Laptop Asus",Elektronik,3,4676360,14029100,0,13528,14042600,Debit,Medan,4.8,Pending,"Mobile App"
+881,2025-10-20,Miko,"Masker Naturgo",Kecantikan,1,141823,141823,5,31108,165840,Debit,Jakarta,4.2,Selesai,Website
+882,2025-10-12,Miko,"Masker Naturgo",Kecantikan,3,267259,801777,10,38894,760493,Debit,Surabaya,3.9,Selesai,Marketplace
+883,2025-10-09,Nadia,"Speaker JBL",Elektronik,4,2514570,10058300,10,25875,9078330,E-Wallet,Bekasi,4.6,Dikirim,Website
+884,2025-10-27,Mega,"Air Mineral 6L",Groceries,3,81723,245169,5,12960,245871,Debit,Depok,3.9,Selesai,Website
+885,2025-10-12,Rifki,"Shampo Pantene",Kecantikan,3,216285,648855,5,11607,628019,"Kartu Kredit",Bekasi,3.7,Dibatalkan,"Mobile App"
+886,2025-10-12,Asep,"Sweater Rajut",Fashion,2,241836,483672,5,30277,489765,Debit,Medan,4.4,Selesai,"Mobile App"
+887,2025-10-18,Nadia,"Kemeja Putih",Fashion,1,159731,159731,0,28904,188635,"Kartu Kredit",Surabaya,4.1,Selesai,"Mobile App"
+888,2025-10-30,Dewi,"Susu UHT 1L",Groceries,1,175251,175251,5,14609,181097,E-Wallet,Surabaya,4.3,Selesai,Marketplace
+889,2025-10-28,Ridwan,"Serum Wajah",Kecantikan,2,196894,393788,10,19881,374290,COD,Bekasi,4.8,Selesai,"Mobile App"
+890,2025-10-26,Fauzan,"Serum Wajah",Kecantikan,1,29890,29890,0,42472,72362,"Kartu Kredit",Depok,3.9,Selesai,Website
+891,2025-10-20,Andi,"TV Samsung 43 Inch",Elektronik,2,6534350,13068700,0,24647,13093300,COD,Medan,3.6,Dikirim,"Mobile App"
+892,2025-10-16,Rizky,"Beras 5kg",Groceries,3,91622,274866,10,41486,288865,Debit,Bandung,3.7,Dikirim,"Mobile App"
+893,2025-10-28,Agus,"Sabun Muka Garnier",Kecantikan,3,92420,277260,0,23812,301072,E-Wallet,Bandung,4.2,Selesai,Website
+894,2025-10-10,Rara,"Kipas Angin Miyako",Elektronik,5,11164700,55823700,25,33348,41901100,E-Wallet,Bandung,3.5,Selesai,Marketplace
+895,2025-10-05,Agus,"Jaket Hoodie",Fashion,1,201802,201802,10,41715,223337,"Kartu Kredit",Bali,3.6,Selesai,Marketplace
+896,2025-10-21,Lina,"Eyeliner Revlon",Kecantikan,5,106455,532275,15,26430,478864,E-Wallet,Medan,3.5,Dikirim,Marketplace
+897,2025-10-06,Anita,"Minyak Goreng 2L",Groceries,5,230185,1150920,10,34020,1069850,COD,Tangerang,4.2,Dikirim,Website
+898,2025-10-28,Citra,"Air Mineral 6L",Groceries,2,222046,444092,10,48744,448427,COD,Medan,3.5,Selesai,Website
+899,2025-10-14,Rifki,"Kopi Bubuk 1kg",Groceries,2,184523,369046,10,48443,380584,Debit,Surabaya,4.8,Dikirim,"Mobile App"
+900,2025-10-01,Citra,"Kemeja Putih",Fashion,3,78487,235461,20,12707,201076,COD,Bekasi,3.9,Selesai,"Mobile App"
+901,2025-10-17,Rizky,"Shampo Pantene",Kecantikan,3,241573,724719,10,45976,698223,Debit,Medan,4,Selesai,"Mobile App"
+902,2025-10-05,Rina,"Sabun Muka Garnier",Kecantikan,1,75445,75445,0,34163,109608,"Kartu Kredit",Bali,4.4,Selesai,Marketplace
+903,2025-10-05,Farah,"Kaos Polos",Fashion,4,46174,184696,15,34415,191407,"Kartu Kredit",Bali,5,Selesai,"Mobile App"
+904,2025-10-08,Wulan,"Hair Dryer Philips",Kecantikan,4,213467,853868,15,45117,770905,COD,Bandung,3.8,Selesai,Website
+905,2025-10-21,Fauzan,"Serum Wajah",Kecantikan,2,204664,409328,0,32714,442042,COD,Surabaya,3.9,Dikirim,Website
+906,2025-10-16,Fajar,"Topi Baseball",Fashion,3,98374,295122,5,37130,317496,COD,Bandung,4.2,Pending,"Mobile App"
+907,2025-10-27,Yusuf,"iPhone 15",Elektronik,5,1571310,7856570,0,26567,7883140,COD,Depok,4.5,Selesai,"Mobile App"
+908,2025-10-28,Yoga,"Kamera Canon EOS",Elektronik,3,579670,1739010,15,41441,1519600,"Kartu Kredit",Jakarta,4.5,Selesai,Marketplace
+909,2025-10-17,Miko,"Gula Pasir 1kg",Groceries,5,193024,965120,0,46551,1011670,Debit,Tangerang,4.5,Selesai,"Mobile App"
+910,2025-10-25,Putra,"Kemeja Putih",Fashion,3,235339,706017,0,21211,727228,E-Wallet,Bali,4.5,Dikirim,"Mobile App"
+911,2025-10-05,Rahmat,"Kemeja Putih",Fashion,4,97316,389264,25,33617,325565,Debit,Medan,4.4,Dikirim,"Mobile App"
+912,2025-10-18,Lina,"Tepung Terigu 1kg",Groceries,1,132761,132761,0,34742,167503,"Kartu Kredit",Bekasi,4,Dikirim,"Mobile App"
+913,2025-10-07,Edo,"Pasta Gigi",Groceries,2,40332,80664,10,25505,98102.6,COD,Medan,4.4,Selesai,Marketplace
+914,2025-10-06,Agus,"Pasta Gigi",Groceries,3,188776,566328,10,29951,539646,Debit,Bali,4.5,Selesai,"Mobile App"
+915,2025-10-22,Bella,"Masker Naturgo",Kecantikan,5,192744,963720,5,29460,944994,Debit,Tangerang,4.4,Selesai,Website
+916,2025-10-14,Adit,"Smartwatch Xiaomi",Elektronik,2,7289940,14579900,5,28914,13879800,COD,Bandung,3.8,Selesai,"Mobile App"
+917,2025-10-08,Rara,"Topi Baseball",Fashion,4,135317,541268,10,23589,510730,Debit,Medan,4,Pending,"Mobile App"
+918,2025-10-13,Maya,"Eyeliner Revlon",Kecantikan,4,231717,926868,5,22294,902819,"Kartu Kredit",Depok,4.5,Dibatalkan,"Mobile App"
+919,2025-10-15,Gina,"Minyak Goreng 2L",Groceries,3,128751,386253,15,20831,349146,Debit,Depok,4.7,Selesai,Website
+920,2025-10-09,Adit,"Headset Sony",Elektronik,3,13122500,39367600,15,27676,33490200,COD,Medan,4.3,Selesai,Website
+921,2025-10-12,Adit,"Beras 5kg",Groceries,2,168880,337760,0,16870,354630,COD,Depok,4.9,Dibatalkan,"Mobile App"
+922,2025-10-09,Putra,"Beras 5kg",Groceries,1,65345,65345,5,49534,111612,COD,Bekasi,4.8,Dikirim,"Mobile App"
+923,2025-10-31,Tono,"iPhone 15",Elektronik,5,10029000,50145100,0,22579,50167700,E-Wallet,Medan,3.7,Dikirim,"Mobile App"
+924,2025-10-31,Siti,"Headset Sony",Elektronik,4,13176300,52705100,0,49390,52754500,E-Wallet,Bandung,3.7,Selesai,Marketplace
+925,2025-10-19,Tia,"Kamera Canon EOS",Elektronik,3,1717550,5152640,5,21963,4916970,COD,Jakarta,4.9,Selesai,"Mobile App"
+926,2025-10-20,Rian,"Smartwatch Xiaomi",Elektronik,1,4043450,4043450,0,43709,4087160,COD,Depok,3.7,Selesai,Marketplace
+927,2025-10-08,Eka,"Lotion Vaseline",Kecantikan,4,108999,435996,0,19711,455707,Debit,Jakarta,4.7,Selesai,Marketplace
+928,2025-10-22,Fauzan,"Hair Dryer Philips",Kecantikan,3,289634,868902,10,45902,827914,COD,Bekasi,4.9,Dikirim,Marketplace
+929,2025-10-13,Asep,"Kaos Polos",Fashion,5,23554,117770,0,17934,135704,COD,Depok,3.5,Selesai,Website
+930,2025-10-22,Rifki,"Masker Naturgo",Kecantikan,4,46811,187244,0,10815,198059,Debit,Depok,4.7,Selesai,"Mobile App"
+931,2025-10-15,Mega,"Susu UHT 1L",Groceries,2,177089,354178,5,36607,373076,"Kartu Kredit",Bali,5,Selesai,"Mobile App"
+932,2025-10-18,Andi,"Sepatu Nike Air",Fashion,3,239474,718422,5,49069,731570,COD,Bali,4.4,Selesai,Website
+933,2025-10-08,Dewanto,"iPhone 15",Elektronik,1,8115030,8115030,5,41881,7751160,COD,Bekasi,4.2,Selesai,Website
+934,2025-10-14,Adit,"Susu UHT 1L",Groceries,5,87479,437395,10,30567,424222,COD,Tangerang,4.7,Selesai,"Mobile App"
+935,2025-10-13,Desi,"Masker Naturgo",Kecantikan,5,203073,1015360,25,26287,787811,Debit,Surabaya,4.8,Selesai,Marketplace
+936,2025-10-09,Maya,"Kipas Angin Miyako",Elektronik,2,14116300,28232700,10,12047,25421400,E-Wallet,Bali,4.4,Pending,Marketplace
+937,2025-10-23,Maya,"Serum Wajah",Kecantikan,2,72648,145296,10,39559,170325,E-Wallet,Jakarta,3.6,Selesai,Website
+938,2025-10-21,Tia,"Sweater Rajut",Fashion,5,278283,1391420,20,32482,1145610,COD,Depok,4.5,Selesai,Website
+939,2025-10-08,Rifki,"Kaos Polos",Fashion,3,296421,889263,15,48389,804263,"Kartu Kredit",Bandung,4.7,Selesai,"Mobile App"
+940,2025-10-19,Lusi,"Masker Naturgo",Kecantikan,1,110544,110544,5,15403,120420,"Kartu Kredit",Depok,4,Selesai,Marketplace
+941,2025-10-19,Farah,"Tepung Terigu 1kg",Groceries,5,75858,379290,5,49432,409758,COD,Medan,4.9,Dikirim,"Mobile App"
+942,2025-10-16,Wulan,"Susu UHT 1L",Groceries,4,175303,701212,0,22222,723434,Debit,Tangerang,4.6,Selesai,Marketplace
+943,2025-10-15,Tari,"Laptop Asus",Elektronik,3,7106500,21319500,5,44481,20298000,COD,Bali,3.8,Selesai,Website
+944,2025-10-20,Putra,"Tas Kulit",Fashion,3,239082,717246,5,13544,694928,Debit,Tangerang,4.3,Selesai,"Mobile App"
+945,2025-10-15,Bella,"Kopi Bubuk 1kg",Groceries,3,153923,461769,20,13909,383324,E-Wallet,Bekasi,4.2,Dikirim,"Mobile App"
+946,2025-10-02,Tono,"Telur 1kg",Groceries,5,68770,343850,20,24452,299532,E-Wallet,Tangerang,4.6,Dikirim,Marketplace
+947,2025-10-09,Sari,"Eyeliner Revlon",Kecantikan,2,143376,286752,5,37816,310230,Debit,Surabaya,4.2,Selesai,"Mobile App"
+948,2025-10-04,Agus,"Headset Sony",Elektronik,1,6129920,6129920,5,39759,5863180,"Kartu Kredit",Surabaya,4.5,Selesai,"Mobile App"
+949,2025-10-20,Budi,"Tas Kulit",Fashion,1,155824,155824,5,37568,185601,Debit,Bekasi,4.6,Selesai,"Mobile App"
+950,2025-10-29,Yoga,"Kipas Angin Miyako",Elektronik,2,12146800,24293500,20,11006,19445800,"Kartu Kredit",Bekasi,4.5,Selesai,"Mobile App"
+951,2025-10-17,Andi,"Shampo Pantene",Kecantikan,3,15037,45111,5,31648,74503.5,"Kartu Kredit",Bekasi,3.9,Selesai,"Mobile App"
+952,2025-10-12,Farah,"Parfum Dior",Kecantikan,5,127468,637340,5,24659,630132,Debit,Bali,3.5,Selesai,Marketplace
+953,2025-10-04,Tono,"Kaos Polos",Fashion,2,147147,294294,0,36362,330656,COD,Surabaya,3.9,Dikirim,"Mobile App"
+954,2025-10-03,Nadia,"Masker Naturgo",Kecantikan,5,176988,884940,10,26843,823289,COD,Depok,4.2,Dikirim,"Mobile App"
+955,2025-10-18,Nina,"Tepung Terigu 1kg",Groceries,2,277234,554468,10,17788,516809,E-Wallet,Medan,4,Dikirim,"Mobile App"
+956,2025-10-10,Bayu,"Gula Pasir 1kg",Groceries,2,80485,160970,5,17545,170466,COD,Tangerang,3.5,Selesai,Marketplace
+957,2025-10-21,Rifki,"iPhone 15",Elektronik,1,9254890,9254890,25,24933,6966100,E-Wallet,Tangerang,3.9,Selesai,Website
+958,2025-10-02,Citra,"Kamera Canon EOS",Elektronik,3,5808060,17424200,0,14991,17439200,E-Wallet,Bekasi,4.7,Selesai,Website
+959,2025-10-20,Nadia,"Lipstik Wardah",Kecantikan,1,259293,259293,0,18246,277539,Debit,Jakarta,4.3,Selesai,"Mobile App"
+960,2025-10-21,Dewanto,"Susu UHT 1L",Groceries,2,145981,291962,10,36314,299080,Debit,Bekasi,3.6,Selesai,Website
+961,2025-10-19,Citra,"Hair Dryer Philips",Kecantikan,2,186350,372700,5,44528,398593,Debit,Medan,5,Selesai,"Mobile App"
+962,2025-10-14,Farah,"Topi Baseball",Fashion,1,230094,230094,0,35304,265398,Debit,Medan,4.7,Selesai,"Mobile App"
+963,2025-10-24,Rifki,"Sabun Muka Garnier",Kecantikan,1,190204,190204,5,39829,220523,COD,Surabaya,3.7,Selesai,Website
+964,2025-10-18,Rara,"Pasta Gigi",Groceries,1,115379,115379,25,12646,99180.2,Debit,Bali,3.7,Selesai,Marketplace
+965,2025-10-13,Ridwan,"Celana Jeans",Fashion,3,180344,541032,5,40757,554737,E-Wallet,Depok,4.4,Selesai,Website
+966,2025-10-21,Nadia,"Speaker JBL",Elektronik,3,9139800,27419400,20,13804,21949300,E-Wallet,Depok,4.4,Selesai,"Mobile App"
+967,2025-10-05,Adit,"iPhone 15",Elektronik,1,8905200,8905200,10,49571,8064250,"Kartu Kredit",Bandung,4.7,Selesai,Marketplace
+968,2025-10-05,Rahmat,"Lipstik Wardah",Kecantikan,1,18008,18008,15,26211,41517.8,E-Wallet,Jakarta,4.2,Pending,Website
+969,2025-10-05,Putri,"Printer Canon",Elektronik,2,3643110,7286210,5,31417,6953320,E-Wallet,Jakarta,3.7,Selesai,"Mobile App"
+970,2025-10-13,Hendra,"Kaos Polos",Fashion,3,208079,624237,10,48505,610318,COD,Bandung,4.6,Dikirim,Marketplace
+971,2025-10-17,Fajar,"Bedak Maybelline",Kecantikan,2,222988,445976,0,31636,477612,Debit,Jakarta,4.3,Dikirim,Marketplace
+972,2025-10-17,Vina,"Bedak Maybelline",Kecantikan,3,277563,832689,5,21056,812111,COD,Medan,4.3,Dikirim,"Mobile App"
+973,2025-10-16,Rina,"Kamera Canon EOS",Elektronik,1,6601280,6601280,25,49400,5000360,"Kartu Kredit",Bandung,3.5,Dikirim,Website
+974,2025-10-30,Bella,"Air Mineral 6L",Groceries,5,287319,1436600,5,36086,1400850,COD,Surabaya,3.5,Selesai,"Mobile App"
+975,2025-10-15,Agus,"Tas Kulit",Fashion,5,135119,675595,25,48032,554728,E-Wallet,Surabaya,3.9,Selesai,Website
+976,2025-10-09,Tono,"Masker Naturgo",Kecantikan,2,215518,431036,0,37314,468350,"Kartu Kredit",Bali,4.4,Selesai,"Mobile App"
+977,2025-10-01,Nando,"Bedak Maybelline",Kecantikan,4,287132,1148530,20,33275,952097,E-Wallet,Medan,4,Dikirim,Marketplace
+978,2025-10-29,Dina,"Printer Canon",Elektronik,3,2301020,6903050,0,41443,6944490,"Kartu Kredit",Bandung,4.5,Dikirim,Website
+979,2025-10-18,Vina,"Kopi Bubuk 1kg",Groceries,4,20212,80848,15,18029,86749.8,Debit,Tangerang,3.9,Selesai,Website
+980,2025-10-10,Sari,"Lipstik Wardah",Kecantikan,5,157273,786365,5,21954,769001,"Kartu Kredit",Bandung,3.6,Dikirim,"Mobile App"
+981,2025-10-15,Yusuf,"Kipas Angin Miyako",Elektronik,5,10514000,52569900,0,35546,52605500,"Kartu Kredit",Medan,4.9,Selesai,Website
+982,2025-10-07,Nando,"iPhone 15",Elektronik,3,3057310,9171930,5,17154,8730490,E-Wallet,Surabaya,4.5,Selesai,Website
+983,2025-10-12,Wulan,"Air Mineral 6L",Groceries,4,199974,799896,0,30324,830220,"Kartu Kredit",Bekasi,4.3,Selesai,"Mobile App"
+984,2025-10-01,Adit,"Blender Philips",Elektronik,3,4238820,12716500,5,20159,12100800,Debit,Bandung,3.7,Selesai,"Mobile App"
+985,2025-10-07,Wulan,"Speaker JBL",Elektronik,4,4187590,16750300,10,43124,15118400,E-Wallet,Bandung,3.6,Selesai,"Mobile App"
+986,2025-10-01,Tono,"Tas Kulit",Fashion,2,111153,222306,0,18852,241158,Debit,Bandung,4.9,Selesai,Website
+987,2025-10-01,Nadia,"TV Samsung 43 Inch",Elektronik,5,3800290,19001500,0,48002,19049500,E-Wallet,Jakarta,3.8,Selesai,Website
+988,2025-10-11,Hendra,"Lipstik Wardah",Kecantikan,5,236078,1180390,0,32078,1212470,COD,Jakarta,4.5,Selesai,"Mobile App"
+989,2025-10-21,Fauzan,"Sabun Cuci",Groceries,4,279708,1118830,0,41363,1160200,COD,Tangerang,3.7,Selesai,Marketplace
+990,2025-10-09,Siti,"Sepatu Nike Air",Fashion,5,167378,836890,25,31722,659390,COD,Surabaya,4.3,Selesai,"Mobile App"
+991,2025-10-23,Asep,"Kipas Angin Miyako",Elektronik,1,6653100,6653100,0,10577,6663680,Debit,Depok,4.7,Selesai,"Mobile App"
+992,2025-10-12,Rian,"Kemeja Putih",Fashion,5,251174,1255870,10,32361,1162640,Debit,Bekasi,4.1,Selesai,"Mobile App"
+993,2025-10-26,Andi,"Tepung Terigu 1kg",Groceries,3,285779,857337,5,12883,827353,Debit,Medan,3.7,Selesai,Website
+994,2025-10-31,Ridwan,"Kopi Bubuk 1kg",Groceries,3,253647,760941,0,27002,787943,COD,Tangerang,4.6,Selesai,"Mobile App"
+995,2025-10-08,Vina,"Kamera Canon EOS",Elektronik,2,10725500,21450900,5,28599,20407000,Debit,Bekasi,4.9,Selesai,"Mobile App"
+996,2025-10-10,Rian,"Bedak Maybelline",Kecantikan,3,169834,509502,5,23343,507370,Debit,Tangerang,4.9,Selesai,"Mobile App"
+997,2025-10-27,Sari,"Laptop Asus",Elektronik,1,10231700,10231700,5,21762,9741840,Debit,Bekasi,4.8,Selesai,"Mobile App"
+998,2025-10-08,Dewanto,"Shampo Pantene",Kecantikan,5,13437,67185,5,28912,92737.8,COD,Depok,3.7,Selesai,Website
+999,2025-10-24,Nina,"Pasta Gigi",Groceries,1,135550,135550,0,39410,174960,E-Wallet,Bandung,4.4,Selesai,"Mobile App"
+1000,2025-10-22,Siti,"Eyeliner Revlon",Kecantikan,2,202875,405750,0,25643,431393,E-Wallet,Depok,4.5,Dikirim,"Mobile App"
