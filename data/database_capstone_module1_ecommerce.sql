@@ -1,5 +1,6 @@
 CREATE DATABASE capstone_module1;
 USE capstone_module1;
+DROP TABLE IF EXISTS 'data_transaksi_ecommerce';
 
 CREATE TABLE data_transaksi_ecommerce (
     id_transaksi INT AUTO_INCREMENT PRIMARY KEY,
