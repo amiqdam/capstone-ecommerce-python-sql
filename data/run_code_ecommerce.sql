@@ -1,4 +1,4 @@
 USE capstone_module1;
 
-SELECT * FROM data_transaksi_ecommerce;
+SELECT * FROM data_transaction_ecommerce;
 

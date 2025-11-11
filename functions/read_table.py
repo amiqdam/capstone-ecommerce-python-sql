@@ -1,18 +1,24 @@
 import pandas as pd
-from db_connection import connect_db
+try:
+    # when imported as a package
+    from .db_connection import connect_db
+except Exception:
+    # when executed as a script or from project root
+    from db_connection import connect_db
 
-def read_sql():
+def read_sql(show: bool = True): #Show for showing full table when True
     # Connect to the database
     db = connect_db()
     # Static query for read_sql to show all data
-    query = "SELECT * FROM data_transaksi_ecommerce;"
+    query = "SELECT * FROM data_transaction_ecommerce;"
     # Call pandas function to execute SQL query
-    df = pd.read_sql_query("SELECT * FROM data_transaksi_ecommerce;", db)
+    df = pd.read_sql_query(query, db)
     # Cut connection to the database
     db.close()
-    # Output as a data frame
-    print("=== DATA TRANSAKSI E-COMMERCE ===")
-    print(df)
+    # Optionally print
+    if show:
+        print("\n=== DATA TRANSACTION E-COMMERCE ===")
+        print(df)
     return df
 
 # def read_certain_data_sql():
@@ -72,4 +78,8 @@ def read_table():
         #     return 0
         # else:
         #     print('Invalid input, try again! ')
-read_table()
+
+
+if __name__ == "__main__":
+    # Run the interactive read_table menu when executed as a script
+    read_table()
