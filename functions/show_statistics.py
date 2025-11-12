@@ -2,9 +2,9 @@ import pandas as pd
 from read_table import read_sql
 
 
-# ======================
-# PURE HELPER FUNCTIONS | 
-# ======================
+# =================
+# HELPER FUNCTIONS | Easier to call in wrapped functions
+# =================
 
 def get_average(df: pd.DataFrame, selected_cols: list) -> dict:
     if not selected_cols:
@@ -13,29 +13,39 @@ def get_average(df: pd.DataFrame, selected_cols: list) -> dict:
     return {col: (float(avg[col]) if pd.notna(avg[col]) else None) for col in selected_cols}
 
 def get_median(df: pd.DataFrame, selected_cols: list) -> dict:
+    if not selected_cols:
+        return {}
     med = df[selected_cols].median()
     return {col: (float(med[col]) if pd.notna(med[col]) else None) for col in selected_cols}
 
 def get_stdev(df: pd.DataFrame, selected_cols: list) -> dict:
+    if not selected_cols:
+        return {}
     stdev = df[selected_cols].std()
     return {col: (float(stdev[col]) if pd.notna(stdev[col]) else None) for col in selected_cols}
 
-def get_mins(df: pd.DataFrame, selected_cols: list) -> dict:
-    mins = df[selected_cols].min()
-    return {col: mins[col] for col in selected_cols}
+def get_min(df: pd.DataFrame, selected_cols: list) -> dict:
+    if not selected_cols:
+        return {}
+    min = df[selected_cols].min()
+    return {col: min[col] for col in selected_cols}
 
-def get_maxs(df: pd.DataFrame, selected_cols: list) -> dict:
-    maxs = df[selected_cols].max()
-    return {col: maxs[col] for col in selected_cols}
+def get_max(df: pd.DataFrame, selected_cols: list) -> dict:
+    if not selected_cols:
+        return {}
+    max = df[selected_cols].max()
+    return {col: max[col] for col in selected_cols}
 
-def get_uniques(df: pd.DataFrame, selected_cols: list) -> dict:
-    uniques = {col: int(df[col].nunique(dropna=True)) for col in selected_cols}
-    return uniques
+def get_unique(df: pd.DataFrame, selected_cols: list) -> dict:
+    if not selected_cols:
+        return {}
+    unique = {col: int(df[col].nunique(dropna=True)) for col in selected_cols}
+    return unique
 
 
-# ==============================
-# INTERACTIVE WRAPPER FUNCTIONS |
-# ==============================
+# ==================
+# WRAPPER FUNCTIONS | modularity for easy readibility in setting up wrapped function
+# ==================
 
 # Function to describe overall data
 def table_desc():
@@ -47,212 +57,309 @@ def table_desc():
 
 # Function to show individual average
 def data_average():
-    df = read_sql(show=False)
+    # Collect all possible numerical columns that can be called in function (string cannot be operated)
+    df = read_sql(show=False) # Don't need to print full table from SQL
     num_cols = list(df.select_dtypes(include="number").columns)
     if not num_cols:
-        print("No numeric columns available to compute averages.")
+        print("No numeric columns available.")
         return {}
-
-    lcase_num_cols = {col.lower(): col for col in num_cols}
-
+    
     print("Available numeric columns:")
-    for i, col in enumerate(num_cols, start=1):
-        print(f"  {i}. {col}")
+    for i, cols in enumerate(num_cols, start=1):
+        print(f"  {i}. {cols}")
 
+    # User inputs (user friendly by enabling both string and index input)
     while True:
-        user_input = input(
-            "Select column(s) to average (names or numbers, comma-separated): "
-        ).strip()
+        user_input = input("Select column(s) to operate average (use name/number, comma-separated): ").strip()
         if not user_input:
             print("No input provided. Please enter at least one column name or number.")
             continue
 
-        parts = [p.strip() for p in user_input.split(",") if p.strip()]
-        selected = []
-        invalid = []
+        # Lowercase all of inputted columns to prevent case sensitive in user input
+        lcase_num_cols = {cols.lower(): cols for cols in num_cols}
 
-        for p in parts:
-            if p.isdigit():
-                idx = int(p)
+        cols_list = [cols.strip() for cols in user_input.split(",") if cols.strip()]
+        valid_input = [] # True condition of user input
+        invalid_input = [] # Show user their invalid input
+
+        # Two condition of input
+        for cols in cols_list:
+            if cols.isdigit():
+                idx = int(cols)
                 if 1 <= idx <= len(num_cols):
-                    selected.append(num_cols[idx - 1])
+                    valid_input.append(num_cols[idx - 1])
                 else:
-                    invalid.append(p)
+                    invalid_input.append(cols)
             else:
-                key = p.lower()
+                key = cols.lower()
                 if key in lcase_num_cols:
-                    selected.append(lcase_num_cols[key])
+                    valid_input.append(lcase_num_cols[key])
                 else:
-                    invalid.append(p)
-
-        if invalid:
-            print(f"Invalid selection: {invalid}. Please try again.")
+                    invalid_input.append(cols)
+                    
+        # Show invalid input
+        if invalid_input:
+            print(f"invalid_input selection: {invalid_input}. Please try again.")
             continue
 
-        seen = set()
-        selected_cols = [x for x in selected if not (x in seen or seen.add(x))]
+        # Prevention of duplicate input by using set
+        no_duplicate_set = set()
+        selected_cols = [x for x in valid_input if not (x in no_duplicate_set or no_duplicate_set.add(x))]
         break
-
+    
+    # call helper function of get_average to print results
     results = get_average(df, selected_cols)
-    print("Column averages:")
-    for col in selected_cols:
-        print(f"  {col}: {results[col]}")
+    print("Column average(s):")
+    for cols, avg in results.items():
+        print(f"  {cols}: {avg}")
 
     return results
 
 
 def data_median():
-    """Interactively compute and display column medians."""
-    df = read_sql(show=False)
-    numeric_cols = list(df.select_dtypes(include="number").columns)
-    if not numeric_cols:
-        print("No numeric columns available to compute medians.")
+    # Collect all possible numerical columns that can be called in function (string cannot be operated)
+    df = read_sql(show=False) # Don't need to print full table from SQL
+    num_cols = list(df.select_dtypes(include="number").columns)
+    if not num_cols:
+        print("No numeric columns available.")
         return {}
-
-    lcase_num_cols = {col.lower(): col for col in numeric_cols}
-
+    
     print("Available numeric columns:")
-    for i, col in enumerate(numeric_cols, start=1):
-        print(f"  {i}. {col}")
+    for i, cols in enumerate(num_cols, start=1):
+        print(f"  {i}. {cols}")
 
-    user_input = input("Select column(s) to compute median (names or numbers, comma-separated): ").strip()
-    parts = [p.strip() for p in user_input.split(",") if p.strip()]
-    selected = []
+    # User inputs (user friendly by enabling both string and index input)
+    while True:
+        user_input = input("Select column(s) to operate median (use name/number, comma-separated): ").strip()
+        if not user_input:
+            print("No input provided. Please enter at least one column name or number.")
+            continue
 
-    for p in parts:
-        if p.isdigit():
-            idx = int(p)
-            if 1 <= idx <= len(numeric_cols):
-                selected.append(numeric_cols[idx - 1])
-        else:
-            key = p.lower()
-            if key in lcase_num_cols:
-                selected.append(lcase_num_cols[key])
+        # Lowercase all of inputted columns to prevent case sensitive in user input
+        lcase_num_cols = {cols.lower(): cols for cols in num_cols}
 
-    seen = set()
-    selected_cols = [x for x in selected if not (x in seen or seen.add(x))]
+        cols_list = [cols.strip() for cols in user_input.split(",") if cols.strip()]
+        valid_input = [] # True condition of user input
+        invalid_input = [] # Show user their invalid input
 
+        # Two condition of input
+        for cols in cols_list:
+            if cols.isdigit():
+                idx = int(cols)
+                if 1 <= idx <= len(num_cols):
+                    valid_input.append(num_cols[idx - 1])
+                else:
+                    invalid_input.append(cols)
+            else:
+                key = cols.lower()
+                if key in lcase_num_cols:
+                    valid_input.append(lcase_num_cols[key])
+                else:
+                    invalid_input.append(cols)
+                    
+        # Show invalid input
+        if invalid_input:
+            print(f"invalid_input selection: {invalid_input}. Please try again.")
+            continue
+
+        # Prevention of duplicate input by using set
+        no_duplicate_set = set()
+        selected_cols = [x for x in valid_input if not (x in no_duplicate_set or no_duplicate_set.add(x))]
+        break
+
+# call helper function of get_median to print results
     results = get_median(df, selected_cols)
-    print("Column medians:")
-    for k, v in results.items():
-        print(f"  {k}: {v}")
+    print("Column median(s):")
+    for cols, median in results.items():
+        print(f"  {cols}: {median}")
 
     return results
 
 
-def data_std():
-    """Interactively compute and display column standard deviations."""
-    df = read_sql(show=False)
-    numeric_cols = list(df.select_dtypes(include="number").columns)
-    if not numeric_cols:
-        print("No numeric columns available to compute std.")
+def data_stdev():
+    # Collect all possible numerical columns that can be called in function (string cannot be operated)
+    df = read_sql(show=False) # Don't need to print full table from SQL
+    num_cols = list(df.select_dtypes(include="number").columns)
+    if not num_cols:
+        print("No numeric columns available.")
         return {}
-
-    lcase_num_cols = {col.lower(): col for col in numeric_cols}
-
+    
     print("Available numeric columns:")
-    for i, col in enumerate(numeric_cols, start=1):
-        print(f"  {i}. {col}")
+    for i, cols in enumerate(num_cols, start=1):
+        print(f"  {i}. {cols}")
 
-    user_input = input("Select column(s) to compute std (names or numbers, comma-separated): ").strip()
-    parts = [p.strip() for p in user_input.split(",") if p.strip()]
-    selected = []
+    # User inputs (user friendly by enabling both string and index input)
+    while True:
+        user_input = input("Select column(s) to operate standard deviation (use name/number, comma-separated): ").strip()
+        if not user_input:
+            print("No input provided. Please enter at least one column name or number.")
+            continue
 
-    for p in parts:
-        if p.isdigit():
-            idx = int(p)
-            if 1 <= idx <= len(numeric_cols):
-                selected.append(numeric_cols[idx - 1])
-        else:
-            key = p.lower()
-            if key in lcase_num_cols:
-                selected.append(lcase_num_cols[key])
+        # Lowercase all of inputted columns to prevent case sensitive in user input
+        lcase_num_cols = {cols.lower(): cols for cols in num_cols}
 
-    seen = set()
-    selected_cols = [x for x in selected if not (x in seen or seen.add(x))]
+        cols_list = [cols.strip() for cols in user_input.split(",") if cols.strip()]
+        valid_input = [] # True condition of user input
+        invalid_input = [] # Show user their invalid input
 
+        # Two condition of input
+        for cols in cols_list:
+            if cols.isdigit():
+                idx = int(cols)
+                if 1 <= idx <= len(num_cols):
+                    valid_input.append(num_cols[idx - 1])
+                else:
+                    invalid_input.append(cols)
+            else:
+                key = cols.lower()
+                if key in lcase_num_cols:
+                    valid_input.append(lcase_num_cols[key])
+                else:
+                    invalid_input.append(cols)
+                    
+        # Show invalid input
+        if invalid_input:
+            print(f"invalid_input selection: {invalid_input}. Please try again.")
+            continue
+
+        # Prevention of duplicate input by using set
+        no_duplicate_set = set()
+        selected_cols = [x for x in valid_input if not (x in no_duplicate_set or no_duplicate_set.add(x))]
+        break
+    
+# call helper function of get_stdev to print results
     results = get_stdev(df, selected_cols)
     print("Column stdev:")
-    for k, v in results.items():
-        print(f"  {k}: {v}")
+    for cols, stdev in results.items():
+        print(f"  {cols}: {stdev}")
 
     return results
 
 
 def data_min():
-    """Interactively compute and display column minimum values with quantity."""
-    df = read_sql(show=False)
-    cols = list(df.columns)
+    # Collect all possible numerical columns that can be called in function (string cannot be operated)
+    df = read_sql(show=False) # Don't need to print full table from SQL
+    num_cols = list(df.select_dtypes(include="number").columns)
+    if not num_cols:
+        print("No numeric columns available.")
+        return {}
+    
+    print("Available numeric columns:")
+    for i, cols in enumerate(num_cols, start=1):
+        print(f"  {i}. {cols}")
 
-    print("Available columns:")
-    for i, col in enumerate(cols, start=1):
-        print(f"  {i}. {col}")
+    # User inputs (user friendly by enabling both string or index input [only 1 at a time])
+    while True:
+        user_input = input("Select column(s) to operate minimum (use name/number, comma-separated): ").strip()
+        if not user_input:
+            print("No input provided. Please enter at least one column name or number.")
+            continue
 
-    user_input = input("Select column(s) to compute min (names or numbers, comma-separated): ").strip()
-    parts = [p.strip() for p in user_input.split(",") if p.strip()]
-    selected = []
-    lcase_cols = {col.lower(): col for col in cols}
+        # Lowercase all of inputted columns to prevent case sensitive in user input
+        lcase_num_cols = {cols.lower(): cols for cols in num_cols}
 
-    for p in parts:
-        if p.isdigit():
-            idx = int(p)
-            if 1 <= idx <= len(cols):
-                selected.append(cols[idx - 1])
-        else:
-            key = p.lower()
-            if key in lcase_cols:
-                selected.append(lcase_cols[key])
+        cols_list = [cols.strip() for cols in user_input.split(",") if cols.strip()]
+        valid_input = [] # True condition of user input
+        invalid_input = [] # Show user their invalid input
 
-    seen = set()
-    selected_cols = [x for x in selected if not (x in seen or seen.add(x))]
+        # Two condition of input
+        for cols in cols_list:
+            if cols.isdigit():
+                idx = int(cols)
+                if 1 <= idx <= len(num_cols):
+                    valid_input.append(num_cols[idx - 1])
+                else:
+                    invalid_input.append(cols)
+            else:
+                key = cols.lower()
+                if key in lcase_num_cols:
+                    valid_input.append(lcase_num_cols[key])
+                else:
+                    invalid_input.append(cols)
+                    
+        # Show invalid input
+        if invalid_input:
+            print(f"invalid_input selection: {invalid_input}. Please try again.")
+            continue
 
-    results = get_mins(df, selected_cols)
+        # Prevention of duplicate input by using set
+        no_duplicate_set = set()
+        selected_cols = [x for x in valid_input if not (x in no_duplicate_set or no_duplicate_set.add(x))]
+        break
+    
+# call helper function of get_min to print results
+    results = get_min(df, selected_cols)
     print("Column minimums:")
-    for k, v in results.items():
-        count = (df[k] == v).sum()
-        print(f"  {k}: {v} (quantity: {count})")
+    for cols, min in results.items():
+        count = (df[cols] == min).sum()
+        print(f"  {cols}: {min} (quantity: {count})")
 
     return results
 
 
 def data_max():
-    """Interactively compute and display column maximum values with quantity."""
-    df = read_sql(show=False)
-    cols = list(df.columns)
+    # Collect all possible numerical columns that can be called in function (string cannot be operated)
+    df = read_sql(show=False) # Don't need to print full table from SQL
+    num_cols = list(df.select_dtypes(include="number").columns)
+    if not num_cols:
+        print("No numeric columns available.")
+        return {}
+    
+    print("Available numeric columns:")
+    for i, cols in enumerate(num_cols, start=1):
+        print(f"  {i}. {cols}")
 
-    print("Available columns:")
-    for i, col in enumerate(cols, start=1):
-        print(f"  {i}. {col}")
+    # User inputs (user friendly by enabling both string and index input)
+    while True:
+        user_input = input("Select column(s) to operate maximum (use name/number, comma-separated): ").strip()
+        if not user_input:
+            print("No input provided. Please enter at least one column name or number.")
+            continue
 
-    user_input = input("Select column(s) to compute max (names or numbers, comma-separated): ").strip()
-    parts = [p.strip() for p in user_input.split(",") if p.strip()]
-    selected = []
-    lcase_cols = {col.lower(): col for col in cols}
+        # Lowercase all of inputted columns to prevent case sensitive in user input
+        lcase_num_cols = {cols.lower(): cols for cols in num_cols}
 
-    for p in parts:
-        if p.isdigit():
-            idx = int(p)
-            if 1 <= idx <= len(cols):
-                selected.append(cols[idx - 1])
-        else:
-            key = p.lower()
-            if key in lcase_cols:
-                selected.append(lcase_cols[key])
+        cols_list = [cols.strip() for cols in user_input.split(",") if cols.strip()]
+        valid_input = [] # True condition of user input
+        invalid_input = [] # Show user their invalid input
 
-    seen = set()
-    selected_cols = [x for x in selected if not (x in seen or seen.add(x))]
+        # Two condition of input
+        for cols in cols_list:
+            if cols.isdigit():
+                idx = int(cols)
+                if 1 <= idx <= len(num_cols):
+                    valid_input.append(num_cols[idx - 1])
+                else:
+                    invalid_input.append(cols)
+            else:
+                key = cols.lower()
+                if key in lcase_num_cols:
+                    valid_input.append(lcase_num_cols[key])
+                else:
+                    invalid_input.append(cols)
+                    
+        # Show invalid input
+        if invalid_input:
+            print(f"invalid_input selection: {invalid_input}. Please try again.")
+            continue
 
-    results = get_maxs(df, selected_cols)
+        # Prevention of duplicate input by using set
+        no_duplicate_set = set()
+        selected_cols = [x for x in valid_input if not (x in no_duplicate_set or no_duplicate_set.add(x))]
+        break
+    
+# call helper function of get_median to print results
+    results = get_max(df, selected_cols)
     print("Column maximums:")
-    for k, v in results.items():
-        count = (df[k] == v).sum()
-        print(f"  {k}: {v} (quantity: {count})")
+    for cols, max in results.items():
+        count = (df[cols] == max).sum()
+        print(f"  {cols}: {max} (quantity: {count})")
 
     return results
 
 
 def data_unique():
-    """Interactively compute and display column unique value counts."""
+    # Collect all columns 
     df = read_sql(show=False)
     cols = list(df.columns)
 
@@ -260,45 +367,56 @@ def data_unique():
     for i, col in enumerate(cols, start=1):
         print(f"  {i}. {col}")
 
+    # User inputs (user friendly by enabling both string and index input)
     user_input = input("Select column(s) to count unique values (names or numbers, comma-separated): ").strip()
-    parts = [p.strip() for p in user_input.split(",") if p.strip()]
-    selected = []
-    lcase_cols = {col.lower(): col for col in cols}
+    cols_list = [col.strip() for col in user_input.split(",") if col.strip()]
+    
+    valid_input = []
+    invalid_input = []
 
-    for p in parts:
+    # Lowercase all of inputted columns to prevent case sensitive in user input
+    lcase_cols = {col.lower(): col for col in cols}
+    # Two condition of input
+    for p in cols_list:
         if p.isdigit():
             idx = int(p)
             if 1 <= idx <= len(cols):
-                selected.append(cols[idx - 1])
+                valid_input.append(cols[idx - 1])
+            else:
+                invalid_input.append(p)
         else:
             key = p.lower()
             if key in lcase_cols:
-                selected.append(lcase_cols[key])
+                valid_input.append(lcase_cols[key])
+            else:
+                invalid_input.append(p)
 
-    seen = set()
-    selected_cols = [x for x in selected if not (x in seen or seen.add(x))]
+    if invalid_input:
+        print(f"Invalid selection: {invalid_input}. Please try again.")
+        return {}
 
-    results = get_uniques(df, selected_cols)
+    # Prevent duplicates while preserving order
+    no_duplicate_set = set()
+    selected_cols = [x for x in valid_input if not (x in no_duplicate_set or no_duplicate_set.add(x))]
+
+    results = get_unique(df, selected_cols)
     print("Unique counts:")
-    for k, v in results.items():
-        print(f"  {k}: {v}")
+    for col, n_unique in results.items():
+        print(f"  {col}: {n_unique}")
 
     return results
 
 
-# ============================================================================
-# MAIN MENU
-# ============================================================================
+# ==========
+# MAIN MENU | Called in main.py for modularity simplicity
+# ==========
 
 def show_statistics_menu():
-    """Interactive menu to choose which statistics function to run."""
-    # Use an explicit dict mapping numbers to (label, function).
-    # This removes the need for 1-based index adjustment (idx - 1).
     actions = {
         1: ("Describe table", table_desc),
         2: ("Average (mean)", data_average),
         3: ("Median", data_median),
-        4: ("Standard deviation", data_std),
+        4: ("Standard deviation", data_stdev),
         5: ("Minimum value", data_min),
         6: ("Maximum value", data_max),
         7: ("Count unique values", data_unique),
@@ -310,7 +428,7 @@ def show_statistics_menu():
 ===========================
 |  SHOW STATISTICS MENU   |
 ===========================
-              """)
+""")
         for key in sorted(actions.keys()):
             label = actions[key][0]
             print(f"  {key}. {label}")

@@ -1,5 +1,5 @@
 # Import all functions from different files so it can be used in this file
-from functions import (read_table, show_statistics, datavis, update_data, db_connection)
+from functions import (read_table, show_statistics_menu, datavis, update_data, db_connection)
 
 # Create a function as a base of this program with main_program()
 def main_program():
@@ -20,7 +20,7 @@ def main_program():
         if user_input == 1: # Call function read_table() from read_table.py
             read_table()
         elif user_input == 2: # Call function show_statistics() from show_statistics.py
-            show_statistics()
+            show_statistics_menu()
         elif user_input == 3: # Call function datavis() from datavis.py
             datavis()
         elif user_input == 4: # Call function update_data() from update_data.py
