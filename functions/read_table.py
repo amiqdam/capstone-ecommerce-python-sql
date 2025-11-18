@@ -56,7 +56,6 @@ def read_sql_with_date_filter(filter_type, first_year=None, first_month=None, fi
         return None
 
 def read_certain_data():
-    """Interactive reader: choose columns, apply SQL date-range filter, and limit rows to display."""
     # Get full table columns to let user choose
     df_all = read_sql(show=False)
     if df_all is None or df_all.empty:
