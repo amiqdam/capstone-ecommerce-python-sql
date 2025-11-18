@@ -1,7 +1,3 @@
-Berikut adalah rancangan README.md yang dapat Anda gunakan untuk repositori capstone‑ecommerce‑python‑sql (Capstone Project — E-commerce Data Analysis with Python & MySQL). Anda bisa menyesuaikan bagian “Usage”, “Data Schema”, atau “Contributing” sesuai kebutuhan.
-
-⸻
-
 Capstone Project – E-commerce Data Analysis
 
 Mini aplikasi berbasis Python + MySQL untuk menganalisis data transaksi e-commerce, dibuat sebagai project capstone Module 1.
