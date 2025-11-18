@@ -1,42 +1,69 @@
-# capstone-ecommerce-python-sql
-# 🛒 Capstone Project Module 1 — E-Commerce Data Analysis
+Berikut adalah rancangan README.md yang dapat Anda gunakan untuk repositori capstone‑ecommerce‑python‑sql (Capstone Project — E-commerce Data Analysis with Python & MySQL). Anda bisa menyesuaikan bagian “Usage”, “Data Schema”, atau “Contributing” sesuai kebutuhan.
 
-Mini aplikasi berbasis **Python + SQL** untuk menganalisis data transaksi e-commerce.  
-Dibuat sebagai project Capstone Module 1, dengan tujuan memahami integrasi database, statistik, dan visualisasi data.
+⸻
 
----
+Capstone Project – E-commerce Data Analysis
 
-## 🚀 Fitur Utama
+Mini aplikasi berbasis Python + MySQL untuk menganalisis data transaksi e-commerce, dibuat sebagai project capstone Module 1.
 
-1. **Read Table** – Menampilkan seluruh transaksi dari database.  
-2. **Show Statistik** – Menampilkan statistik deskriptif (mean, median, dll).  
-3. **Data Visualization** – Menampilkan grafik penjualan per kategori, metode pembayaran, dsb.  
-4. **Add Data** – Menambahkan transaksi baru ke database.  
-5. (Bonus) **Filter & Insight Analysis** – Analisis channel & kota paling aktif.
+Fitur Utama
+	•	Read Table – Menampilkan seluruh transaksi yang tersimpan di database.
+	•	Show Statistik – Menampilkan statistik deskriptif (mean, median, dll) untuk metrik-kunci.
+	•	Data Visualization – Menampilkan grafik penjualan per kategori, metode pembayaran, kota, channel, dll.
+	•	Add Data – Menambahkan transaksi baru ke database.
 
----
+Struktur Database
 
-## 🧱 Struktur Database
-
-Nama tabel: `data_transaksi_ecommerce`
-
+Nama tabel: data_transaksi_ecommerce
 Kolom utama:
-- tanggal, produk, kategori_produk, jumlah, harga_satuan, total_harga
-- diskon_persen, biaya_pengiriman, total_akhir
-- metode_pembayaran, kota, rating_pelanggan, status_pengiriman, channel_penjualan
+	•	tanggal
+	•	produk
+	•	kategori_produk
+	•	jumlah
+	•	harga_satuan
+	•	total_harga
+	•	diskon_persen
+	•	biaya_pengiriman
+	•	total_akhir
+	•	metode_pembayaran
+	•	kota
+	•	rating_pelanggan
+	•	status_pengiriman
+	•	channel_penjualan
 
----
+👉 (Catatan: Pastikan skema lengkap & relasi telah sesuai dengan SQL file yang disediakan.)
 
-## ⚙️ Teknologi yang Digunakan
+Teknologi yang Digunakan
+	•	Python (library: pandas, matplotlib, seaborn, mysql-connector)
+	•	MySQL sebagai engine database
+	•	Git & GitHub untuk versioning & kolaborasi
 
-- Python (pandas, matplotlib, seaborn, mysql-connector)
-- MySQL
-- Git & GitHub
+Cara Menjalankan
+	1.	Import database ke MySQL:
 
----
+SOURCE database_capstone_module1_ecommerce.sql;
 
-## ▶️ Cara Menjalankan
 
-1. Import database ke MySQL:
-   ```sql
-   SOURCE database_capstone_module1_ecommerce.sql;
+	2.	Pastikan Python environment sudah terpasang. Install requirement (contoh):
+
+pip install pandas matplotlib seaborn mysql-connector-python
+
+
+	3.	Jalankan script utama (misalnya main.py) dan ikuti menu/interaksi yang tersedia.
+	4.	Untuk analisis data atau visualisasi, buka notebook/reports yang sudah disediakan (jika ada).
+
+Contoh Penggunaan
+
+Jalankan aplikasi → pilih “Read Table” → lihat daftar transaksi → kemudian pilih “Show Statistik” untuk melihat ringkasan metrik → klik “Data Visualization” untuk melihat grafik penjualan berdasarkan kategori atau channel.
+
+Hasil yang Diharapkan
+	•	Insight seperti “kategori produk X memiliki penjualan terbesar”, “metode pembayaran Y paling sering”, “kota Z paling aktif” hasil dari data & visualisasi.
+	•	Memahami integrasi antara database SQL dengan analisis data di Python.
+
+Struktur Folder
+
+/data/                # Dataset / dump database  
+/functions/           # Fungsi-fungsi helper Python  
+/main/                # Script utama  
+.gitignore  
+README.md  
