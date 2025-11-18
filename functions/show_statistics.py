@@ -1,5 +1,5 @@
 import pandas as pd
-from read_table import read_sql
+from .read_table import read_sql
 
 
 # =================
