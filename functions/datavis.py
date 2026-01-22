@@ -27,6 +27,44 @@ def new_df(show: bool = True):
     if show:
         print(df.head())
     return df_new
+
+
+def _select_column(columns: list, title: str) -> str:
+    print("\n" + "=" * 50)
+    print(title)
+    print("=" * 50)
+    print("\nAvailable Columns to visualize:")
+    for idx, col in enumerate(columns, start=1):
+        print(f" {idx}. {col}")
+
+    while True:
+        try:
+            col_choice = int(input("\nSelect a column to visualize (enter number): "))
+            if col_choice not in range(1, len(columns) + 1):
+                print(f"Please enter a number between 1 and {len(columns)}.")
+                continue
+            return columns[col_choice - 1]
+        except ValueError:
+            print("Please enter a valid number.")
+
+
+def _select_date_filter() -> str:
+    print("\nDate Range Options:")
+    print(" 1. Show ALL data (no filter)")
+    print(" 2. Filter by Year")
+    print(" 3. Filter by Month (Year + Month)")
+    print(" 4. Filter by Day (Year + Month + Day)")
+
+    while True:
+        try:
+            filter_choice = int(input("Select date filter option (1-4): "))
+            if filter_choice not in range(1, 5):
+                print("Please enter a number between 1 and 4.")
+                continue
+            filter_types = {1: 'all', 2: 'year', 3: 'month', 4: 'day'}
+            return filter_types[filter_choice]
+        except ValueError:
+            print("Please enter a valid number.")
     
 # Helper function to get valid date inputs and execute SQL filtered query
 def get_filtered_data_sql(filter_type):
@@ -213,46 +251,10 @@ def get_filtered_data_sql(filter_type):
 # Categorical column (pie chart)
 def pie_vis():
     pie_cols = ["gender", "brand", "product", "category", "payment_method", "sales_channel", "city", "province"]
-    
-    print("\n" + "="*50)
-    print("PIE CHART VISUALIZATION")
-    print("="*50)
-    print("\nAvailable Columns to visualize:")
-    for idx, col in enumerate(pie_cols, start=1):
-        print(f" {idx}. {col}")
-    
-    # Get column selection
-    while True:
-        try:
-            col_choice = int(input("\nSelect a column to visualize (enter number): "))
-            if col_choice not in range(1, len(pie_cols) + 1):
-                print(f"Please enter a number between 1 and {len(pie_cols)}.")
-                continue
-            selected_col = pie_cols[col_choice - 1]
-            break
-        except ValueError:
-            print("Please enter a valid number.")
-    
-    # Get date filter option
-    print("\nDate Range Options:")
-    print(" 1. Show ALL data (no filter)")
-    print(" 2. Filter by Year")
-    print(" 3. Filter by Month (Year + Month)")
-    print(" 4. Filter by Day (Year + Month + Day)")
-    
-    while True:
-        try:
-            filter_choice = int(input("Select date filter option (1-4): "))
-            if filter_choice not in range(1, 5):
-                print("Please enter a number between 1 and 4.")
-                continue
-            break
-        except ValueError:
-            print("Please enter a valid number.")
-    
-    # Apply filter using SQL
-    filter_types = {1: 'all', 2: 'year', 3: 'month', 4: 'day'}
-    filtered_df = get_filtered_data_sql(filter_types[filter_choice])
+
+    selected_col = _select_column(pie_cols, "PIE CHART VISUALIZATION")
+    filter_type = _select_date_filter()
+    filtered_df = get_filtered_data_sql(filter_type)
     
     if filtered_df is None or filtered_df.empty:
         print("No data to visualize.")
@@ -274,46 +276,9 @@ def pie_vis():
 # Categorical column (bar plot chart)
 def barplot_vis():
     bar_cols = ["category", "brand", "product", "payment_method", "sales_channel", "city", "province"]
-    
-    print("\n" + "="*50)
-    print("BAR PLOT VISUALIZATION")
-    print("="*50)
-    print("\nAvailable Columns to visualize:")
-    for idx, col in enumerate(bar_cols, start=1):
-        print(f" {idx}. {col}")
-    
-    # Get column selection
-    while True:
-        try:
-            col_choice = int(input("\nSelect a column to visualize (enter number): "))
-            if col_choice not in range(1, len(bar_cols) + 1):
-                print(f"Please enter a number between 1 and {len(bar_cols)}.")
-                continue
-            selected_col = bar_cols[col_choice - 1]
-            break
-        except ValueError:
-            print("Please enter a valid number.")
-    
-    # Get date filter option
-    print("\nDate Range Options:")
-    print(" 1. Show ALL data (no filter)")
-    print(" 2. Filter by Year")
-    print(" 3. Filter by Month (Year + Month)")
-    print(" 4. Filter by Day (Year + Month + Day)")
-    
-    while True:
-        try:
-            filter_choice = int(input("Select date filter option (1-4): "))
-            if filter_choice not in range(1, 5):
-                print("Please enter a number between 1 and 4.")
-                continue
-            break
-        except ValueError:
-            print("Please enter a valid number.")
-    
-    # Apply filter using SQL
-    filter_types = {1: 'all', 2: 'year', 3: 'month', 4: 'day'}
-    filtered_df = get_filtered_data_sql(filter_types[filter_choice])
+    selected_col = _select_column(bar_cols, "BAR PLOT VISUALIZATION")
+    filter_type = _select_date_filter()
+    filtered_df = get_filtered_data_sql(filter_type)
     
     if filtered_df is None or filtered_df.empty:
         print("No data to visualize.")
@@ -340,46 +305,10 @@ def barplot_vis():
 # Numerical column (histogram chart)
 def hist_vis():
     hist_cols = ["age", "quantity", "unit_price", "discount_percent", "shipping_cost", "total_amount", "customer_rating"]
-    
-    print("\n" + "="*50)
-    print("HISTOGRAM VISUALIZATION")
-    print("="*50)
-    print("\nAvailable Columns to visualize:")
-    for idx, col in enumerate(hist_cols, start=1):
-        print(f" {idx}. {col}")
-    
-    # Get column selection
-    while True:
-        try:
-            col_choice = int(input("\nSelect a column to visualize (enter number): "))
-            if col_choice not in range(1, len(hist_cols) + 1):
-                print(f"Please enter a number between 1 and {len(hist_cols)}.")
-                continue
-            selected_col = hist_cols[col_choice - 1]
-            break
-        except ValueError:
-            print("Please enter a valid number.")
-    
-    # Get date filter option
-    print("\nDate Range Options:")
-    print(" 1. Show ALL data (no filter)")
-    print(" 2. Filter by Year")
-    print(" 3. Filter by Month (Year + Month)")
-    print(" 4. Filter by Day (Year + Month + Day)")
-    
-    while True:
-        try:
-            filter_choice = int(input("Select date filter option (1-4): "))
-            if filter_choice not in range(1, 5):
-                print("Please enter a number between 1 and 4.")
-                continue
-            break
-        except ValueError:
-            print("Please enter a valid number.")
-    
-    # Apply filter using SQL
-    filter_types = {1: 'all', 2: 'year', 3: 'month', 4: 'day'}
-    filtered_df = get_filtered_data_sql(filter_types[filter_choice])
+
+    selected_col = _select_column(hist_cols, "HISTOGRAM VISUALIZATION")
+    filter_type = _select_date_filter()
+    filtered_df = get_filtered_data_sql(filter_type)
     
     if filtered_df is None or filtered_df.empty:
         print("No data to visualize.")
