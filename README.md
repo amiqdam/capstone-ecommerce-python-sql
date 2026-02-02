@@ -1,4 +1,5 @@
-Automated E-Commerce Insight & Visualization Engine
+**Automated E-Commerce Insight & Visualization Engine**
+
 This is a CLI-based analytics tool that automates the exploration of e-commerce transaction data, providing instant statistical insights and visualizations without manual SQL scripting.
 
 Features
